@@ -36,28 +36,28 @@ private Button button_test;
         mTrueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Tren1.this, R.string.correct_toast, Toast.LENGTH_LONG).show();
+                Toast.makeText(Tren1.this, R.string.correct_toast, Toast.LENGTH_SHORT).show();
             }
         });
         mFalseButton1 = (Button) findViewById(R.id.false_button1);
         mFalseButton1.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Tren1.this, R.string.incorrect_toast, Toast.LENGTH_LONG).show();
+                Toast.makeText(Tren1.this, R.string.incorrect_toast, Toast.LENGTH_SHORT).show();
             }
         }));
         mFalseButton2 = (Button) findViewById(R.id.false_button2);
         mFalseButton2.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Tren1.this, R.string.incorrect_toast, Toast.LENGTH_LONG).show();
+                Toast.makeText(Tren1.this, R.string.incorrect_toast, Toast.LENGTH_SHORT).show();
             }
         }));
         mFalseButton3 = (Button) findViewById(R.id.false_button3);
         mFalseButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Tren1.this, R.string.incorrect_toast, Toast.LENGTH_LONG).show();
+                Toast.makeText(Tren1.this, R.string.incorrect_toast, Toast.LENGTH_SHORT).show();
             }
         });
 
