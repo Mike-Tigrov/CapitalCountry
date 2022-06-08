@@ -8,12 +8,21 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.util.Random;
 
 public class Tren1 extends AppCompatActivity {
 
-    //Описываем на главном экране действия, что содержит экран
+    //Кнопки выбора варианта ответа
+    private Button mTrueButton;
+    private Button mFalseButton1;
+    private Button mFalseButton2;
+    private Button mFalseButton3;
+
+
+
+//Кнопка изменения цвета
 private ConstraintLayout layout;
 private Button button_test;
 
@@ -22,6 +31,37 @@ private Button button_test;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tren1);
 
+        //Кнопки выбора вариантов ответа столицы страны
+        mTrueButton = (Button) findViewById(R.id.true_button);
+        mTrueButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Tren1.this, R.string.correct_toast, Toast.LENGTH_LONG).show();
+            }
+        });
+        mFalseButton1 = (Button) findViewById(R.id.false_button1);
+        mFalseButton1.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Tren1.this, R.string.incorrect_toast, Toast.LENGTH_LONG).show();
+            }
+        }));
+        mFalseButton2 = (Button) findViewById(R.id.false_button2);
+        mFalseButton2.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Tren1.this, R.string.incorrect_toast, Toast.LENGTH_LONG).show();
+            }
+        }));
+        mFalseButton3 = (Button) findViewById(R.id.false_button3);
+        mFalseButton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Tren1.this, R.string.incorrect_toast, Toast.LENGTH_LONG).show();
+            }
+        });
+
+//Кнопка изменения цвета
         layout = findViewById(R.id.layout);
         button_test = findViewById(R.id.button_test);
 
