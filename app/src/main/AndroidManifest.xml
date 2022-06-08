@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mike.kor.capitalcountry">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CapitalCountry"
+        tools:targetApi="31">
+        <activity
+            android:name=".Tren1"
+            android:exported="false" />
+        <activity
+            android:name=".ListTren"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterYa"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterYou"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterEe"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterW"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterCh"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterC"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterX"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterF"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterY"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterT"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterS"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterR"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterPe"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterO"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterN"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterM"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterL"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterK"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterJ"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterI"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterZ"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterE"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterD"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterG"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterBe"
+            android:exported="false" />
+        <activity
+            android:name=".Prompt"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterB"
+            android:exported="false" />
+        <activity
+            android:name=".Letter.CountryLetterA"
+            android:exported="false" />
+        <activity
+            android:name=".SpisokStran"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

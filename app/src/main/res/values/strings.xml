@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">CapitalCountry</string>
+
+    <!--First start page, start-->
+    <string name="Hello_1">Добро пожаловать в тренажёр!</string>
+    <string name="Hello_2">Здесь можно выучить страны и столицы государств!</string>
+    <!--First start page, end-->
+
+    <!--General text, start-->
+    <string name="ListCanScroll">(список можно листать)</string>
+    <string name="ListCanScroll_short">(список можно было бы листать)</string>
+    <string name="withALetter">на букву ..?</string>
+    <string name="changeColor">Сменить цвет</string>
+    <!--General text, end-->
+
+    <!--Test tren1 start-->
+    <string name="question_text">Столица Сирии?</string>
+
+    <string name="true_button">Дамаск</string>
+    <string name="false_button1">Братислава</string>
+    <string name="false_button2">Варшава</string>
+    <string name="false_button3">Степанокерт</string>
+
+    <string name="correct_toast">Верный ответ!</string>
+    <string name="incorrect_toast">Подумайте ещё.</string>
+    <!--Test tren1 end-->
+
+    <!--Button text, start-->
+    <string name="ButtonWorkout">Я всё знаю!</string>
+    <string name="ButtonStudy">Надо подумать</string>
+    <string name="ButtonPrompt">-?-</string>
+    <string name="ToMain">Вернуться на главную</string>
+
+    <string name="ButtonTren1">Отличник</string>
+    <string name="ButtonTren1_text">(100 самых крупных, по объёму ВВП, стран)</string>
+
+    <string name="ButtonTren2">Эксперт</string>
+    <string name="ButtonTren2_text">(все страны, входящие в ООН, 190+ стран)</string>
+
+    <string name="ButtonTren3">Уникум</string>
+    <string name="ButtonTren3_text">(все страны и государственные образования из нашей базы)</string>
+
+    <string name="Check">На проверку!</string>
+    <string name="GoGoGo">Поехали!</string>
+    <!--Button text, end-->
+
+    <!--Image text, start-->
+    <string name="Logo">Планета Земля</string>
+    <!--Image text, end-->
+
+    <string name="Country_State">Страна - Столица</string>
+    <string name="CountryList">Страны и их столицы</string>
+
+    <!--Page Prompt, start-->
+    <string name="Prompt">От автора:</string>
+    <string name="Prompt_text_1">Страна - территория, имеющая чётко определённые (либо размытые) географические, политические, исторические и другие границы (рубежи).</string>
+    <string name="Prompt_text_2">Страны бывают разных типов и могут обладать собственным суверенитетом или находиться под влиянием. Также некоторые страны имеют статус частично признанных (их независимость признали далеко не все страны).</string>
+    <string name="Prompt_text_3">В данном тренажёре мы собрали страны и государственные образования, существующие в наши исторические дни.</string>
+    <string name="Prompt_text_4">Следует отметить, что мир вокруг нас не является статичной картинкой. Каждый день принимаются решения, меняющие историю. И каждый из нас своим поведением принимает в этом процессе участие.</string>
+    <!--Page Promtp, end-->
+
+    <!--Page for letter A, start-->
+    <string name="CountryList_A">А</string>
+    <string name="CountryLetter_A">Страны и их столицы на букву А:</string>
+    <!--Page for letter A, end-->
+
+    <!--Page for letter B, start-->
+    <string name="CountryList_B">Б</string>
+    <string name="CountryLetter_B">Страны и их столицы на букву Б:</string>
+    <!--Page for letter B, end-->
+
+    <!--Page for letter Be, start-->
+    <string name="CountryList_Be">В</string>
+    <string name="CountryLetter_Be">Страны и их столицы на букву В:</string>
+    <!--Page for letter Be, end-->
+
+    <!--Page for letter G, start-->
+    <string name="CountryList_G">Г</string>
+    <string name="CountryLetter_G">Страны и их столицы на букву Г:</string>
+    <!--Page for letter G, end-->
+
+    <!--Page for letter D, start-->
+    <string name="CountryList_D">Д</string>
+    <string name="CountryLetter_D">Страны и их столицы на букву Д:</string>
+    <!--Page for letter D, end-->
+
+    <!--Page for letter E, start-->
+    <string name="CountryList_E">Е</string>
+    <string name="CountryLetter_E">Страны и их столицы на букву Е:</string>
+    <!--Page for letter E, end-->
+
+    <!--Page for letter Z, start-->
+    <string name="CountryList_Z">З</string>
+    <string name="CountryLetter_Z">Страны и их столицы на букву З:</string>
+    <!--Page for letter Z, end-->
+
+    <!--Page for letter I, start-->
+    <string name="CountryList_I">И</string>
+    <string name="CountryLetter_I">Страны и их столицы на букву И:</string>
+    <!--Page for letter I, end-->
+
+    <!--Page for letter J, start-->
+    <string name="CountryList_J">Й</string>
+    <string name="CountryLetter_J">Страны и их столицы на букву Й:</string>
+    <!--Page for letter J, end-->
+
+    <!--Page for letter K, start-->
+    <string name="CountryList_K">К</string>
+    <string name="CountryLetter_K">Страны и их столицы на букву К:</string>
+    <!--Page for letter K, end-->
+
+    <!--Page for letter L, start-->
+    <string name="CountryList_L">Л</string>
+    <string name="CountryLetter_L">Страны и их столицы на букву Л:</string>
+    <!--Page for letter L, end-->
+
+    <!--Page for letter M, start-->
+    <string name="CountryList_M">М</string>
+    <string name="CountryLetter_M">Страны и их столицы на букву М:</string>
+    <!--Page for letter M, end-->
+
+    <!--Page for letter N, start-->
+    <string name="CountryList_N">Н</string>
+    <string name="CountryLetter_N">Страны и их столицы на букву Н:</string>
+    <!--Page for letter N, end-->
+
+    <!--Page for letter O, start-->
+    <string name="CountryList_O">О</string>
+    <string name="CountryLetter_O">Страны и их столицы на букву О:</string>
+    <!--Page for letter O, end-->
+
+    <!--Page for letter Pe, start-->
+    <string name="CountryList_Pe">П</string>
+    <string name="CountryLetter_Pe">Страны и их столицы на букву П:</string>
+    <!--Page for letter P, end-->
+
+    <!--Page for letter R, start-->
+    <string name="CountryList_R">Р</string>
+    <string name="CountryLetter_R">Страны и их столицы на букву Р:</string>
+    <!--Page for letter R, end-->
+
+    <!--Page for letter С, start-->
+    <string name="CountryList_S">С</string>
+    <string name="CountryLetter_S">Страны и их столицы на букву С:</string>
+    <!--Page for letter С, end-->
+
+    <!--Page for letter T, start-->
+    <string name="CountryList_T">Т</string>
+    <string name="CountryLetter_T">Страны и их столицы на букву Т:</string>
+    <!--Page for letter Т, end-->
+
+    <!--Page for letter Y, start-->
+    <string name="CountryList_Y">У</string>
+    <string name="CountryLetter_Y">Страны и их столицы на букву У:</string>
+    <!--Page for letter Y, end-->
+
+    <!--Page for letter F, start-->
+    <string name="CountryList_F">Ф</string>
+    <string name="CountryLetter_F">Страны и их столицы на букву Ф:</string>
+    <!--Page for letter F, end-->
+
+    <!--Page for letter X, start-->
+    <string name="CountryList_X">Х</string>
+    <string name="CountryLetter_X">Страны и их столицы на букву Х:</string>
+    <!--Page for letter X, end-->
+
+    <!--Page for letter C, start-->
+    <string name="CountryList_C">Ц</string>
+    <string name="CountryLetter_C">Страны и их столицы на букву Ц:</string>
+    <!--Page for letter C, end-->
+
+    <!--Page for letter Ch, start-->
+    <string name="CountryList_Ch">Ч</string>
+    <string name="CountryLetter_Ch">Страны и их столицы на букву Ч:</string>
+    <!--Page for letter Ch, end-->
+
+    <!--Page for letter W, start-->
+    <string name="CountryList_W">Ш</string>
+    <string name="CountryLetter_W">Страны и их столицы на букву Ш:</string>
+    <!--Page for letter W, end-->
+
+    <!--Page for letter Ee, start-->
+    <string name="CountryList_Ee">Э</string>
+    <string name="CountryLetter_Ee">Страны и их столицы на букву Э:</string>
+    <!--Page for letter Ee, end-->
+
+    <!--Page for letter You, start-->
+    <string name="CountryList_You">Ю</string>
+    <string name="CountryLetter_You">Страны и их столицы на букву Ю:</string>
+    <!--Page for letter You, end-->
+
+    <!--Page for letter Yа, start-->
+    <string name="CountryList_Yа">Я</string>
+    <string name="CountryLetter_Yа">Страны и их столицы на букву Я:</string>
+    <!--Page for letter Yа, end-->
+
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
