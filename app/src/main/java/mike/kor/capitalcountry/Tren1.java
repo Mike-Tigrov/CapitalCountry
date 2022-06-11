@@ -6,6 +6,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -36,7 +37,9 @@ private Button button_test;
         mTrueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Tren1.this, R.string.correct_toast, Toast.LENGTH_SHORT).show();
+                Toast toast = Toast.makeText(Tren1.this, R.string.correct_toast, Toast.LENGTH_SHORT);
+                        toast.setGravity(Gravity.TOP, 0, 0);
+                        toast.show();
             }
         });
         mFalseButton1 = (Button) findViewById(R.id.false_button1);
