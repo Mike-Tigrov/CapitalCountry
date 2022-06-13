@@ -37,9 +37,7 @@ private Button button_test;
         mTrueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast toast = Toast.makeText(Tren1.this, R.string.correct_toast, Toast.LENGTH_SHORT);
-                        toast.setGravity(Gravity.TOP, 0, 0);
-                        toast.show();
+                Toast.makeText(Tren1.this, R.string.correct_toast, Toast.LENGTH_SHORT).show();
             }
         });
         mFalseButton1 = (Button) findViewById(R.id.false_button1);
