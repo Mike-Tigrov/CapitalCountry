@@ -1,10 +1,14 @@
 package mike.kor.capitalcountry.model;
 
 public class Question {
-    private int mTextResId;
-    public boolean mAnswerTrue;
 
-    public Question(int textResId, boolean answerTrue){
+    //Текст вопроса, будет хранить идентификатор строкового ресурса с текстом вопроса
+    private int mTextResId;
+
+    //Правильный ответ, хранит идентификатор строкового ресурса с текстом правильного ответа
+    private int mAnswerTrue;
+
+    public Question(int textResId, int answerTrue){
         mTextResId = textResId;
         mAnswerTrue = answerTrue;
     }
@@ -17,11 +21,11 @@ public class Question {
         mTextResId = textResId;
     }
 
-    public boolean isAnswerTrue() {
+    public int getAnswerTrue() {
         return mAnswerTrue;
     }
 
-    public void setAnswerTrue(boolean answerTrue) {
+    public void setAnswerTrue(int answerTrue) {
         mAnswerTrue = answerTrue;
     }
 }

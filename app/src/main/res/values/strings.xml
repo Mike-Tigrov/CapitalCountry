@@ -14,7 +14,7 @@
     <!--General text, end-->
 
     <!--Test tren1 start-->
-    <string name="question_text">Столица Сирии?</string>
+    <string name="question_text">Выберите столицу для данной страны:</string>
 
     <string name="true_button">Дамаск</string>
     <string name="false_button1">Братислава</string>
@@ -193,7 +193,6 @@
     <string name="CountryList_Yа">Я</string>
     <string name="CountryLetter_Yа">Страны и их столицы на букву Я:</string>
     <!--Page for letter Yа, end-->
-
 
 
     <!-- Strings used for fragments for navigation -->

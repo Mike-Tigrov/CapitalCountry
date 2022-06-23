@@ -1,11 +1,11 @@
 package mike.kor.capitalcountry;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 
 public class ListTren extends AppCompatActivity {
 
@@ -29,6 +29,10 @@ public class ListTren extends AppCompatActivity {
     }
     public void goToTren1 (View v){
         Intent intent = new Intent(this, Tren1.class);
+        startActivity(intent);
+    }
+    public void goToTren2 (View v){
+        Intent intent = new Intent(this, Tren_2.class);
         startActivity(intent);
     }
 }

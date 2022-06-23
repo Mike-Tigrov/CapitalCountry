@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question_Australia">1. Австралия</string>
+    <string name="question_Austria">2. Австрия</string>
+    <string name="question_Azerbaijan">3. Азербайджан</string>
+    <string name="question_Albania">4. Албания</string>
+    <string name="question_Algeria">5. Алжир</string>
+</resources>

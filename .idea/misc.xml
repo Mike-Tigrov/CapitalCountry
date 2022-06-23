@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.2725" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2725" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/drawable/ic_countryback.xml" value="0.2725" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/drawable/ic_cs_back.xml" value="0.2725" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/drawable/ic_earth.xml" value="0.2715" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2725" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/drawable/round_back.xml" value="0.25" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_country_b.xml" value="0.16893115942028986" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_country_letter.xml" value="0.35999999219721035" />
@@ -35,7 +41,8 @@
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_country_letter_z.xml" value="0.22909090412549746" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_country_list.xml" value="0.5809248554913294" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_main.xml" value="0.7309090750670634" />
-        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_tren1.xml" value="0.35999999219721035" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_tren1.xml" value="0.189873417721519" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_tren_2.xml" value="0.19882246376811594" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/country_a.xml" value="0.5454545336321368" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/fragment_first.xml" value="0.18704710144927536" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/fragment_second.xml" value="0.18704710144927536" />
