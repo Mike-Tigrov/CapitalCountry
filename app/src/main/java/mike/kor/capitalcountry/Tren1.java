@@ -9,23 +9,32 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Random;
 
+import mike.kor.capitalcountry.model.Question;
+
 public class Tren1 extends AppCompatActivity {
 
-    //Кнопки выбора варианта ответа
+    //Кнопки выбора варианта ответа (1 правильная и 3 неправильных)
     private Button mTrueButton;
     private Button mFalseButton1;
     private Button mFalseButton2;
     private Button mFalseButton3;
+    //Список вариантов вопросов
+    private TextView mQuestionTextView;
+    //Кнопка далее
+    private Button mNextButton;
+
+    //Создаём список вопросов
+    private Question[] mQuestionList = new Question[] {
+            new Question(R.string.question_Avstria, true),
+
+    };
 
 
-
-//Кнопка изменения цвета
-private ConstraintLayout layout;
-private Button button_test;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,20 +71,7 @@ private Button button_test;
             }
         });
 
-//Кнопка изменения цвета
-        layout = findViewById(R.id.layout);
-        button_test = findViewById(R.id.button_test);
 
-        button_test.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //Создали новый генератор случайных чисел
-                Random random = new Random();
-                int color = Color.argb(255, random.nextInt(256), random.nextInt(256), random.nextInt(256));
-                layout.setBackgroundColor(color);
-
-            }
-        });
     }
     public void countryState(View v){
         Intent intent = new Intent(this, SpisokStran.class);

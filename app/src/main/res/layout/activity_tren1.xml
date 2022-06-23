@@ -71,7 +71,7 @@
         android:id="@+id/button_test"
         android:layout_width="188dp"
         android:layout_height="125dp"
-        android:text="@string/changeColor"
+        android:text="@string/Albania"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
