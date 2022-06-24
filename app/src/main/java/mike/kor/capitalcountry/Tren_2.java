@@ -9,9 +9,10 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Tren_2 extends AppCompatActivity {
-//Задача.Пробуем реализовать простой цикл из 1 текста и 1 кнопки
+//Задача. Реализовать простой цикл из 1 текста и 1 кнопки
     //Текст будет появлятся случайным образом из списка
     //Кнопка будет генерировать новое значение текста
+
 //1.Присваиваем кнопке из activity_tren_2.xml значение @+id/Roll_button (это на вкладке activity_tren_2.xml)
 //2.Присваиваем текстовому полю из activity_tren_2.xml значение @+id/text_roll (это на вкладке activity_tren_2.xml)
 
@@ -30,6 +31,7 @@ public class Tren_2 extends AppCompatActivity {
 
         //5.Получаем ссылку на виджет кнопки
         rButton = (Button) findViewById(R.id.roll_button);
+
         //7.Мы реализуем интерфейс слушателя события. Собитие у нас - клик по кнопке
         //В круглых скобках "...stener(new View ... });" создаётся новый безымянный класс, который будет реализован вызываемым методом onClick
         rButton.setOnClickListener(new View.OnClickListener() {
@@ -39,6 +41,8 @@ public class Tren_2 extends AppCompatActivity {
             }
         });
 
+        //8. Мы удаляем строку android:text="TextView" из файла activity_tren_2.xml, туда мы будем подставлять текст из списка String[] list
+
         //6.Получаем ссылку на виджет текстового поля
         rText = (TextView) findViewById(R.id.roll_text);
     }
@@ -47,7 +51,7 @@ public class Tren_2 extends AppCompatActivity {
 
 
 
-    //0.Создаём список из которого будем брать значения
+    //0.Создаём список String[] list из которого будем брать значения
 String[] list = new String[5];
     {
         list[0] = "Первый";
