@@ -61,11 +61,13 @@ public class Tren_2 extends AppCompatActivity {
     //0.Создаём список listQ на основе класса Question[] из которого будем брать значения
 private Question[] listQ = new Question[]
     {
-        new Question(R.string.cou_Australia),
-        new Question(R.string.cou_Algeria),
-        new Question(R.string.cou_Albania),
-        new Question(R.string.cou_Austria),
-        new Question(R.string.cou_Azerbaijan),
+        new Question(R.string.cou_Australia_1),
+        new Question(R.string.cou_Austria_2),
+        new Question(R.string.cou_Azerbaijan_3),
+        new Question(R.string.cou_Albania_4),
+        new Question(R.string.cou_Algeria_5),
+
+
     };
 
     //9.Создаём переменную для индекса массива listQ и инициализируем её через 0

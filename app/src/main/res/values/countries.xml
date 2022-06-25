@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="cou_Australia">1. Австралия</string>
-    <string name="cou_Austria">2. Австрия</string>
-    <string name="cou_Azerbaijan">3. Азербайджан</string>
-    <string name="cou_Albania">4. Албания</string>
-    <string name="cou_Algeria">5. Алжир</string>
+    <string name="cou_Australia_1">1. Австралия</string>
+    <string name="cou_Austria_2">2. Австрия</string>
+    <string name="cou_Azerbaijan_3">3. Азербайджан</string>
+    <string name="cou_Albania_4">4. Албания</string>
+    <string name="cou_Algeria_5">5. Алжир</string>
 </resources>
