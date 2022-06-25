@@ -33,11 +33,11 @@ public class Tren1 extends AppCompatActivity {
 
     //Создаём список стран c ответами
     private Question[] mCountryList = new Question[] {
-            new Question(R.string.question_Australia, R.string.cap_Canberra),
-            new Question(R.string.question_Austria, R.string.cap_Vein),
-            new Question(R.string.question_Azerbaijan, R.string.cap_Baku),
-            new Question(R.string.question_Albania, R.string.cap_Tirana),
-            new Question(R.string.question_Algeria, R.string.cap_Algeria),
+            new Question(R.string.cou_Australia, R.string.cap_Canberra),
+            new Question(R.string.cou_Austria, R.string.cap_Vein),
+            new Question(R.string.cou_Azerbaijan, R.string.cap_Baku),
+            new Question(R.string.cou_Albania, R.string.cap_Tirana),
+            new Question(R.string.cou_Algeria, R.string.cap_Algeria),
     };
     //Переменная для индекса массива (по ней мы получаем следующий вопрос)
 private int mCurrentIndex = 0;

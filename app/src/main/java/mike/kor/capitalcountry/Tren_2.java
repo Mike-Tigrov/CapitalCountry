@@ -13,8 +13,8 @@ public class Tren_2 extends AppCompatActivity {
     //Текст будет появлятся случайным образом из списка
     //Кнопка будет генерировать новое значение текста
 
-//1.Присваиваем кнопке из activity_tren_2.xml значение @+id/Roll_button (это на вкладке activity_tren_2.xml)
-//2.Присваиваем текстовому полю из activity_tren_2.xml значение @+id/text_roll (это на вкладке activity_tren_2.xml)
+//1.Присваиваем кнопке из activity_tren_2.xml значение @+id/roll_button (это на вкладке activity_tren_2.xml)
+//2.Присваиваем текстовому полю из activity_tren_2.xml значение @+id/roll_text (это на вкладке activity_tren_2.xml)
 
     //3.Создаём переменную для кнопки @+id/roll_button
     private Button rButton;
@@ -29,11 +29,17 @@ public class Tren_2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tren_2);
 
+        //11.Подключаем виджет TextView
+        rText = (TextView) findViewById(R.id.roll_text);
+        int question = list[mCurrentIndex].getTextResId();
+        rText.setText(question);
+
         //5.Получаем ссылку на виджет кнопки
         rButton = (Button) findViewById(R.id.roll_button);
 
         //7.Мы реализуем интерфейс слушателя события. Собитие у нас - клик по кнопке
-        //В круглых скобках "...stener(new View ... });" создаётся новый безымянный класс, который будет реализован вызываемым методом onClick
+        //В круглых скобках "...stener(new View ... });" создаётся новый безымянный класс,
+        //который будет реализован вызываемым методом onClick
         rButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,26 +47,28 @@ public class Tren_2 extends AppCompatActivity {
             }
         });
 
-        //8. Мы удаляем строку android:text="TextView" из файла activity_tren_2.xml, туда мы будем подставлять текст из списка String[] list
+        //8. Мы удаляем строку android:text="TextView" из файла activity_tren_2.xml, туда
+        // мы будем подставлять текст из списка String[] list
 
         //6.Получаем ссылку на виджет текстового поля
         rText = (TextView) findViewById(R.id.roll_text);
     }
 
 
-
-
-
     //0.Создаём список String[] list из которого будем брать значения
-String[] list = new String[5];
+private String[] list = new String[5];
     {
-        list[0] = "Первый";
-        list[1] = "Второй";
-        list[2] = "Третий";
-        list[3] = "Четвёртый";
-        list[4] = "Пятый";
-
+        list[0] = String.valueOf(R.string.cou_Algeria);
+        list[1] = String.valueOf(R.string.cou_Albania);
+        list[2] = String.valueOf(R.string.cou_Australia);
+        list[3] = String.valueOf(R.string.cou_Austria);
+        list[4] = String.valueOf(R.string.cou_Azerbaijan);
     }
+
+    //9.Создаём переменную для индекса массива list и инициализируем её через 0
+    private int mCurrentIndex = 0;
+
+    //10.Создаём 5 записей в файле countries.xml, их мы будем добавлять в наш массив с объектами для выбора текста
 
 
 

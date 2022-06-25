@@ -5,12 +5,10 @@ public class Question {
     //Текст вопроса, будет хранить идентификатор строкового ресурса с текстом вопроса
     private int mTextResId;
 
-    //Правильный ответ, хранит идентификатор строкового ресурса с текстом правильного ответа
-    private int mAnswerTrue;
 
-    public Question(int textResId, int answerTrue){
+    public Question(int textResId){
         mTextResId = textResId;
-        mAnswerTrue = answerTrue;
+
     }
 
     public int getTextResId() {
@@ -19,13 +17,5 @@ public class Question {
 
     public void setTextResId(int textResId) {
         mTextResId = textResId;
-    }
-
-    public int getAnswerTrue() {
-        return mAnswerTrue;
-    }
-
-    public void setAnswerTrue(int answerTrue) {
-        mAnswerTrue = answerTrue;
     }
 }
