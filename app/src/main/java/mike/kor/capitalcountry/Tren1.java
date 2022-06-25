@@ -5,16 +5,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
-
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Random;
 
-import mike.kor.capitalcountry.model.Question;
-
 public class Tren1 extends AppCompatActivity {
+
 
     //Кнопки выбора варианта ответа (1 правильная и 3 неправильных)
     private Button mTrueButton;
@@ -32,6 +29,8 @@ public class Tren1 extends AppCompatActivity {
     Random random = new Random();
 
     //Создаём список стран c ответами
+
+    /*
     private Question[] mCountryList = new Question[] {
             new Question(R.string.cou_Australia, R.string.cap_Canberra),
             new Question(R.string.cou_Austria, R.string.cap_Vein),
@@ -42,10 +41,13 @@ public class Tren1 extends AppCompatActivity {
     //Переменная для индекса массива (по ней мы получаем следующий вопрос)
 private int mCurrentIndex = 0;
 
+*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tren1);
+
+        /*
 
         //Кнопки выбора вариантов ответа столицы страны
         //Кнопка с правильным ответом
@@ -78,7 +80,7 @@ private int mCurrentIndex = 0;
             }
         });
 
-
+*/
 
 
     }
