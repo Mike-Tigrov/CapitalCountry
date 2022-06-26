@@ -13,8 +13,8 @@
     <string name="changeColor">Сменить цвет</string>
     <!--General text, end-->
 
-    <!--Test tren1 start-->
-    <string name="question_text">Выберите столицу для данной страны:</string>
+    <!--Test tren1 and tren_2 start-->
+    <string name="question_general_text">Выберите столицу для данной страны:</string>
 
     <string name="true_button">Дамаск</string>
     <string name="false_button1">Братислава</string>

@@ -55,25 +55,79 @@
 
     <Button
         android:id="@+id/roll_button"
-        android:layout_width="177dp"
-        android:layout_height="102dp"
-        android:layout_marginTop="480dp"
-        android:text="Следующий вопрос"
+        android:layout_width="340dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="20dp"
+        android:text="Столица 1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/roll_text" />
 
     <TextView
         android:id="@+id/roll_text"
-        android:layout_width="183dp"
-        android:layout_height="113dp"
-        android:layout_marginTop="320dp"
+        android:layout_width="365dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="5dp"
         android:gravity="center"
 
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/question_general_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/roll_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roll_text">
+
+        <Button
+            android:id="@+id/but_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetLeft="5dp"
+            android:insetRight="5dp" />
+
+        <Button
+            android:id="@+id/but_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetLeft="5dp"
+            android:insetRight="5dp" />
+
+        <Button
+            android:id="@+id/but_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+
+        <Button
+            android:id="@+id/but_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

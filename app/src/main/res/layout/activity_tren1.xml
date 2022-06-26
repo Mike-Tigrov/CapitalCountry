@@ -61,7 +61,7 @@
         android:layout_height="81dp"
         android:layout_marginTop="72dp"
         android:gravity="center"
-        android:text="@string/question_text"
+        android:text="@string/question_general_text"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
