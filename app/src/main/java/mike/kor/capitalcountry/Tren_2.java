@@ -34,9 +34,9 @@ public class Tren_2 extends AppCompatActivity {
     private int correct;
     private int incorrect;
 
-    //Создаём 2 тестовые временные переменные для определения значений, которые выдаёт программа
-    private TextView cap_show;
-    private TextView ind_show;
+    //Создаём 2 тестовые временные переменные для показа на экран значений, которые выдаёт программа
+    private TextView up_show;
+    private TextView down_show;
 
 
 
@@ -161,11 +161,15 @@ public class Tren_2 extends AppCompatActivity {
 
 
 
+//Проверочная переменная для показа промежуточных значений других переменных
+        String s1 = Integer.toString(temp_1);
+        up_show = (TextView) findViewById(R.id.show_1);
+        up_show.setText(s1);
 
-        String s1 = Integer.toString(cap1);
-        ind_show = (TextView) findViewById(R.id.ind_show);
-        ind_show.setText(s1);
-
+//Проверочная переменная для показа промежуточных значений других переменных
+        String s = Integer.toString(temp_2);
+        down_show = (TextView) findViewById(R.id.show_2);
+        down_show.setText(s);
 
 
         //Первая кнопка
@@ -177,13 +181,7 @@ public class Tren_2 extends AppCompatActivity {
                 // списка столиц. В случае верного нажатия, в текстовое поле (answerCheck) добавляем
                 // надпись - Правильный ответ! или Ошибка
 
-                String s = Integer.toString(cap1);
-                cap_show = (TextView) findViewById(R.id.cap_show);
-                cap_show.setText(s);
 
-                String s1 = Integer.toString(ind_cou);
-                ind_show = (TextView) findViewById(R.id.ind_show);
-                ind_show.setText(s1);
 
                 if (cap1 == ind_cou) {
     anCheck.setText(R.string.correct_answer);
@@ -252,10 +250,7 @@ public class Tren_2 extends AppCompatActivity {
         int cap2 = listA[answer_capital[1]].getCapitalResId();
         but_cap_2.setText(cap2);
 
-        //Проверочная переменная для показа промежуточных значений других переменных
-        String s = Integer.toString(cap2);
-        cap_show = (TextView) findViewById(R.id.cap_show);
-        cap_show.setText(s);
+
 
         //35.Копируем содержимое первой кнопки с изменениями для 2 кнопки:
         but_cap_2.setOnClickListener(new View.OnClickListener() {
@@ -323,7 +318,7 @@ public class Tren_2 extends AppCompatActivity {
         but_cap_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Задаём значение для
+                //Задаём значение для индекса следющей страны
                 ind_cou = (ind_cou + 1) % listQ.length;
                 int question = listQ[ind_cou].getTextResId();
                 //setText - вписываем текст

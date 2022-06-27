@@ -78,8 +78,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="406dp"
-        android:layout_height="271dp"
+        android:layout_width="384dp"
+        android:layout_height="330dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="10dp"
@@ -121,14 +121,28 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/cap_show"
+            android:id="@+id/show_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
             android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/ind_show"
+            android:id="@+id/show_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/show_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/show_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
