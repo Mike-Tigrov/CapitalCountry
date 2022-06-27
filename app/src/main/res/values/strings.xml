@@ -21,6 +21,10 @@
     <string name="false_button2">Варшава</string>
     <string name="false_button3">Степанокерт</string>
 
+    <string name="wait_answer">Нажмите кнопку с вариантом столицы</string>
+    <string name="correct_answer">Верный ответ!</string>
+    <string name="incorrect_answer">Ошибка</string>
+
     <string name="correct_toast">Верный ответ!</string>
     <string name="incorrect_toast">Подумайте ещё.</string>
     <!--Test tren1 end-->
