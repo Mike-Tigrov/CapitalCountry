@@ -35,8 +35,10 @@ public class Tren_2 extends AppCompatActivity {
     private int incorrect;
 
     //Создаём 2 тестовые временные переменные для показа на экран значений, которые выдаёт программа
-    private TextView up_show;
-    private TextView down_show;
+    private TextView show_1;
+    private TextView show_2;
+    private TextView show_3;
+    private TextView show_4;
 
 
 
@@ -49,6 +51,8 @@ public class Tren_2 extends AppCompatActivity {
     //    <string name="correct_answer">Верный ответ!</string>
     //    <string name="incorrect_answer">Ошибка</string>
     private TextView anCheck;
+
+    //41.Создали ещё 4 текстовых поля для вывода внизу страницы, над кнопками навигации, следующие поля: "Правильных ответов" : "количество" и "Ошибки" : "количество"
 
     //15.Создаём генератор случайных занчений
     Random random = new Random();
@@ -101,8 +105,6 @@ public class Tren_2 extends AppCompatActivity {
         //37.Подключаем виджет TextView, он будет задавать текст результата ответа
         anCheck = (TextView) findViewById(R.id.answerCheck);
         anCheck.setText(R.string.wait_answer);
-
-
 
 
         //33.Задаём значение виджетам кнопок 1,2,3,4
@@ -162,14 +164,24 @@ public class Tren_2 extends AppCompatActivity {
 
 
 //Проверочная переменная для показа промежуточных значений других переменных
-        String s1 = Integer.toString(temp_1);
-        up_show = (TextView) findViewById(R.id.show_1);
-        up_show.setText(s1);
+        String s1 = Integer.toString(answer_capital[0]);
+        show_1 = (TextView) findViewById(R.id.show_1);
+        show_1.setText(s1);
 
 //Проверочная переменная для показа промежуточных значений других переменных
-        String s = Integer.toString(temp_2);
-        down_show = (TextView) findViewById(R.id.show_2);
-        down_show.setText(s);
+        String s2 = Integer.toString(answer_capital[1]);
+        show_2 = (TextView) findViewById(R.id.show_2);
+        show_2.setText(s2);
+
+//Проверочная переменная для показа промежуточных значений других переменных
+        String s3 = Integer.toString(answer_capital[2]);
+        show_3 = (TextView) findViewById(R.id.show_3);
+        show_3.setText(s3);
+
+//Проверочная переменная для показа промежуточных значений других переменных
+        String s4 = Integer.toString(answer_capital[3]);
+        show_4 = (TextView) findViewById(R.id.show_4);
+        show_4.setText(s4);
 
 
         //Первая кнопка
@@ -181,22 +193,40 @@ public class Tren_2 extends AppCompatActivity {
                 // списка столиц. В случае верного нажатия, в текстовое поле (answerCheck) добавляем
                 // надпись - Правильный ответ! или Ошибка
 
+//Проблема в том, что в списке ансвер_капатил - 0,1,2,3, а в списке столиц их больше
 
-
-                if (cap1 == ind_cou) {
+                if (answer_capital[0] == ind_cou) {
     anCheck.setText(R.string.correct_answer);
 } else {
     anCheck.setText(R.string.incorrect_answer);
+//Правильная столица страны:
+                    show_1.setText(R.string.prompt_country);
+//Название страны, которая отображалась до нажатия кнопки
+                    int last_country = listQ[ind_cou].getTextResId();
+                    show_2.setText(last_country);
+//Это
+                    show_3.setText(R.string.prompt_country_eto);
+//Правильная столица
+                    int last_capital = listA[ind_cou].getCapitalResId();
+                    show_4.setText(last_capital);
 }
 
 
-
 //С этого момента кнопка начинает переписывать содержимое страницы
-                //Задаём значение (текст) для страны
+
+//Задаём значение (текст) для страны
                 ind_cou = (ind_cou + 1) % listQ.length;
                 int question = listQ[ind_cou].getTextResId();
                 //setText - вписываем текст
                 rText.setText(question);
+
+                //40.Добавляем условие окончания проверки знаний и перехода на новую страницу
+                if (ind_cou > listQ.length){
+
+                }
+
+
+
 
                 //19.Добавляем функцию установления текста в кнопку 1,2,3,4
                 //Создаём временную int переменную для генератора случайных значений
@@ -256,6 +286,30 @@ public class Tren_2 extends AppCompatActivity {
         but_cap_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                //35.Сразу после нажатия кнопки мы определяем, "правильную" кнопку нажали или нет,
+                // правильность определяем по соответствию индекса из списка стран и индекса из
+                // списка столиц. В случае верного нажатия, в текстовое поле (answerCheck) добавляем
+                // надпись - Правильный ответ! или Ошибка
+                if (answer_capital[1] == ind_cou) {
+                    anCheck.setText(R.string.correct_answer);
+                } else {
+                    anCheck.setText(R.string.incorrect_answer);
+//Правильная столица страны:
+                    show_1.setText(R.string.prompt_country);
+
+//Название страны, которая отображалась до нажатия кнопки
+                    int last_country = listQ[ind_cou].getTextResId();
+                    show_2.setText(last_country);
+
+//Это
+                    show_3.setText(R.string.prompt_country_eto);
+
+//Правильная столица
+                    int last_capital = listA[ind_cou].getCapitalResId();
+                    show_4.setText(last_capital);
+                }
+
                 //Задаём значение для
                 ind_cou = (ind_cou + 1) % listQ.length;
                 int question = listQ[ind_cou].getTextResId();
@@ -318,6 +372,30 @@ public class Tren_2 extends AppCompatActivity {
         but_cap_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                //35.Сразу после нажатия кнопки мы определяем, "правильную" кнопку нажали или нет,
+                // правильность определяем по соответствию индекса из списка стран и индекса из
+                // списка столиц. В случае верного нажатия, в текстовое поле (answerCheck) добавляем
+                // надпись - Правильный ответ! или Ошибка
+                if (answer_capital[2] == ind_cou) {
+                    anCheck.setText(R.string.correct_answer);
+                } else {
+                    anCheck.setText(R.string.incorrect_answer);
+//Правильная столица страны:
+                    show_1.setText(R.string.prompt_country);
+
+//Название страны, которая отображалась до нажатия кнопки
+                    int last_country = listQ[ind_cou].getTextResId();
+                    show_2.setText(last_country);
+
+//Это
+                    show_3.setText(R.string.prompt_country_eto);
+
+//Правильная столица
+                    int last_capital = listA[ind_cou].getCapitalResId();
+                    show_4.setText(last_capital);
+                }
+
                 //Задаём значение для индекса следющей страны
                 ind_cou = (ind_cou + 1) % listQ.length;
                 int question = listQ[ind_cou].getTextResId();
@@ -378,6 +456,30 @@ public class Tren_2 extends AppCompatActivity {
         but_cap_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                //35.Сразу после нажатия кнопки мы определяем, "правильную" кнопку нажали или нет,
+                // правильность определяем по соответствию индекса из списка стран и индекса из
+                // списка столиц. В случае верного нажатия, в текстовое поле (answerCheck) добавляем
+                // надпись - Правильный ответ! или Ошибка
+                if (answer_capital[3] == ind_cou) {
+                    anCheck.setText(R.string.correct_answer);
+                } else {
+                    anCheck.setText(R.string.incorrect_answer);
+//Правильная столица страны:
+                    show_1.setText(R.string.prompt_country);
+
+//Название страны, которая отображалась до нажатия кнопки
+                    int last_country = listQ[ind_cou].getTextResId();
+                    show_2.setText(last_country);
+
+//Это
+                    show_3.setText(R.string.prompt_country_eto);
+
+//Правильная столица
+                    int last_capital = listA[ind_cou].getCapitalResId();
+                    show_4.setText(last_capital);
+                }
+
                 //Задаём значение для
                 ind_cou = (ind_cou + 1) % listQ.length;
                 int question = listQ[ind_cou].getTextResId();

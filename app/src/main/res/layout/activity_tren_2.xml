@@ -68,9 +68,10 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_width="280dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
         android:text="@string/question_general_text"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,8 +79,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="384dp"
-        android:layout_height="330dp"
+        android:layout_width="332dp"
+        android:layout_height="367dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="10dp"
@@ -91,16 +92,12 @@
         <Button
             android:id="@+id/but_1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:insetLeft="5dp"
-            android:insetRight="5dp" />
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/but_2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:insetLeft="5dp"
-            android:insetRight="5dp" />
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/but_3"
@@ -147,6 +144,46 @@
             android:layout_height="wrap_content"
 
             android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+        </LinearLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

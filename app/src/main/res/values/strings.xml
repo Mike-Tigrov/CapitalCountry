@@ -14,16 +14,18 @@
     <!--General text, end-->
 
     <!--Test tren1 and tren_2 start-->
-    <string name="question_general_text">Выберите столицу для данной страны:</string>
+    <string name="question_general_text">Выберите <b>правильную</b> столицу для данной страны:</string>
 
     <string name="true_button">Дамаск</string>
     <string name="false_button1">Братислава</string>
     <string name="false_button2">Варшава</string>
     <string name="false_button3">Степанокерт</string>
 
-    <string name="wait_answer">Нажмите кнопку с вариантом столицы</string>
+    <string name="wait_answer">Нажмите кнопку с правильным вариантом столицы</string>
     <string name="correct_answer">Верный ответ!</string>
-    <string name="incorrect_answer">Ошибка</string>
+    <string name="incorrect_answer">Нам жаль, но вы ошиблись...</string>
+    <string name="prompt_country">Правильная столица страны:</string>
+    <string name="prompt_country_eto"> - это: </string>
 
     <string name="correct_toast">Верный ответ!</string>
     <string name="incorrect_toast">Подумайте ещё.</string>
