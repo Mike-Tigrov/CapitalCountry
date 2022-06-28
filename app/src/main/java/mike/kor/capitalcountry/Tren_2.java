@@ -10,8 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Random;
 
-import mike.kor.capitalcountry.model.Answer;
-import mike.kor.capitalcountry.model.Question;
+import mike.kor.capitalcountry.model.Capital;
+import mike.kor.capitalcountry.model.Country;
 
 public class Tren_2 extends AppCompatActivity {
 
@@ -42,7 +42,15 @@ public class Tren_2 extends AppCompatActivity {
 
 
 
-    //32.удалён
+    //32.Создаём 4 переменных для записи значений, получаемых в результате работы кнопок
+    int num_1 = 0;
+    int num_2 = 0;
+    int num_3 = 0;
+    int num_4 = 0;
+
+//41.Создаём 2 переменные для вывода числовых значений: num_corr num_incorr
+    int num_corr = 0;
+    int num_incorr = 0;
 
     //36.Добавляем переменную для текстового поля answerCheck, где будет появлятся результат нажатия
     // кнопки - правильный или неправильный ответ. Текстовое поле располагаем
@@ -58,13 +66,13 @@ public class Tren_2 extends AppCompatActivity {
     Random random = new Random();
 
     //0.Создаём список listQ на основе класса Question[] из которого будем брать значения стран
-    private Question[] listQ = new Question[]
+    private Country[] listQ = new Country[]
             {
-                    new Question(R.string.cou_Australia_1),
-                    new Question(R.string.cou_Austria_2),
-                    new Question(R.string.cou_Azerbaijan_3),
-                    new Question(R.string.cou_Albania_4),
-                    new Question(R.string.cou_Algeria_5),
+                    new Country(R.string.cou_Australia_0),
+                    new Country(R.string.cou_Austria_1),
+                    new Country(R.string.cou_Azerbaijan_2),
+                    new Country(R.string.cou_Albania_3),
+                    new Country(R.string.cou_Algeria_4),
             };
 
     //9.Создаём переменную для индекса массива listQ и инициализируем её через 0
@@ -74,16 +82,15 @@ public class Tren_2 extends AppCompatActivity {
     //10.1 Создаём 5 записей в файле capitals.xml, для добавления в массив столиц
 
     //12.Создаём список listA на основе класса Answer, из которого будем брать значения столиц
-    private Answer[] listA = new Answer[]
+    private Capital[] listA = new Capital[]
             {
-                    new Answer(R.string.cap_Canberra_1),
-                    new Answer(R.string.cap_Vein_2),
-                    new Answer(R.string.cap_Baku_3),
-                    new Answer(R.string.cap_Tirana_4),
-                    new Answer(R.string.cap_Algeria_5),
+                    new Capital(R.string.cap_Canberra_0),
+                    new Capital(R.string.cap_Vein_1),
+                    new Capital(R.string.cap_Baku_2),
+                    new Capital(R.string.cap_Tirana_3),
+                    new Capital(R.string.cap_Algeria_4),
             };
-    //13.Переменная для индекса массива Answer
-    private int ind_Cap = 0;
+    //13. удалена
 
 //14.Создаём в activity_tren_2 кнопки: с Правильным и Неправильным ответом
     //Для этого создаём linearLayout(horizontal) и помещаем в него 2 кнопки
@@ -99,7 +106,7 @@ public class Tren_2 extends AppCompatActivity {
 
         //11.Подключаем виджет TextView, он задаёт текст из списка на позицию
         rText = (TextView) findViewById(R.id.roll_text);
-        int question = listQ[ind_cou].getTextResId();
+        int question = listQ[ind_cou].getCountryResId();
         rText.setText(question);
 
         //37.Подключаем виджет TextView, он будет задавать текст результата ответа
@@ -129,6 +136,7 @@ public class Tren_2 extends AppCompatActivity {
             temp_4 = random.nextInt(listA.length);
         }
 //24.Создаём массив, в который записываем все полученные значения временных переменных позиций столиц (temp_1,2,3,4)
+        //answer_capital - массив порядковых номеров! Это не массив значений!
         int[] answer_capital = new int[] {temp_1, temp_2, temp_3, temp_4};
 
 //25.Генератором случайных чисел, находим число temp_i (позицию, на которую поставим правильный ответ)
@@ -164,25 +172,31 @@ public class Tren_2 extends AppCompatActivity {
 
 
 //Проверочная переменная для показа промежуточных значений других переменных
-        String s1 = Integer.toString(answer_capital[0]);
+//Страна
         show_1 = (TextView) findViewById(R.id.show_1);
-        show_1.setText(s1);
+        show_1.setText(listQ[ind_cou].getCountryResId());
 
 //Проверочная переменная для показа промежуточных значений других переменных
-        String s2 = Integer.toString(answer_capital[1]);
+//Столица которая на кнопке
         show_2 = (TextView) findViewById(R.id.show_2);
-        show_2.setText(s2);
+        show_2.setText(listA[answer_capital[0]].getCapitalResId());
+
 
 //Проверочная переменная для показа промежуточных значений других переменных
-        String s3 = Integer.toString(answer_capital[2]);
+//Столица которая нам нужна
         show_3 = (TextView) findViewById(R.id.show_3);
-        show_3.setText(s3);
+        show_3.setText(listA[ind_cou].getCapitalResId());
 
 //Проверочная переменная для показа промежуточных значений других переменных
         String s4 = Integer.toString(answer_capital[3]);
         show_4 = (TextView) findViewById(R.id.show_4);
         show_4.setText(s4);
 
+        //Сохраняем значения в переменные
+        num_1 = answer_capital[0];
+        num_2 = answer_capital[1];
+        num_3 = answer_capital[2];
+        num_4 = answer_capital[3];
 
         //Первая кнопка
         but_cap_1.setOnClickListener(new View.OnClickListener() {
@@ -195,32 +209,35 @@ public class Tren_2 extends AppCompatActivity {
 
 
 
-/*
 
-//Алгоритм проверки правильности выбора столицы:
-            //Цикл поиска номера по списку столиц
-            int num_cap = 0;
-            for (int q = 0; q < capital.size(); q++) {
-                if (answer_capital[number_int-1].equals(capital.get(q))) {
-                    //System.out.println("Номер найденной позиции в списке столиц = " + capital.get(q));
-                    num_cap = q;
-*/
 //По номеру страны получаем столицу из списка
+// !!! В кнопках, которые не нажаты, остаются старые значения, которые не соответствуют ушедщим вперёд значениям от других кнопок!!!
+                //Делаем для каждой кнопки вывод значений...
+                //Создаём 2 переменные, куда записываем значения 2х полей: номер текущей кнопки и номер кнопки, которая необходима из списка столиц
 
-if (listA[ind_cou].equals(answer_capital[0])) {
+                //Загружаем значения в переменные в начале работы кнопки
+                answer_capital[0] = num_1;
+                answer_capital[1] = num_2;
+                answer_capital[2] = num_3;
+                answer_capital[3] = num_4;
+
+                //Проверяем правильность выбранной столицы
+if (ind_cou == num_1) {
     anCheck.setText(R.string.correct_answer);
+num_corr++;
 } else {
     anCheck.setText(R.string.incorrect_answer);
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
 //Название страны, которая отображалась до нажатия кнопки
-                    int last_country = listQ[ind_cou].getTextResId();
+                    int last_country = listQ[ind_cou].getCountryResId();
                     show_2.setText(last_country);
 //Это
                     show_3.setText(R.string.prompt_country_eto);
 //Правильная столица
                     int last_capital = listA[ind_cou].getCapitalResId();
                     show_4.setText(last_capital);
+
 }
 
 
@@ -228,14 +245,11 @@ if (listA[ind_cou].equals(answer_capital[0])) {
 
 //Задаём значение (текст) для страны
                 ind_cou = (ind_cou + 1) % listQ.length;
-                int question = listQ[ind_cou].getTextResId();
+                int question = listQ[ind_cou].getCountryResId();
                 //setText - вписываем текст
                 rText.setText(question);
 
-                //40.Добавляем условие окончания проверки знаний и перехода на новую страницу
-                if (ind_cou > listQ.length){
 
-                }
 
 
 
@@ -286,26 +300,35 @@ if (listA[ind_cou].equals(answer_capital[0])) {
 
 
 //Проверочная переменная для показа промежуточных значений других переменных
-                String s1 = Integer.toString(answer_capital[0]);
+//Страна
                 show_1 = (TextView) findViewById(R.id.show_1);
-                show_1.setText(s1);
+                show_1.setText(listQ[ind_cou].getCountryResId());
 
 //Проверочная переменная для показа промежуточных значений других переменных
-                String s2 = Integer.toString(answer_capital[1]);
+//Столица которая на кнопке
                 show_2 = (TextView) findViewById(R.id.show_2);
-                show_2.setText(s2);
+                show_2.setText(listA[answer_capital[0]].getCapitalResId());
+
 
 //Проверочная переменная для показа промежуточных значений других переменных
-                String s3 = Integer.toString(answer_capital[2]);
+//Столица которая нам нужна
                 show_3 = (TextView) findViewById(R.id.show_3);
-                show_3.setText(s3);
+                show_3.setText(listA[ind_cou].getCapitalResId());
 
 //Проверочная переменная для показа промежуточных значений других переменных
                 String s4 = Integer.toString(answer_capital[3]);
                 show_4 = (TextView) findViewById(R.id.show_4);
                 show_4.setText(s4);
 
+                //Сохраняем значения в переменные в конце работы кнопки
+                num_1 = answer_capital[0];
+                num_2 = answer_capital[1];
+                num_3 = answer_capital[2];
+                num_4 = answer_capital[3];
+
             }
+
+
         });
 
         but_cap_2 = (Button) findViewById(R.id.but_2);
@@ -324,28 +347,34 @@ if (listA[ind_cou].equals(answer_capital[0])) {
                 // правильность определяем по соответствию индекса из списка стран и индекса из
                 // списка столиц. В случае верного нажатия, в текстовое поле (answerCheck) добавляем
                 // надпись - Правильный ответ! или Ошибка
-                if (answer_capital[1] == ind_cou) {
+                //Загружаем значения в переменные в начале работы кнопки
+                answer_capital[0] = num_1;
+                answer_capital[1] = num_2;
+                answer_capital[2] = num_3;
+                answer_capital[3] = num_4;
+
+                //Проверяем правильность выбранной столицы
+                if (ind_cou == num_2) {
                     anCheck.setText(R.string.correct_answer);
+
                 } else {
                     anCheck.setText(R.string.incorrect_answer);
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
-
 //Название страны, которая отображалась до нажатия кнопки
-                    int last_country = listQ[ind_cou].getTextResId();
+                    int last_country = listQ[ind_cou].getCountryResId();
                     show_2.setText(last_country);
-
 //Это
                     show_3.setText(R.string.prompt_country_eto);
-
 //Правильная столица
                     int last_capital = listA[ind_cou].getCapitalResId();
                     show_4.setText(last_capital);
+
                 }
 
                 //Задаём значение для
                 ind_cou = (ind_cou + 1) % listQ.length;
-                int question = listQ[ind_cou].getTextResId();
+                int question = listQ[ind_cou].getCountryResId();
                 //setText - вписываем текст
                 rText.setText(question);
 
@@ -392,7 +421,11 @@ if (listA[ind_cou].equals(answer_capital[0])) {
                 int cap4 = listA[answer_capital[3]].getCapitalResId();
                 but_cap_4.setText(cap4);
 
-
+//Сохраняем значения в переменные в конце работы кнопки
+                num_1 = answer_capital[0];
+                num_2 = answer_capital[1];
+                num_3 = answer_capital[2];
+                num_4 = answer_capital[3];
             }
         });
 
@@ -410,28 +443,34 @@ if (listA[ind_cou].equals(answer_capital[0])) {
                 // правильность определяем по соответствию индекса из списка стран и индекса из
                 // списка столиц. В случае верного нажатия, в текстовое поле (answerCheck) добавляем
                 // надпись - Правильный ответ! или Ошибка
-                if (answer_capital[2] == ind_cou) {
+                //Загружаем значения в переменные в начале работы кнопки
+                answer_capital[0] = num_1;
+                answer_capital[1] = num_2;
+                answer_capital[2] = num_3;
+                answer_capital[3] = num_4;
+
+                //Проверяем правильность выбранной столицы
+                if (ind_cou == num_3) {
                     anCheck.setText(R.string.correct_answer);
+
                 } else {
                     anCheck.setText(R.string.incorrect_answer);
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
-
 //Название страны, которая отображалась до нажатия кнопки
-                    int last_country = listQ[ind_cou].getTextResId();
+                    int last_country = listQ[ind_cou].getCountryResId();
                     show_2.setText(last_country);
-
 //Это
                     show_3.setText(R.string.prompt_country_eto);
-
 //Правильная столица
                     int last_capital = listA[ind_cou].getCapitalResId();
                     show_4.setText(last_capital);
+
                 }
 
                 //Задаём значение для индекса следющей страны
                 ind_cou = (ind_cou + 1) % listQ.length;
-                int question = listQ[ind_cou].getTextResId();
+                int question = listQ[ind_cou].getCountryResId();
                 //setText - вписываем текст
                 rText.setText(question);
 
@@ -478,7 +517,11 @@ if (listA[ind_cou].equals(answer_capital[0])) {
                 int cap4 = listA[answer_capital[3]].getCapitalResId();
                 but_cap_4.setText(cap4);
 
-
+//Сохраняем значения в переменные в конце работы кнопки
+                num_1 = answer_capital[0];
+                num_2 = answer_capital[1];
+                num_3 = answer_capital[2];
+                num_4 = answer_capital[3];
             }
         });
 
@@ -494,28 +537,34 @@ if (listA[ind_cou].equals(answer_capital[0])) {
                 // правильность определяем по соответствию индекса из списка стран и индекса из
                 // списка столиц. В случае верного нажатия, в текстовое поле (answerCheck) добавляем
                 // надпись - Правильный ответ! или Ошибка
-                if (answer_capital[3] == ind_cou) {
+                //Загружаем значения в переменные в начале работы кнопки
+                answer_capital[0] = num_1;
+                answer_capital[1] = num_2;
+                answer_capital[2] = num_3;
+                answer_capital[3] = num_4;
+
+                //Проверяем правильность выбранной столицы
+                if (ind_cou == num_4) {
                     anCheck.setText(R.string.correct_answer);
+
                 } else {
                     anCheck.setText(R.string.incorrect_answer);
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
-
 //Название страны, которая отображалась до нажатия кнопки
-                    int last_country = listQ[ind_cou].getTextResId();
+                    int last_country = listQ[ind_cou].getCountryResId();
                     show_2.setText(last_country);
-
 //Это
                     show_3.setText(R.string.prompt_country_eto);
-
 //Правильная столица
                     int last_capital = listA[ind_cou].getCapitalResId();
                     show_4.setText(last_capital);
+
                 }
 
                 //Задаём значение для
                 ind_cou = (ind_cou + 1) % listQ.length;
-                int question = listQ[ind_cou].getTextResId();
+                int question = listQ[ind_cou].getCountryResId();
                 //setText - вписываем текст
                 rText.setText(question);
 
@@ -562,7 +611,11 @@ if (listA[ind_cou].equals(answer_capital[0])) {
                 int cap4 = listA[answer_capital[3]].getCapitalResId();
                 but_cap_4.setText(cap4);
 
-
+//Сохраняем значения в переменные в конце работы кнопки
+                num_1 = answer_capital[0];
+                num_2 = answer_capital[1];
+                num_3 = answer_capital[2];
+                num_4 = answer_capital[3];
             }
         });
 

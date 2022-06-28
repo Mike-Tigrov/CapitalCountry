@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="cap_Canberra_1">1.Канберра</string>
-    <string name="cap_Vein_2">2.Вена</string>
-    <string name="cap_Baku_3">3.Баку</string>
-    <string name="cap_Tirana_4">4.Тирана</string>
-    <string name="cap_Algeria_5">5.Алжир</string>
+    <string name="cap_Canberra_0">0.Канберра</string>
+    <string name="cap_Vein_1">1.Вена</string>
+    <string name="cap_Baku_2">2.Баку</string>
+    <string name="cap_Tirana_3">3.Тирана</string>
+    <string name="cap_Algeria_4">4.Алжир</string>
 </resources>
 
 
