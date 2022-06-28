@@ -193,9 +193,21 @@ public class Tren_2 extends AppCompatActivity {
                 // списка столиц. В случае верного нажатия, в текстовое поле (answerCheck) добавляем
                 // надпись - Правильный ответ! или Ошибка
 
-//Проблема в том, что в списке ансвер_капатил - 0,1,2,3, а в списке столиц их больше
 
-                if (answer_capital[0] == ind_cou) {
+
+/*
+
+//Алгоритм проверки правильности выбора столицы:
+            //Цикл поиска номера по списку столиц
+            int num_cap = 0;
+            for (int q = 0; q < capital.size(); q++) {
+                if (answer_capital[number_int-1].equals(capital.get(q))) {
+                    //System.out.println("Номер найденной позиции в списке столиц = " + capital.get(q));
+                    num_cap = q;
+*/
+//По номеру страны получаем столицу из списка
+
+if (listA[ind_cou].equals(answer_capital[0])) {
     anCheck.setText(R.string.correct_answer);
 } else {
     anCheck.setText(R.string.incorrect_answer);
@@ -271,6 +283,27 @@ public class Tren_2 extends AppCompatActivity {
                 int cap4 = listA[answer_capital[3]].getCapitalResId();
                 but_cap_4.setText(cap4);
 
+
+
+//Проверочная переменная для показа промежуточных значений других переменных
+                String s1 = Integer.toString(answer_capital[0]);
+                show_1 = (TextView) findViewById(R.id.show_1);
+                show_1.setText(s1);
+
+//Проверочная переменная для показа промежуточных значений других переменных
+                String s2 = Integer.toString(answer_capital[1]);
+                show_2 = (TextView) findViewById(R.id.show_2);
+                show_2.setText(s2);
+
+//Проверочная переменная для показа промежуточных значений других переменных
+                String s3 = Integer.toString(answer_capital[2]);
+                show_3 = (TextView) findViewById(R.id.show_3);
+                show_3.setText(s3);
+
+//Проверочная переменная для показа промежуточных значений других переменных
+                String s4 = Integer.toString(answer_capital[3]);
+                show_4 = (TextView) findViewById(R.id.show_4);
+                show_4.setText(s4);
 
             }
         });
