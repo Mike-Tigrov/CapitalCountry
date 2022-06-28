@@ -155,6 +155,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="Верные ответы:" />
 
             <TextView
@@ -162,6 +163,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="Ошибки:" />
         </LinearLayout>
 
@@ -171,17 +173,19 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/num_corr"
-                android:layout_width="wrap_content"
+                android:id="@+id/correct_answer"
+                android:layout_width="172dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="TextView" />
 
             <TextView
-                android:id="@+id/num_incorr"
-                android:layout_width="wrap_content"
+                android:id="@+id/incorrect_answer"
+                android:layout_width="123dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="TextView" />
         </LinearLayout>
     </LinearLayout>

@@ -40,8 +40,6 @@ public class Tren_2 extends AppCompatActivity {
     private TextView show_3;
     private TextView show_4;
 
-
-
     //32.Создаём 4 переменных для записи значений, получаемых в результате работы кнопок
     int num_1 = 0;
     int num_2 = 0;
@@ -49,8 +47,14 @@ public class Tren_2 extends AppCompatActivity {
     int num_4 = 0;
 
 //41.Создаём 2 переменные для вывода числовых значений: num_corr num_incorr
-    int num_corr = 0;
-    int num_incorr = 0;
+    int num_corr;
+    int num_incorr;
+
+    //Создаём 2 переменные для текстового поля @+id/num_corr and @+id/num_incorr
+    private TextView num_corr_t;
+    private TextView num_incorr_t;
+
+
 
     //36.Добавляем переменную для текстового поля answerCheck, где будет появлятся результат нажатия
     // кнопки - правильный или неправильный ответ. Текстовое поле располагаем
@@ -68,11 +72,27 @@ public class Tren_2 extends AppCompatActivity {
     //0.Создаём список listQ на основе класса Question[] из которого будем брать значения стран
     private Country[] listQ = new Country[]
             {
-                    new Country(R.string.cou_Australia_0),
-                    new Country(R.string.cou_Austria_1),
-                    new Country(R.string.cou_Azerbaijan_2),
-                    new Country(R.string.cou_Albania_3),
-                    new Country(R.string.cou_Algeria_4),
+                    new Country(R.string.country_Australia_0),
+                    new Country(R.string.country_Brazil_1),
+                    new Country(R.string.country_GreatBritain_2),
+                    new Country(R.string.country_Germany_3),
+                    new Country(R.string.country_Egypt_4),
+                    new Country(R.string.country_India_5),
+                    new Country(R.string.country_Indonesia_6),
+                    new Country(R.string.country_Spain_7),
+                    new Country(R.string.country_Italy_8),
+                    new Country(R.string.country_Canada_9),
+                    new Country(R.string.country_China_10),
+                    new Country(R.string.country_KoreaSouth_11),
+                    new Country(R.string.country_Mexico_12),
+                    new Country(R.string.country_Poland_13),
+                    new Country(R.string.country_RussianFederation_14),
+                    new Country(R.string.country_SaudiArabia_15),
+                    new Country(R.string.country_UnitedStatesOfAmerica_16),
+                    new Country(R.string.country_Turkey_17),
+                    new Country(R.string.country_France_18),
+                    new Country(R.string.country_Japan_19),
+
             };
 
     //9.Создаём переменную для индекса массива listQ и инициализируем её через 0
@@ -171,32 +191,40 @@ public class Tren_2 extends AppCompatActivity {
 
 
 
-//Проверочная переменная для показа промежуточных значений других переменных
+
 //Страна
         show_1 = (TextView) findViewById(R.id.show_1);
-        show_1.setText(listQ[ind_cou].getCountryResId());
 
-//Проверочная переменная для показа промежуточных значений других переменных
 //Столица которая на кнопке
         show_2 = (TextView) findViewById(R.id.show_2);
-        show_2.setText(listA[answer_capital[0]].getCapitalResId());
 
-
-//Проверочная переменная для показа промежуточных значений других переменных
 //Столица которая нам нужна
         show_3 = (TextView) findViewById(R.id.show_3);
-        show_3.setText(listA[ind_cou].getCapitalResId());
 
 //Проверочная переменная для показа промежуточных значений других переменных
-        String s4 = Integer.toString(answer_capital[3]);
         show_4 = (TextView) findViewById(R.id.show_4);
-        show_4.setText(s4);
 
-        //Сохраняем значения в переменные
+
+        //41.Сохраняем значения в переменные
         num_1 = answer_capital[0];
         num_2 = answer_capital[1];
         num_3 = answer_capital[2];
         num_4 = answer_capital[3];
+        //42.Инициализируем счётчики правильных и неправильных ответов
+num_corr = 0;
+num_incorr = 0;
+//43.Создаём 2 переменных, для внутренних ответов, внутри кода кнопок
+        int co = 0;
+        int in = 0;
+
+//43.Подключаем виджеты полей @+id/num_corr and @+id/num_incorr
+        String numCorr = Integer.toString(num_corr);
+        num_corr_t = (TextView) findViewById(R.id.correct_answer);
+        num_corr_t.setText(numCorr);
+
+        String numInCorr = Integer.toString(num_incorr);
+        num_incorr_t = (TextView) findViewById(R.id.incorrect_answer);
+        num_incorr_t.setText(numInCorr);
 
         //Первая кнопка
         but_cap_1.setOnClickListener(new View.OnClickListener() {
@@ -220,6 +248,7 @@ public class Tren_2 extends AppCompatActivity {
                 answer_capital[1] = num_2;
                 answer_capital[2] = num_3;
                 answer_capital[3] = num_4;
+                //Загружаем на входе в код кнопки значения из истории нажатий
 
                 //Проверяем правильность выбранной столицы
 if (ind_cou == num_1) {
@@ -227,6 +256,7 @@ if (ind_cou == num_1) {
 num_corr++;
 } else {
     anCheck.setText(R.string.incorrect_answer);
+num_incorr++;
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
 //Название страны, которая отображалась до нажатия кнопки
@@ -325,6 +355,7 @@ num_corr++;
                 num_2 = answer_capital[1];
                 num_3 = answer_capital[2];
                 num_4 = answer_capital[3];
+//Сохраняем значения:
 
             }
 
