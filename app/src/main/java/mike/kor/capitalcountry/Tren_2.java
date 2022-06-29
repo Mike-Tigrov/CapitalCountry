@@ -46,15 +46,14 @@ public class Tren_2 extends AppCompatActivity {
     int num_3 = 0;
     int num_4 = 0;
 
-//41.Создаём 2 переменные для вывода числовых значений: num_corr num_incorr
-    int num_corr;
-    int num_incorr;
+//41.Создали ещё 4 текстовых поля для вывода внизу страницы, над кнопками навигации, следующие поля: "Правильных ответов" : "количество" и "Ошибки" : "количество"
+//41.1.Создаём 2 переменные для вывода числовых значений: num_correct num_incorrect
+    int num_correct;
+    int num_incorrect;
 
-    //Создаём 2 переменные для текстового поля @+id/num_corr and @+id/num_incorr
-    private TextView num_corr_t;
-    private TextView num_incorr_t;
-
-
+    //Создаём 2 переменные для текстового поля @+id/num_correct and @+id/num_incorrect
+    private TextView num_correct_t;
+    private TextView num_incorrect_t;
 
     //36.Добавляем переменную для текстового поля answerCheck, где будет появлятся результат нажатия
     // кнопки - правильный или неправильный ответ. Текстовое поле располагаем
@@ -64,7 +63,7 @@ public class Tren_2 extends AppCompatActivity {
     //    <string name="incorrect_answer">Ошибка</string>
     private TextView anCheck;
 
-    //41.Создали ещё 4 текстовых поля для вывода внизу страницы, над кнопками навигации, следующие поля: "Правильных ответов" : "количество" и "Ошибки" : "количество"
+
 
     //15.Создаём генератор случайных занчений
     Random random = new Random();
@@ -170,7 +169,7 @@ public class Tren_2 extends AppCompatActivity {
             temp_4 = random.nextInt(listA.length);
         }
 //24.Создаём массив, в который записываем все полученные значения временных переменных позиций столиц (temp_1,2,3,4)
-        //answer_capital - массив порядковых номеров! Это не массив значений!
+        //answer_capital - массив порядковых номеров! Это НЕ массив значений!
         int[] answer_capital = new int[] {temp_1, temp_2, temp_3, temp_4};
 
 //25.Генератором случайных чисел, находим число temp_i (позицию, на которую поставим правильный ответ)
@@ -197,11 +196,11 @@ public class Tren_2 extends AppCompatActivity {
         //который будет реализован вызываемым методом onClick
         //То есть после тыкания, запускается выбор индекса
         //При этом первоначальный текст для Страны и 4 кнопок-Столиц уже задан,
-        //а после нажатия, происходит очередная генерация значений для кнопок.
+        //а после нажатия, происходит генерация новых значений для кнопок.
 
         //39.Подключаем 2 временные переменные, для демонстрации значений работы программы,
         // чтобы наглядно видеть, какие значения у нас получаются. При этом мы не можем вывести
-        // число в поле TextView, для этого необходимо число преобразовать в текст
+        // число в поле TextView, для этого необходимо число преобразовать в текст методом toString()
 
 
 
@@ -219,26 +218,33 @@ public class Tren_2 extends AppCompatActivity {
         show_4 = (TextView) findViewById(R.id.show_4);
 
 
-        //41.Сохраняем значения в переменные
+//41.Сохраняем значения в переменные, потому что при клике по кнопке, в кнопке остаётся код,
+// который становится "старым", т.е. он не обновляется одновременно с кодом в других кнопках.
+// И при последующих проверках правильности выбора столицы это приводит к ошибке.
+// Поэтому мы в самом начале кода кнопки загружаем в него новые значения, а на выходе из кода
+// сохраняем в переменные, из которых потом загрузим во вновь нажатую кнопку. Наверное есть
+// способ проще и лучше, но я пока его не знаю ;)
         num_1 = answer_capital[0];
         num_2 = answer_capital[1];
         num_3 = answer_capital[2];
         num_4 = answer_capital[3];
+
         //42.Инициализируем счётчики правильных и неправильных ответов
-num_corr = 0;
-num_incorr = 0;
+num_correct = 0;
+num_incorrect = 0;
+
 //43.Создаём 2 переменных, для внутренних ответов, внутри кода кнопок
         int co = 0;
         int in = 0;
 
-//43.Подключаем виджеты полей @+id/num_corr and @+id/num_incorr
-        String numCorr = Integer.toString(num_corr);
-        num_corr_t = (TextView) findViewById(R.id.correct_answer);
-        num_corr_t.setText(numCorr);
+//43.Подключаем виджеты полей @+id/num_correct and @+id/num_incorrect
+        String numCorr = Integer.toString(num_correct);
+        num_correct_t = (TextView) findViewById(R.id.num_correct);
+        num_correct_t.setText(numCorr);
 
-        String numInCorr = Integer.toString(num_incorr);
-        num_incorr_t = (TextView) findViewById(R.id.incorrect_answer);
-        num_incorr_t.setText(numInCorr);
+        String numInCorr = Integer.toString(num_incorrect);
+        num_incorrect_t = (TextView) findViewById(R.id.num_incorrect);
+        num_incorrect_t.setText(numInCorr);
 
         //Первая кнопка
         but_cap_1.setOnClickListener(new View.OnClickListener() {
