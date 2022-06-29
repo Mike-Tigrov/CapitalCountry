@@ -18,16 +18,16 @@ public class Tren_2 extends AppCompatActivity {
     //1.Присваиваем кнопке из activity_tren_2.xml значение @+id/roll_button (это на вкладке activity_tren_2.xml)
 //2.Присваиваем текстовому полю из activity_tren_2.xml значение @+id/roll_text (это на вкладке activity_tren_2.xml)
 
-    //3.Создаём переменную для кнопки @+id/roll_button
-    private Button rButton;
+    //3.удалено
     //4.Создаём переменную для текстового поля @+id/text_roll
     private TextView rText;
-    //16.Создаём переменную для кнопки @+id/but_1
+    //16.Создаём переменную для кнопки @+id/but_1 и удаляем из activity_tren_2 поле text
     private Button but_cap_1;
     //17.Создаём переменную для кнопки @+id/but_2
     private Button but_cap_2;
     //21.Создаём ещё 2 кнопки в файле activity_tren_2: @+id/but_3 и @+id/but_4, удаляем у них поле text:
     private Button but_cap_3;
+
     private Button but_cap_4;
 
     //30.Создаём 2 переменные: количество правильных и неправильных ответов
@@ -69,7 +69,7 @@ public class Tren_2 extends AppCompatActivity {
     //15.Создаём генератор случайных занчений
     Random random = new Random();
 
-    //0.Создаём список listQ на основе класса Question[] из которого будем брать значения стран
+    //0.Создаём список listQ на основе класса Country из которого будем брать значения стран
     private Country[] listQ = new Country[]
             {
                     new Country(R.string.country_Australia_0),
@@ -92,7 +92,6 @@ public class Tren_2 extends AppCompatActivity {
                     new Country(R.string.country_Turkey_17),
                     new Country(R.string.country_France_18),
                     new Country(R.string.country_Japan_19),
-
             };
 
     //9.Создаём переменную для индекса массива listQ и инициализируем её через 0
@@ -105,10 +104,25 @@ public class Tren_2 extends AppCompatActivity {
     private Capital[] listA = new Capital[]
             {
                     new Capital(R.string.cap_Canberra_0),
-                    new Capital(R.string.cap_Vein_1),
-                    new Capital(R.string.cap_Baku_2),
-                    new Capital(R.string.cap_Tirana_3),
-                    new Capital(R.string.cap_Algeria_4),
+                    new Capital(R.string.cap_Brazil_1),
+                    new Capital(R.string.cap_London_2),
+                    new Capital(R.string.cap_Berlin_3),
+                    new Capital(R.string.cap_Cairo_4),
+                    new Capital(R.string.cap_NewDelhi_5),
+                    new Capital(R.string.cap_Jakarta_6),
+                    new Capital(R.string.cap_Madrid_7),
+                    new Capital(R.string.cap_Rome_8),
+                    new Capital(R.string.cap_Ottawa_9),
+                    new Capital(R.string.cap_Beijing_10),
+                    new Capital(R.string.cap_Seoul_11),
+                    new Capital(R.string.cap_MexicoCity_12),
+                    new Capital(R.string.cap_Warsaw_13),
+                    new Capital(R.string.cap_Moscow_14),
+                    new Capital(R.string.cap_Riyadh_15),
+                    new Capital(R.string.cap_Washington_16),
+                    new Capital(R.string.cap_Ankara_17),
+                    new Capital(R.string.cap_Paris_18),
+                    new Capital(R.string.cap_Tokyo_19),
             };
     //13. удалена
 

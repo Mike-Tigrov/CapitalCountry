@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="cap_Canberra_0">0.Канберра</string>
-    <string name="cap_Vein_1">1.Вена</string>
-    <string name="cap_Baku_2">2.Баку</string>
-    <string name="cap_Tirana_3">3.Тирана</string>
-    <string name="cap_Algeria_4">4.Алжир</string>
-
-    Canberra
-    Brazil
-    London
-    Berlin
-    Cairo
-    New Delhi
-    Jakarta
-    Madrid
-    Rome
-    Ottawa
-    Beijing
-    Seoul
-    Mexico City
-    Warsaw
-    Moscow
-    Riyadh
-    Washington
-    Ankapa
-    Paris
-    Tokyo
-</resources>
+    <string name="cap_Brazil_1">1.Бразилиа</string>
+    <string name="cap_London_2">2.Лондон</string>
+    <string name="cap_Berlin_3">3.Берлин</string>
+    <string name="cap_Cairo_4">4.Каир</string>
+    <string name="cap_NewDelhi_5">5.Нью-Дели</string>
+    <string name="cap_Jakarta_6">6.Джакарта</string>
+    <string name="cap_Madrid_7">7.Мадрид</string>
+    <string name="cap_Rome_8">8.Рим</string>
+    <string name="cap_Ottawa_9">9.Оттава</string>
+    <string name="cap_Beijing_10">10.Пекин</string>
+    <string name="cap_Seoul_11">11.Сеул</string>
+    <string name="cap_MexicoCity_12">12.Мехико</string>
+    <string name="cap_Warsaw_13">13.Варшава</string>
+    <string name="cap_Moscow_14">14.Москва</string>
+    <string name="cap_Riyadh_15">15.Эр-Рияд</string>
+    <string name="cap_Washington_16">16.Вашингтон</string>
+    <string name="cap_Ankara_17">17.Анкаpа</string>
+    <string name="cap_Paris_18">18.Париж</string>
+    <string name="cap_Tokyo_19">19.Токио</string>
+    </resources>
 
 
 
