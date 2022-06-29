@@ -19,7 +19,7 @@ public class Tren_2 extends AppCompatActivity {
 //2.Присваиваем текстовому полю из activity_tren_2.xml значение @+id/roll_text (это на вкладке activity_tren_2.xml)
 
     //3.удалено
-    //4.Создаём переменную для текстового поля @+id/text_roll
+    //4.Создаём переменную для текстового поля @+id/text_roll для вывода страны
     private TextView rText;
     //16.Создаём переменную для кнопки @+id/but_1 и удаляем из activity_tren_2 поле text
     private Button but_cap_1;
@@ -233,11 +233,10 @@ public class Tren_2 extends AppCompatActivity {
 num_correct = 0;
 num_incorrect = 0;
 
-//43.Создаём 2 переменных, для внутренних ответов, внутри кода кнопок
-        int co = 0;
-        int in = 0;
+//43.удалено
 
-//43.Подключаем виджеты полей @+id/num_correct and @+id/num_incorrect
+//43.Подключаем виджеты полей @+id/num_correct and @+id/num_incorrect для вывода количества
+// правильных и ошибочных ответов
         String numCorr = Integer.toString(num_correct);
         num_correct_t = (TextView) findViewById(R.id.num_correct);
         num_correct_t.setText(numCorr);
@@ -246,7 +245,7 @@ num_incorrect = 0;
         num_incorrect_t = (TextView) findViewById(R.id.num_incorrect);
         num_incorrect_t.setText(numInCorr);
 
-        //Первая кнопка
+        //Первая кнопка с выбором столицы
         but_cap_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -256,11 +255,9 @@ num_incorrect = 0;
                 // надпись - Правильный ответ! или Ошибка
 
 
-
-
 //По номеру страны получаем столицу из списка
 // !!! В кнопках, которые не нажаты, остаются старые значения, которые не соответствуют ушедщим вперёд значениям от других кнопок!!!
-                //Делаем для каждой кнопки вывод значений...
+                //Делаем для каждой кнопки ввод/вывод значений.
                 //Создаём 2 переменные, куда записываем значения 2х полей: номер текущей кнопки и номер кнопки, которая необходима из списка столиц
 
                 //Загружаем значения в переменные в начале работы кнопки
@@ -271,12 +268,29 @@ num_incorrect = 0;
                 //Загружаем на входе в код кнопки значения из истории нажатий
 
                 //Проверяем правильность выбранной столицы
-if (ind_cou == num_1) {
-    anCheck.setText(R.string.correct_answer);
-num_corr++;
-} else {
-    anCheck.setText(R.string.incorrect_answer);
-num_incorr++;
+                if (ind_cou == num_1) {
+                    anCheck.setText(R.string.correct_answer);
+
+//Добавляем +1 к количеству правильных ответов и выводим новое количество правильных ответов на экран в поле num_correct
+                    num_correct++;
+                    String numCorr = Integer.toString(num_correct);
+                    num_correct_t = (TextView) findViewById(R.id.num_correct);
+                    num_correct_t.setText(numCorr);
+
+//Добавляем 4 надписи, для мотивации правильного ответа
+                    show_1.setText(R.string.correct_answer_1);
+                    show_2.setText(R.string.correct_answer_2);
+                    show_3.setText(R.string.correct_answer_3);
+                    show_4.setText(R.string.correct_answer_4);
+                } else {
+                    anCheck.setText(R.string.incorrect_answer);
+
+                    //Добавляем +1 к количеству неверных ответов и выводим на экран в поле num_incorrect
+                    num_incorrect++;
+                    String numInCorr = Integer.toString(num_incorrect);
+                    num_incorrect_t = (TextView) findViewById(R.id.num_incorrect);
+                    num_incorrect_t.setText(numInCorr);
+                    //Даём подсказку по прошлому, неправильному нажатию
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
 //Название страны, которая отображалась до нажатия кнопки
@@ -288,19 +302,28 @@ num_incorr++;
                     int last_capital = listA[ind_cou].getCapitalResId();
                     show_4.setText(last_capital);
 
+                }
+//Окончание тренировки. Суммируем количество правильных и неправильных ответов. И когда получается
+// число = 20, то мы останавливаем тренировку. Выводим на экран, вместо Страны - Поздравление,
+// вместо столиц - количество правильных и неправильных ответов. Но лучше - чтобы было перенаправление на другую страницу с результатом
+if ((num_correct + num_incorrect) == 20) {
+
+        Intent intent = new Intent(Tren_2.java, Result.class);
+        startActivity(intent);
+        finish();
+
+
 }
 
 
-//С этого момента кнопка начинает переписывать содержимое страницы
+
+//С этого момента кнопка начинает переписывать содержимое страницы (индекс страны, массив вывода столиц для кнопок)
 
 //Задаём значение (текст) для страны
                 ind_cou = (ind_cou + 1) % listQ.length;
                 int question = listQ[ind_cou].getCountryResId();
                 //setText - вписываем текст
                 rText.setText(question);
-
-
-
 
 
 
@@ -348,7 +371,7 @@ num_incorr++;
                 but_cap_4.setText(cap4);
 
 
-
+/*
 //Проверочная переменная для показа промежуточных значений других переменных
 //Страна
                 show_1 = (TextView) findViewById(R.id.show_1);
@@ -369,7 +392,7 @@ num_incorr++;
                 String s4 = Integer.toString(answer_capital[3]);
                 show_4 = (TextView) findViewById(R.id.show_4);
                 show_4.setText(s4);
-
+ */
                 //Сохраняем значения в переменные в конце работы кнопки
                 num_1 = answer_capital[0];
                 num_2 = answer_capital[1];
@@ -408,8 +431,26 @@ num_incorr++;
                 if (ind_cou == num_2) {
                     anCheck.setText(R.string.correct_answer);
 
+//Добавляем +1 к количеству правильных ответов и выводим новое количество правильных ответов на экран в поле num_correct
+                    num_correct++;
+                    String numCorr = Integer.toString(num_correct);
+                    num_correct_t = (TextView) findViewById(R.id.num_correct);
+                    num_correct_t.setText(numCorr);
+
+//Добавляем 4 надписи, для мотивации правильного ответа
+                    show_1.setText(R.string.correct_answer_1);
+                    show_2.setText(R.string.correct_answer_2);
+                    show_3.setText(R.string.correct_answer_3);
+                    show_4.setText(R.string.correct_answer_4);
                 } else {
                     anCheck.setText(R.string.incorrect_answer);
+
+                    //Добавляем +1 к количеству неверных ответов и выводим на экран в поле num_incorrect
+                    num_incorrect++;
+                    String numInCorr = Integer.toString(num_incorrect);
+                    num_incorrect_t = (TextView) findViewById(R.id.num_incorrect);
+                    num_incorrect_t.setText(numInCorr);
+                    //Даём подсказку по прошлому, неправильному нажатию
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
 //Название страны, которая отображалась до нажатия кнопки
@@ -504,8 +545,26 @@ num_incorr++;
                 if (ind_cou == num_3) {
                     anCheck.setText(R.string.correct_answer);
 
+//Добавляем +1 к количеству правильных ответов и выводим новое количество правильных ответов на экран в поле num_correct
+                    num_correct++;
+                    String numCorr = Integer.toString(num_correct);
+                    num_correct_t = (TextView) findViewById(R.id.num_correct);
+                    num_correct_t.setText(numCorr);
+
+//Добавляем 4 надписи, для мотивации правильного ответа
+                    show_1.setText(R.string.correct_answer_1);
+                    show_2.setText(R.string.correct_answer_2);
+                    show_3.setText(R.string.correct_answer_3);
+                    show_4.setText(R.string.correct_answer_4);
                 } else {
                     anCheck.setText(R.string.incorrect_answer);
+
+                    //Добавляем +1 к количеству неверных ответов и выводим на экран в поле num_incorrect
+                    num_incorrect++;
+                    String numInCorr = Integer.toString(num_incorrect);
+                    num_incorrect_t = (TextView) findViewById(R.id.num_incorrect);
+                    num_incorrect_t.setText(numInCorr);
+                    //Даём подсказку по прошлому, неправильному нажатию
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
 //Название страны, которая отображалась до нажатия кнопки
@@ -598,8 +657,26 @@ num_incorr++;
                 if (ind_cou == num_4) {
                     anCheck.setText(R.string.correct_answer);
 
+//Добавляем +1 к количеству правильных ответов и выводим новое количество правильных ответов на экран в поле num_correct
+                    num_correct++;
+                    String numCorr = Integer.toString(num_correct);
+                    num_correct_t = (TextView) findViewById(R.id.num_correct);
+                    num_correct_t.setText(numCorr);
+
+//Добавляем 4 надписи, для мотивации правильного ответа
+                    show_1.setText(R.string.correct_answer_1);
+                    show_2.setText(R.string.correct_answer_2);
+                    show_3.setText(R.string.correct_answer_3);
+                    show_4.setText(R.string.correct_answer_4);
                 } else {
                     anCheck.setText(R.string.incorrect_answer);
+
+                    //Добавляем +1 к количеству неверных ответов и выводим на экран в поле num_incorrect
+                    num_incorrect++;
+                    String numInCorr = Integer.toString(num_incorrect);
+                    num_incorrect_t = (TextView) findViewById(R.id.num_incorrect);
+                    num_incorrect_t.setText(numInCorr);
+                    //Даём подсказку по прошлому, неправильному нажатию
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
 //Название страны, которая отображалась до нажатия кнопки

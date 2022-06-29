@@ -56,25 +56,13 @@
     <TextView
         android:id="@+id/roll_text"
         android:layout_width="359dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="5dp"
-        android:gravity="center"
+        android:layout_height="102dp"
+        android:layout_marginTop="80dp"
 
-        android:textSize="30sp"
+        android:gravity="center"
+        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="280dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="70dp"
-        android:gravity="center"
-        android:text="@string/question_general_text"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -112,7 +100,7 @@
         <TextView
             android:id="@+id/answerCheck"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
 
             android:textAlignment="center"
             android:textSize="18sp" />
