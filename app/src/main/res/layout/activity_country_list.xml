@@ -27,7 +27,7 @@
         android:layout_height="100dp"
         android:layout_marginBottom="10dp"
         android:backgroundTint="@color/ButtonBg"
-        android:onClick="goToMain"
+        android:onClick="goToListTren"
         android:text="@string/ToMain"
         android:textColor="#00B8D4"
         android:textSize="20sp"

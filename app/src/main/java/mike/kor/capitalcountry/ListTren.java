@@ -32,7 +32,7 @@ public class ListTren extends AppCompatActivity {
         startActivity(intent);
     }
     public void goToTren2 (View v){
-        Intent intent = new Intent(this, Tren_2.class);
+        Intent intent = new Intent(this, Tren_20.class);
         startActivity(intent);
     }
 }

@@ -1,5 +1,6 @@
 package mike.kor.capitalcountry;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +14,7 @@ import java.util.Random;
 import mike.kor.capitalcountry.model.Capital;
 import mike.kor.capitalcountry.model.Country;
 
-public class Tren_2 extends AppCompatActivity {
+public class Tren_20 extends AppCompatActivity {
 
     //1.Присваиваем кнопке из activity_tren_2.xml значение @+id/roll_button (это на вкладке activity_tren_2.xml)
 //2.Присваиваем текстовому полю из activity_tren_2.xml значение @+id/roll_text (это на вкладке activity_tren_2.xml)
@@ -30,9 +31,7 @@ public class Tren_2 extends AppCompatActivity {
 
     private Button but_cap_4;
 
-    //30.Создаём 2 переменные: количество правильных и неправильных ответов
-    private int correct;
-    private int incorrect;
+    //30.удалено
 
     //Создаём 2 тестовые временные переменные для показа на экран значений, которые выдаёт программа
     private TextView show_1;
@@ -152,7 +151,21 @@ public class Tren_2 extends AppCompatActivity {
         //И добавляем условие, чтобы переменные не дублировались
         int temp_1 = ind_cou;
 
-        //37.удалён
+        //42.Создаём диалоговое окно для вывода результатов прохождения теста
+        //Создали новый диалог, он будет возникать в данной активности
+        Dialog dialog = new Dialog(this);
+        //Разметку окна диалога загружаем из act_result.xml
+        dialog.setContentView(R.layout.act_result);
+
+        //Первый текст, количество правильных ответов, ставим в это поле №1
+                /*
+        TextView text = (TextView) dialog.findViewById(R.id.result_1);
+        //Текст первого поля берём из файла strings
+        text.setText(R.string.result_1);
+
+         */
+
+
 
 
 
@@ -245,6 +258,8 @@ num_incorrect = 0;
         num_incorrect_t = (TextView) findViewById(R.id.num_incorrect);
         num_incorrect_t.setText(numInCorr);
 
+
+
         //Первая кнопка с выбором столицы
         but_cap_1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -306,14 +321,10 @@ num_incorrect = 0;
 //Окончание тренировки. Суммируем количество правильных и неправильных ответов. И когда получается
 // число = 20, то мы останавливаем тренировку. Выводим на экран, вместо Страны - Поздравление,
 // вместо столиц - количество правильных и неправильных ответов. Но лучше - чтобы было перенаправление на другую страницу с результатом
-if ((num_correct + num_incorrect) == 20) {
-
-        Intent intent = new Intent(Tren_2.java, Result.class);
-        startActivity(intent);
-        finish();
-
-
-}
+                int sum = (num_correct + num_incorrect);
+                if (sum > 5) {
+                    dialog.show();
+                }
 
 
 

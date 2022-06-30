@@ -17,7 +17,7 @@
             android:name=".Result"
             android:exported="false" />
         <activity
-            android:name=".Tren_2"
+            android:name=".Tren_20"
             android:exported="false" />
         <activity
             android:name=".Tren1"

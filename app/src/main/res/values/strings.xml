@@ -27,6 +27,15 @@
     <string name="prompt_country">Правильная столица страны:</string>
     <string name="prompt_country_eto"> - это: </string>
 
+    <string name="result_main">Поздравляем, Вы прошли тестирование!</string>
+    <string name="result_1">Правильных ответов:</string>
+    <string name="result_2">Цифра прав.ответов</string>
+    <string name="result_3">Ошибок:</string>
+    <string name="result_4">Цифра ошибок</string>
+    <string name="button_back">Выбрать тренировку</string>
+    <string name="button_knowlege">Ещё раз</string>
+    <string name="button_repeat">Ещё раз</string>
+
     <string name="correct_answer_1">Каждый правильный ответ</string>
     <string name="correct_answer_2">делает Вас</string>
     <string name="correct_answer_3">умнее.</string>
