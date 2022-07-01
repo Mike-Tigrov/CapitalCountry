@@ -15,44 +15,51 @@ import mike.kor.capitalcountry.model.Country;
 
 public class Tren_20 extends AppCompatActivity {
 
-    //1.Присваиваем кнопке из activity_tren_2.xml значение @+id/roll_button (это на вкладке activity_tren_2.xml)
-//2.Присваиваем текстовому полю из activity_tren_2.xml значение @+id/roll_text (это на вкладке activity_tren_2.xml)
 
-    //3.удалено
-    //4.Создаём переменную для текстового поля @+id/text_roll для вывода страны
+//2.Присваиваем текстовому полю из activity_tren_20.xml значение @+id/roll_text (это на вкладке activity_tren_2.xml)
+
+
+    //4.Создаём переменную для текстового поля @+id/text_roll (это на вкладке
+    // activity_tren_20.xml) для последующего вывода очередной страны и удаляем поле text:
     private TextView rText;
-    //16.Создаём переменную для кнопки @+id/but_1 и удаляем из activity_tren_2 поле text
+    //16.Создаём переменные для кнопок @+id/but_1, @+id/but_2, @+id/but_3 и @+id/but_4 и
+    // удаляем из activity_tren_2 поле text. В эти кнопки будут вписаны называния столиц для выбора
     private Button but_cap_1;
-    //17.Создаём переменную для кнопки @+id/but_2
     private Button but_cap_2;
-    //21.Создаём ещё 2 кнопки в файле activity_tren_2: @+id/but_3 и @+id/but_4, удаляем у них поле text:
     private Button but_cap_3;
-
     private Button but_cap_4;
 
-    //30.удалено
-
-    //Создаём 2 тестовые временные переменные для показа на экран значений, которые выдаёт программа
+    //Создаём 4 тестовые временные переменные для вывода на экран значений, которые выдаёт
+    // программа. Эти значения будут использованы для мотивации в случае правильного ответа и
+    // справки, в случае ошибки
     private TextView show_1;
     private TextView show_2;
     private TextView show_3;
     private TextView show_4;
 
-    //32.Создаём 4 переменных для записи значений, получаемых в результате работы кнопок
+    //32.Создаём 4 переменных для записи значений, получаемых в результате работы кнопок.
+    // Эти переменные нужны для хранения данных, полученных в результате нажатия кнопок. Дело
+    // в том, что много кода пока что расположено в кнопках (пища для рефакторинга). И переменные
+    // нужны для обновления данных в кнопках, так как после нажатия там остаются старые значения,
+    // что приводит к искажению проверки правильности выбранного варианта ответа
     int num_1 = 0;
     int num_2 = 0;
     int num_3 = 0;
     int num_4 = 0;
 
-    //Переменная, которая определяет количество вопросов в тренировке
-    int num_questions = 4;
+    //Переменная, которая определяет количество вопросов в тренировке (на самом деле, реально
+    // вопросов на 1 больше, но мы начинаем с 0, поэтому и 19, а не 20).
+    int num_questions = 19;
 
 //41.Создали ещё 4 текстовых поля для вывода внизу страницы, над кнопками навигации, следующие поля: "Правильных ответов" : "количество" и "Ошибки" : "количество"
-//41.1.Создаём 2 переменные для вывода числовых значений: num_correct num_incorrect
+
+//41.1.Создаём 2 переменные для подсчёта правильных и неправильных ответов во время нажатия кнопок
     int num_correct;
     int num_incorrect;
 
-    //Создаём 2 переменные для текстового поля @+id/num_correct and @+id/num_incorrect
+    //Создаём 2 переменные для текстового поля @+id/num_correct and @+id/num_incorrect, это будут
+    // выводиться на экран результаты верных или ошибочных ответов, в числовом выражении. Т.е.
+    // количество верных/неверных ответов можно будет наблюдать во время прохождения тестированя
     private TextView num_correct_t;
     private TextView num_incorrect_t;
 
@@ -64,13 +71,12 @@ public class Tren_20 extends AppCompatActivity {
     //    <string name="incorrect_answer">Ошибка</string>
     private TextView anCheck;
 
-
-
     //15.Создаём генератор случайных занчений
     Random random = new Random();
 
-    //0.Создаём список listQ на основе класса Country из которого будем брать значения стран
-    private Country[] listQ = new Country[]
+    //0.Создаём список listC на основе класса Country из каталога model, откуда мы
+    // будем брать значения стран
+    private Country[] listC = new Country[]
             {
                     new Country(R.string.country_Australia_0),
                     new Country(R.string.country_Brazil_1),
@@ -94,13 +100,17 @@ public class Tren_20 extends AppCompatActivity {
                     new Country(R.string.country_Japan_19),
             };
 
-    //9.Создаём переменную для индекса массива listQ и инициализируем её через 0
+    //9.Создаём переменную для индекса массива listC и инициализируем её через 0. По ней мы будем
+    // перебирать наш массив и выбирать страны. Также по этой переменной мы будем искать правильные
+    // столицы, так как порядковый номер Страны совпадает с порядковым номером подходящей
+    // для неё Столицы.
     private int ind_cou = 0;
 
     //10.Создаём 5 записей в файле countries_tren_20.xml, их мы будем добавлять в наш массив с объектами для выбора текста
     //10.1 Создаём 5 записей в файле capitals_tren_20.xml, для добавления в массив столиц
 
-    //12.Создаём список listA на основе класса Answer, из которого будем брать значения столиц
+    //12.Создаём список listA на основе класса Capital, из каталога model, из которого будем
+    // брать значения столиц
     private Capital[] listA = new Capital[]
             {
                     new Capital(R.string.cap_Canberra_0),
@@ -124,7 +134,6 @@ public class Tren_20 extends AppCompatActivity {
                     new Capital(R.string.cap_Paris_18),
                     new Capital(R.string.cap_Tokyo_19),
             };
-    //13. удалена
 
 //14.Создаём в activity_tren_2 кнопки: с Правильным и Неправильным ответом
     //Для этого создаём linearLayout(horizontal) и помещаем в него 2 кнопки
@@ -132,15 +141,17 @@ public class Tren_20 extends AppCompatActivity {
 
 
     @Override
-    //Метод onCreate(Bundle ...) вызывается при создании экземпляра субкласса активности
-    //С него начинается показ активностей на экране
+    //Метод onCreate(Bundle ...) вызывается при создании экземпляра субкласса активности.
+    // С него начинается показ активностей на экране, которые загружаются из разметки
+    // по указанному адресу - в данном случае -  R.layout.activity_tren_20 (т.е. разметка
+    // расположена в папке res > layout > activity_tren_20.xml
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tren_20);
 
         //11.Подключаем виджет TextView, он задаёт текст из списка на позицию
         rText = (TextView) findViewById(R.id.roll_text);
-        int question = listQ[ind_cou].getCountryResId();
+        int question = listC[ind_cou].getCountryResId();
         rText.setText(question);
 
         //37.Подключаем виджет TextView, он будет задавать текст результата ответа
@@ -313,7 +324,7 @@ num_incorrect = 0;
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
 //Название страны, которая отображалась до нажатия кнопки
-                    int last_country = listQ[ind_cou].getCountryResId();
+                    int last_country = listC[ind_cou].getCountryResId();
                     show_2.setText(last_country);
 //Это
                     show_3.setText(R.string.prompt_country_eto);
@@ -329,19 +340,11 @@ num_incorrect = 0;
                 if (sum > num_questions) {
                     //И передаём1 данные по количетву правильных и неправильных ответов
                     //(1)куда передаём НазваниеАктивности.имяПеременнойПолучающейЗначение, передаваемая переменная)
-
-                   String correct = Integer.toString(num_correct);
-intent.putExtra(Result.num_correct_result, num_correct);
-//Делаем из цифры текст
-                    //String incorrect = Integer.toString(num_incorrect);
-                    //Передаём этот текст
-//intent.putExtra(Result.num_incorrect_result, incorrect);
-
-                    //запускаем2 активность с результатом
+                    String cor = Integer.toString(num_correct);
+intent.putExtra(Result.num_correct_result, cor);
+                    //запускаем2 активность Result (act_result) с результатом
                     startActivity(intent);
 
-
-                    //dialog.show();
                 }
 
 
@@ -349,8 +352,8 @@ intent.putExtra(Result.num_correct_result, num_correct);
 //С этого момента кнопка начинает переписывать содержимое страницы (индекс страны, массив вывода столиц для кнопок)
 
 //Задаём значение (текст) для страны
-                ind_cou = (ind_cou + 1) % listQ.length;
-                int question = listQ[ind_cou].getCountryResId();
+                ind_cou = (ind_cou + 1) % listC.length;
+                int question = listC[ind_cou].getCountryResId();
                 //setText - вписываем текст
                 rText.setText(question);
 
@@ -400,34 +403,13 @@ intent.putExtra(Result.num_correct_result, num_correct);
                 but_cap_4.setText(cap4);
 
 
-/*
-//Проверочная переменная для показа промежуточных значений других переменных
-//Страна
-                show_1 = (TextView) findViewById(R.id.show_1);
-                show_1.setText(listQ[ind_cou].getCountryResId());
 
-//Проверочная переменная для показа промежуточных значений других переменных
-//Столица которая на кнопке
-                show_2 = (TextView) findViewById(R.id.show_2);
-                show_2.setText(listA[answer_capital[0]].getCapitalResId());
-
-
-//Проверочная переменная для показа промежуточных значений других переменных
-//Столица которая нам нужна
-                show_3 = (TextView) findViewById(R.id.show_3);
-                show_3.setText(listA[ind_cou].getCapitalResId());
-
-//Проверочная переменная для показа промежуточных значений других переменных
-                String s4 = Integer.toString(answer_capital[3]);
-                show_4 = (TextView) findViewById(R.id.show_4);
-                show_4.setText(s4);
- */
                 //Сохраняем значения в переменные в конце работы кнопки
                 num_1 = answer_capital[0];
                 num_2 = answer_capital[1];
                 num_3 = answer_capital[2];
                 num_4 = answer_capital[3];
-//Сохраняем значения:
+
 
             }
 
@@ -483,7 +465,7 @@ intent.putExtra(Result.num_correct_result, num_correct);
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
 //Название страны, которая отображалась до нажатия кнопки
-                    int last_country = listQ[ind_cou].getCountryResId();
+                    int last_country = listC[ind_cou].getCountryResId();
                     show_2.setText(last_country);
 //Это
                     show_3.setText(R.string.prompt_country_eto);
@@ -492,10 +474,24 @@ intent.putExtra(Result.num_correct_result, num_correct);
                     show_4.setText(last_capital);
 
                 }
+                //Окончание тренировки. Суммируем количество правильных и неправильных ответов. И когда получается
+// число = 20, то мы останавливаем тренировку. Выводим на экран, вместо Страны - Поздравление,
+// вместо столиц - количество правильных и неправильных ответов. Но лучше - чтобы было перенаправление на другую страницу с результатом
+                int sum = (num_correct + num_incorrect);
+                if (sum > num_questions) {
+                    //И передаём1 данные по количетву правильных и неправильных ответов
+                    //(1)куда передаём НазваниеАктивности.имяПеременнойПолучающейЗначение, передаваемая переменная)
+                    String cor = Integer.toString(num_correct);
+                    intent.putExtra(Result.num_correct_result, cor);
+                    //запускаем2 активность Result (act_result) с результатом
+                    startActivity(intent);
+
+                }
+
 
                 //Задаём значение для
-                ind_cou = (ind_cou + 1) % listQ.length;
-                int question = listQ[ind_cou].getCountryResId();
+                ind_cou = (ind_cou + 1) % listC.length;
+                int question = listC[ind_cou].getCountryResId();
                 //setText - вписываем текст
                 rText.setText(question);
 
@@ -597,7 +593,7 @@ intent.putExtra(Result.num_correct_result, num_correct);
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
 //Название страны, которая отображалась до нажатия кнопки
-                    int last_country = listQ[ind_cou].getCountryResId();
+                    int last_country = listC[ind_cou].getCountryResId();
                     show_2.setText(last_country);
 //Это
                     show_3.setText(R.string.prompt_country_eto);
@@ -607,9 +603,22 @@ intent.putExtra(Result.num_correct_result, num_correct);
 
                 }
 
+                //Окончание тренировки. Суммируем количество правильных и неправильных ответов. И когда получается
+// число = 20, то мы останавливаем тренировку. Выводим на экран, вместо Страны - Поздравление,
+// вместо столиц - количество правильных и неправильных ответов. Но лучше - чтобы было перенаправление на другую страницу с результатом
+                int sum = (num_correct + num_incorrect);
+                if (sum > num_questions) {
+                    //И передаём1 данные по количетву правильных и неправильных ответов
+                    //(1)куда передаём НазваниеАктивности.имяПеременнойПолучающейЗначение, передаваемая переменная)
+                    String cor = Integer.toString(num_correct);
+                    intent.putExtra(Result.num_correct_result, cor);
+                    //запускаем2 активность Result (act_result) с результатом
+                    startActivity(intent);
+
+                }
                 //Задаём значение для индекса следющей страны
-                ind_cou = (ind_cou + 1) % listQ.length;
-                int question = listQ[ind_cou].getCountryResId();
+                ind_cou = (ind_cou + 1) % listC.length;
+                int question = listC[ind_cou].getCountryResId();
                 //setText - вписываем текст
                 rText.setText(question);
 
@@ -709,7 +718,7 @@ intent.putExtra(Result.num_correct_result, num_correct);
 //Правильная столица страны:
                     show_1.setText(R.string.prompt_country);
 //Название страны, которая отображалась до нажатия кнопки
-                    int last_country = listQ[ind_cou].getCountryResId();
+                    int last_country = listC[ind_cou].getCountryResId();
                     show_2.setText(last_country);
 //Это
                     show_3.setText(R.string.prompt_country_eto);
@@ -718,10 +727,22 @@ intent.putExtra(Result.num_correct_result, num_correct);
                     show_4.setText(last_capital);
 
                 }
+//Окончание тренировки. Суммируем количество правильных и неправильных ответов. И когда получается
+// число = 20, то мы останавливаем тренировку. Выводим на экран, вместо Страны - Поздравление,
+// вместо столиц - количество правильных и неправильных ответов. Но лучше - чтобы было перенаправление на другую страницу с результатом
+                int sum = (num_correct + num_incorrect);
+                if (sum > num_questions) {
+                    //И передаём1 данные по количетву правильных и неправильных ответов
+                    //(1)куда передаём НазваниеАктивности.имяПеременнойПолучающейЗначение, передаваемая переменная)
+                    String cor = Integer.toString(num_correct);
+                    intent.putExtra(Result.num_correct_result, cor);
+                    //запускаем2 активность Result (act_result) с результатом
+                    startActivity(intent);
 
+                }
                 //Задаём значение для
-                ind_cou = (ind_cou + 1) % listQ.length;
-                int question = listQ[ind_cou].getCountryResId();
+                ind_cou = (ind_cou + 1) % listC.length;
+                int question = listC[ind_cou].getCountryResId();
                 //setText - вписываем текст
                 rText.setText(question);
 

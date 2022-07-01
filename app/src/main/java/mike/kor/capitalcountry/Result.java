@@ -16,6 +16,7 @@ private TextView result_2;
     private TextView result_4;
 
     //Создаём 2 переменные для принятия значений из тренировки
+
     public static String num_correct_result;
     public static String num_incorrect_result;
 
@@ -33,6 +34,15 @@ private TextView result_2;
         result_2 = (TextView) findViewById(R.id.result_2);
         Bundle extras = getIntent().getExtras();
         result_2.setText(extras.getString(num_correct_result));
+
+        //Превращаем строку в цифру
+        int corNum = Integer.parseInt(extras.getString(num_correct_result));
+int incorrectNum = 20 - corNum;
+        result_4 = (TextView) findViewById(R.id.result_4);
+        String s = Integer.toString(incorrectNum);
+        result_4.setText(s);
+
+
 
      //   result_4 = (TextView) findViewById(R.id.result_4);
         //принимаем интент посланый из Tren_20
