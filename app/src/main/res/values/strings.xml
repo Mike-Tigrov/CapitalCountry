@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CapitalCountry</string>
+    <string name="app_name">Гео Зарядка</string>
 
     <!--First start page, start-->
     <string name="Hello_1">Добро пожаловать в тренажёр!</string>
@@ -55,14 +55,20 @@
 
 
 
-    <string name="ButtonTren1">Отличник</string>
-    <string name="ButtonTren1_text">(100 самых крупных, по объёму ВВП, стран)</string>
+    <string name="ButtonTren20">Школьник</string>
+    <string name="ButtonTren20_text">(20 самых крупных стран, по объёму ВВП)</string>
 
-    <string name="ButtonTren2">Эксперт</string>
-    <string name="ButtonTren2_text">(все страны, входящие в ООН, 190+ стран)</string>
+    <string name="ButtonTren50">Студент</string>
+    <string name="ButtonTren50_text">(50 самых крупных стран, по объёму ВВП)</string>
 
-    <string name="ButtonTren3">Уникум</string>
-    <string name="ButtonTren3_text">(все страны и государственные образования из нашей базы)</string>
+    <string name="ButtonTren100">Учитель географии</string>
+    <string name="ButtonTren100_text">(100 самых крупных стран, по объёму ВВП)</string>
+
+    <string name="ButtonTrenOON">Посол при ООН</string>
+    <string name="ButtonTrenOON_text">(все страны входящие в ООН, 190+ стран)</string>
+
+    <string name="ButtonTrenAll">Вассерман</string>
+    <string name="ButtonTrenAll_text">(все страны и государственные образования нашей планеты)</string>
 
     <string name="Check">На проверку!</string>
     <string name="GoGoGo">Поехали!</string>

@@ -1,6 +1,5 @@
 package mike.kor.capitalcountry;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -44,6 +43,9 @@ public class Tren_20 extends AppCompatActivity {
     int num_2 = 0;
     int num_3 = 0;
     int num_4 = 0;
+
+    //Переменная, которая определяет количество вопросов в тренировке
+    int num_questions = 4;
 
 //41.Создали ещё 4 текстовых поля для вывода внизу страницы, над кнопками навигации, следующие поля: "Правильных ответов" : "количество" и "Ошибки" : "количество"
 //41.1.Создаём 2 переменные для вывода числовых значений: num_correct num_incorrect
@@ -96,7 +98,7 @@ public class Tren_20 extends AppCompatActivity {
     private int ind_cou = 0;
 
     //10.Создаём 5 записей в файле countries_tren_20.xml, их мы будем добавлять в наш массив с объектами для выбора текста
-    //10.1 Создаём 5 записей в файле capitals_Tren_20.xml, для добавления в массив столиц
+    //10.1 Создаём 5 записей в файле capitals_tren_20.xml, для добавления в массив столиц
 
     //12.Создаём список listA на основе класса Answer, из которого будем брать значения столиц
     private Capital[] listA = new Capital[]
@@ -134,7 +136,7 @@ public class Tren_20 extends AppCompatActivity {
     //С него начинается показ активностей на экране
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tren_2);
+        setContentView(R.layout.activity_tren_20);
 
         //11.Подключаем виджет TextView, он задаёт текст из списка на позицию
         rText = (TextView) findViewById(R.id.roll_text);
@@ -151,7 +153,9 @@ public class Tren_20 extends AppCompatActivity {
         //И добавляем условие, чтобы переменные не дублировались
         int temp_1 = ind_cou;
 
-        //42.Создаём диалоговое окно для вывода результатов прохождения теста
+        //42.Создаём диалоговое окно для вывода результатов прохождения теста. Отказался от
+        // диалога, просто научился переходить на другую активность.
+        /*
         //Создали новый диалог, он будет возникать в данной активности
         Dialog dialog = new Dialog(this);
         //Разметку окна диалога загружаем из act_result.xml
@@ -164,8 +168,8 @@ public class Tren_20 extends AppCompatActivity {
         text.setText(R.string.result_1);
 
          */
-
-
+//Создаём переход на активность с результатом
+        Intent intent = new Intent(this, Result.class);
 
 
 
@@ -322,8 +326,22 @@ num_incorrect = 0;
 // число = 20, то мы останавливаем тренировку. Выводим на экран, вместо Страны - Поздравление,
 // вместо столиц - количество правильных и неправильных ответов. Но лучше - чтобы было перенаправление на другую страницу с результатом
                 int sum = (num_correct + num_incorrect);
-                if (sum > 5) {
-                    dialog.show();
+                if (sum > num_questions) {
+                    //И передаём1 данные по количетву правильных и неправильных ответов
+                    //(1)куда передаём НазваниеАктивности.имяПеременнойПолучающейЗначение, передаваемая переменная)
+
+                   String correct = Integer.toString(num_correct);
+intent.putExtra(Result.num_correct_result, num_correct);
+//Делаем из цифры текст
+                    //String incorrect = Integer.toString(num_incorrect);
+                    //Передаём этот текст
+//intent.putExtra(Result.num_incorrect_result, incorrect);
+
+                    //запускаем2 активность с результатом
+                    startActivity(intent);
+
+
+                    //dialog.show();
                 }
 
 
