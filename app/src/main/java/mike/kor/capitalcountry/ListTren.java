@@ -15,14 +15,19 @@ public class ListTren extends AppCompatActivity {
         setContentView(R.layout.list_tren);
     }
 
-    public void countryState(View v){
-        Intent intent = new Intent(this, SpisokStran.class);
+    public void goToBaseKnowledge(View v){
+        Intent intent = new Intent(this, BaseKnowledge.class);
         startActivity(intent);
     }
-    public void prompt (View v){
+
+
+    public void goToPrompt (View v){
         Intent intent = new Intent(this, Prompt.class);
         startActivity(intent);
     }
+
+
+
     public void goToMain (View v){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
@@ -31,8 +36,12 @@ public class ListTren extends AppCompatActivity {
         Intent intent = new Intent(this, Tren1.class);
         startActivity(intent);
     }
-    public void goToTren2 (View v){
+    public void goToTren20 (View v){
         Intent intent = new Intent(this, Tren_20.class);
+        startActivity(intent);
+    }
+    public void goResult (View v){
+        Intent intent = new Intent(this, Result.class);
         startActivity(intent);
     }
 }

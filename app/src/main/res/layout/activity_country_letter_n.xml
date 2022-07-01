@@ -16,12 +16,12 @@
         android:backgroundTint="@color/ButtonBg"
         android:insetTop="0dp"
         android:insetBottom="0dp"
-        android:onClick="prompt"
+        android:onClick="goToPrompt"
         android:text="@string/ButtonPrompt"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/CountryLetterA"
@@ -60,6 +60,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginBottom="10dp"
         android:backgroundTint="@color/ButtonBg"
+        android:onClick="goToListTren"
         android:text="@string/ButtonWorkout"
         android:textColor="@color/BgColor"
         android:textSize="20sp"
@@ -73,7 +74,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:backgroundTint="@color/ButtonBg"
-        android:onClick="countryState"
+        android:onClick="goToBaseKnowledge"
         android:text="@string/ButtonStudy"
         android:textColor="@color/BgColor"
         android:textSize="20sp"

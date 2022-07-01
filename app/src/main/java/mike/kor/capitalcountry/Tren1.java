@@ -84,8 +84,8 @@ private int mCurrentIndex = 0;
 
 
     }
-    public void countryState(View v){
-        Intent intent = new Intent(this, SpisokStran.class);
+    public void goToBaseKnowledge(View v){
+        Intent intent = new Intent(this, BaseKnowledge.class);
         startActivity(intent);
     }
     public void prompt (View v){

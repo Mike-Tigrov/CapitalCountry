@@ -1,20 +1,20 @@
 package mike.kor.capitalcountry.Letter;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import mike.kor.capitalcountry.MainActivity;
+import mike.kor.capitalcountry.BaseKnowledge;
+import mike.kor.capitalcountry.ListTren;
 import mike.kor.capitalcountry.Prompt;
 import mike.kor.capitalcountry.R;
-import mike.kor.capitalcountry.SpisokStran;
 import mike.kor.capitalcountry.adapter.ACountryAdapter;
 import mike.kor.capitalcountry.model.ACountry;
 
@@ -90,16 +90,16 @@ public class CountryLetterG extends AppCompatActivity {
         countryRecycler.setAdapter(aCountryAdapter);
 
     }
-    public void goToMain (View v) {
-        Intent intent = new Intent(this, MainActivity.class);
+    public void goToBaseKnowledge(View v){
+        Intent intent = new Intent(this, BaseKnowledge.class);
         startActivity(intent);
     }
-    public void countryState(View v){
-        Intent intent = new Intent(this, SpisokStran.class);
-        startActivity(intent);
-    }
-    public void prompt (View v){
+    public void goToPrompt (View v){
         Intent intent = new Intent(this, Prompt.class);
+        startActivity(intent);
+    }
+    public void goToListTren (View v){
+        Intent intent = new Intent(this, ListTren.class);
         startActivity(intent);
     }
 }

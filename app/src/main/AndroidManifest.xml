@@ -110,7 +110,7 @@
             android:name=".Letter.CountryLetterA"
             android:exported="false" />
         <activity
-            android:name=".SpisokStran"
+            android:name=".BaseKnowledge"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

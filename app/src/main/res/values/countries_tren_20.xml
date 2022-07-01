@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="country_Australia_0">Австралия</string>
+    <string name="country_Brazil_1">Бразилия</string>
+    <string name="country_GreatBritain_2">Великобритания</string>
+    <string name="country_Germany_3">Германия</string>
+    <string name="country_Egypt_4">Египет</string>
+    <string name="country_India_5">Индия</string>
+    <string name="country_Indonesia_6">Индонезия</string>
+    <string name="country_Spain_7">Испания</string>
+    <string name="country_Italy_8">Италия</string>
+    <string name="country_Canada_9">Канада</string>
+    <string name="country_China_10"> Китай</string>
+    <string name="country_KoreaSouth_11">Южная Корея</string>
+    <string name="country_Mexico_12">Мексика</string>
+    <string name="country_Poland_13">Польша</string>
+    <string name="country_RussianFederation_14">Российская Федерация</string>
+    <string name="country_SaudiArabia_15">Саудовская Аравия</string>
+    <string name="country_UnitedStatesOfAmerica_16">Соединённые Штаты Америки</string>
+    <string name="country_Turkey_17">Турция</string>
+    <string name="country_France_18">Франция</string>
+    <string name="country_Japan_19">Япония</string>
+</resources>

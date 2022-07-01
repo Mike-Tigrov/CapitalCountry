@@ -16,6 +16,8 @@
     <!--Test tren1 and tren_2 start-->
     <string name="question_general_text">Выберите <b>правильную</b> столицу для данной страны:</string>
 
+    <string name="ToListTren">Новая тренировка</string>
+
     <string name="true_button">Дамаск</string>
     <string name="false_button1">Братислава</string>
     <string name="false_button2">Варшава</string>
@@ -33,8 +35,8 @@
     <string name="result_3">Ошибок:</string>
     <string name="result_4">Цифра ошибок</string>
     <string name="button_back">Выбрать тренировку</string>
-    <string name="button_knowlege">Ещё раз</string>
-    <string name="button_repeat">Ещё раз</string>
+    <string name="button_knowlege">База знаний</string>
+    <string name="button_repeat">Повторить</string>
 
     <string name="correct_answer_1">Каждый правильный ответ</string>
     <string name="correct_answer_2">делает Вас</string>
@@ -50,6 +52,8 @@
     <string name="ButtonStudy">Надо подумать</string>
     <string name="ButtonPrompt">-?-</string>
     <string name="ToMain">Вернуться на главную</string>
+
+
 
     <string name="ButtonTren1">Отличник</string>
     <string name="ButtonTren1_text">(100 самых крупных, по объёму ВВП, стран)</string>

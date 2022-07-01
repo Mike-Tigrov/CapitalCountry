@@ -5,7 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/BgColor"
-    tools:context=".SpisokStran">
+    tools:context=".BaseKnowledge">
+
+    <Button
+        android:id="@+id/button_work3"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/ButtonBg"
+        android:onClick="goToListTren"
+        android:text="@string/ButtonWorkout"
+        android:textColor="@color/BgColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_study5"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/ButtonBg"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="goToPrompt"
+        android:text="@string/ButtonPrompt"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/CountryList"
@@ -25,15 +55,15 @@
         android:id="@+id/button_2"
         android:layout_width="180dp"
         android:layout_height="100dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:backgroundTint="@color/ButtonBg"
-        android:onClick="goToListTren"
+        android:onClick="goToMain"
         android:text="@string/ToMain"
         android:textColor="#00B8D4"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/withALetter"

@@ -1,21 +1,24 @@
 package mike.kor.capitalcountry;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import mike.kor.capitalcountry.Letter.CountryLetterA;
 import mike.kor.capitalcountry.Letter.CountryLetterB;
 import mike.kor.capitalcountry.Letter.CountryLetterBe;
+import mike.kor.capitalcountry.Letter.CountryLetterC;
+import mike.kor.capitalcountry.Letter.CountryLetterCh;
 import mike.kor.capitalcountry.Letter.CountryLetterD;
 import mike.kor.capitalcountry.Letter.CountryLetterE;
+import mike.kor.capitalcountry.Letter.CountryLetterEe;
+import mike.kor.capitalcountry.Letter.CountryLetterF;
 import mike.kor.capitalcountry.Letter.CountryLetterG;
 import mike.kor.capitalcountry.Letter.CountryLetterI;
-import mike.kor.capitalcountry.Letter.CountryLetterK;
-import mike.kor.capitalcountry.Letter.CountryLetterZ;
 import mike.kor.capitalcountry.Letter.CountryLetterJ;
+import mike.kor.capitalcountry.Letter.CountryLetterK;
 import mike.kor.capitalcountry.Letter.CountryLetterL;
 import mike.kor.capitalcountry.Letter.CountryLetterM;
 import mike.kor.capitalcountry.Letter.CountryLetterN;
@@ -24,18 +27,15 @@ import mike.kor.capitalcountry.Letter.CountryLetterPe;
 import mike.kor.capitalcountry.Letter.CountryLetterR;
 import mike.kor.capitalcountry.Letter.CountryLetterS;
 import mike.kor.capitalcountry.Letter.CountryLetterT;
-import mike.kor.capitalcountry.Letter.CountryLetterY;
-import mike.kor.capitalcountry.Letter.CountryLetterF;
-import mike.kor.capitalcountry.Letter.CountryLetterX;
-import mike.kor.capitalcountry.Letter.CountryLetterC;
-import mike.kor.capitalcountry.Letter.CountryLetterCh;
 import mike.kor.capitalcountry.Letter.CountryLetterW;
-import mike.kor.capitalcountry.Letter.CountryLetterEe;
-import mike.kor.capitalcountry.Letter.CountryLetterYou;
+import mike.kor.capitalcountry.Letter.CountryLetterX;
+import mike.kor.capitalcountry.Letter.CountryLetterY;
 import mike.kor.capitalcountry.Letter.CountryLetterYa;
+import mike.kor.capitalcountry.Letter.CountryLetterYou;
+import mike.kor.capitalcountry.Letter.CountryLetterZ;
 
 
-public class SpisokStran extends AppCompatActivity {
+public class BaseKnowledge extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +46,14 @@ public void goToMain (View v){
 Intent intent = new Intent(this, MainActivity.class);
 startActivity(intent);
 }
-
+    public void goToPrompt (View v){
+        Intent intent = new Intent(this, Prompt.class);
+        startActivity(intent);
+    }
+    public void goToListTren (View v){
+        Intent intent = new Intent(this, ListTren.class);
+        startActivity(intent);
+    }
 public void goToCountryLetterA (View v){
     Intent intent = new Intent(this, CountryLetterA.class);
     startActivity(intent);

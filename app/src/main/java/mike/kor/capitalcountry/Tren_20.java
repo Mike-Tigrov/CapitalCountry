@@ -95,8 +95,8 @@ public class Tren_20 extends AppCompatActivity {
     //9.Создаём переменную для индекса массива listQ и инициализируем её через 0
     private int ind_cou = 0;
 
-    //10.Создаём 5 записей в файле countries.xml, их мы будем добавлять в наш массив с объектами для выбора текста
-    //10.1 Создаём 5 записей в файле capitals.xml, для добавления в массив столиц
+    //10.Создаём 5 записей в файле countries_tren_20.xml, их мы будем добавлять в наш массив с объектами для выбора текста
+    //10.1 Создаём 5 записей в файле capitals_Tren_20.xml, для добавления в массив столиц
 
     //12.Создаём список listA на основе класса Answer, из которого будем брать значения столиц
     private Capital[] listA = new Capital[]
@@ -847,16 +847,16 @@ num_incorrect = 0;
 
 
 
-    public void countryState(View v){
-        Intent intent = new Intent(this, SpisokStran.class);
+    public void goToBaseKnowledge(View v){
+        Intent intent = new Intent(this, BaseKnowledge.class);
         startActivity(intent);
     }
-    public void prompt (View v){
+    public void goToPrompt (View v){
         Intent intent = new Intent(this, Prompt.class);
         startActivity(intent);
     }
-    public void goToMain (View v){
-        Intent intent = new Intent(this, MainActivity.class);
+    public void goToListTren (View v){
+        Intent intent = new Intent(this, ListTren.class);
         startActivity(intent);
     }
 
