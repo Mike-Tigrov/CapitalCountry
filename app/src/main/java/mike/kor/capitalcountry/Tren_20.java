@@ -149,7 +149,8 @@ public class Tren_20 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tren_20);
 
-        //11.Подключаем виджет TextView, он задаёт текст из списка на позицию
+        //11.Подключаем виджет TextView, он задаёт текст из списка на позицию, где будет
+        // появляться очередная Столица
         rText = (TextView) findViewById(R.id.roll_text);
         int question = listC[ind_cou].getCountryResId();
         rText.setText(question);
@@ -160,29 +161,15 @@ public class Tren_20 extends AppCompatActivity {
 
 
         //33.Задаём значение виджетам кнопок 1,2,3,4
-        //Создаём временную int переменную для генератора случайных значений
-        //И добавляем условие, чтобы переменные не дублировались
-        int temp_1 = ind_cou;
 
-        //42.Создаём диалоговое окно для вывода результатов прохождения теста. Отказался от
-        // диалога, просто научился переходить на другую активность.
-        /*
-        //Создали новый диалог, он будет возникать в данной активности
-        Dialog dialog = new Dialog(this);
-        //Разметку окна диалога загружаем из act_result.xml
-        dialog.setContentView(R.layout.act_result);
-
-        //Первый текст, количество правильных ответов, ставим в это поле №1
-                /*
-        TextView text = (TextView) dialog.findViewById(R.id.result_1);
-        //Текст первого поля берём из файла strings
-        text.setText(R.string.result_1);
-
-         */
 //Создаём переход на активность с результатом
         Intent intent = new Intent(this, Result.class);
 
+        //Создаём временные переменные temp_1,2,3,4 и для каждой из них генерируем псевдослучайное
+        // число в диапазоне, ограниченном размерами массива Столиц. Так мы выбираем
+        // уникальную столицу для каждой кнопки. Значения кнопок не повторяются.
 
+        int temp_1 = ind_cou;
 
         int temp_2 = random.nextInt(listA.length);
         while (temp_1 == temp_2) {
