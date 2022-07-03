@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="320dp"
-        android:layout_height="155dp"
+        android:layout_width="319dp"
+        android:layout_height="129dp"
         android:layout_marginTop="104dp"
         android:text="@string/Hello_1"
         android:textAlignment="center"
@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.728" />
+        app:layout_constraintVertical_bias="0.7" />
 
     <Button
         android:id="@+id/button_work"
@@ -86,10 +86,9 @@
         android:contentDescription="@string/Logo"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.511"
+        app:layout_constraintVertical_bias="0.06999999"
         app:srcCompat="@drawable/ic_earth" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

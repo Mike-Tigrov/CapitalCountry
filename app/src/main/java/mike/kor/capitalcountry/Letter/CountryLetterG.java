@@ -55,11 +55,12 @@ public class CountryLetterG extends AppCompatActivity {
         ACountryList.add(new ACountry(13, "13. Гернси (коронная земля Великобритании) - Сент-Питер-Порт"));
         ACountryList.add(new ACountry(14, "14. Гибралтар (заморская территория Великобритании) - Гибралтар"));
         ACountryList.add(new ACountry(15, "15. Гондурас - Тегусигальпа"));
-        ACountryList.add(new ACountry(16, "16. Гренада - Сент-Джорджес"));
-        ACountryList.add(new ACountry(17, "17. Гренландия (автономный регион Дании) - Нуук (Готхоб)"));
-        ACountryList.add(new ACountry(18, "18. Греция - Афины"));
-        ACountryList.add(new ACountry(19, "19. Грузия - Тбилиси"));
-        ACountryList.add(new ACountry(20, "20. Гуам (неприсоединённая территория США) - Хагатна"));
+        ACountryList.add(new ACountry(15, "16. Гонконг (специальный административный район Китая) - Гонконг"));
+        ACountryList.add(new ACountry(16, "17. Гренада - Сент-Джорджес"));
+        ACountryList.add(new ACountry(17, "18. Гренландия (автономный регион Дании) - Нуук (Готхоб)"));
+        ACountryList.add(new ACountry(18, "19. Греция - Афины"));
+        ACountryList.add(new ACountry(19, "20. Грузия - Тбилиси"));
+        ACountryList.add(new ACountry(20, "21. Гуам (неприсоединённая территория США) - Хагатна"));
 
 //Вызываем свой собственный метод setCountryRecycler()
         //Передаём в него ACountryList

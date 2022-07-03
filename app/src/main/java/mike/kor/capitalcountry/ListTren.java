@@ -41,7 +41,7 @@ public class ListTren extends AppCompatActivity {
         startActivity(intent);
     }
     public void goResult (View v){
-        Intent intent = new Intent(this, Result.class);
+        Intent intent = new Intent(this, Result_20.class);
         startActivity(intent);
     }
 }

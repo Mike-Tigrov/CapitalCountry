@@ -2,8 +2,8 @@
     <string name="app_name">Гео Зарядка</string>
 
     <!--First start page, start-->
-    <string name="Hello_1">Добро пожаловать в тренажёр!</string>
-    <string name="Hello_2">Здесь можно выучить страны и столицы государств!</string>
+    <string name="Hello_1">Готовы к лёгкой зарядке?</string>
+    <string name="Hello_2">Здесь мы развиваем память и запоминаем столицы государств!</string>
     <!--First start page, end-->
 
     <!--General text, start-->
@@ -52,7 +52,6 @@
     <string name="ButtonStudy">Надо подумать</string>
     <string name="ButtonPrompt">-?-</string>
     <string name="ToMain">Вернуться на главную</string>
-
 
 
     <string name="ButtonTren20">Школьник</string>

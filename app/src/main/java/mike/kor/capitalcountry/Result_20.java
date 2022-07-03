@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Result extends AppCompatActivity {
+public class Result_20 extends AppCompatActivity {
 
     //Это страница результата. Здесь будет основой текст - поздравление с окончанием теста, 4 пункта и 3 кнопки
 

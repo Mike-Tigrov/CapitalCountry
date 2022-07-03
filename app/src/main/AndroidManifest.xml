@@ -14,7 +14,10 @@
         android:theme="@style/Theme.CapitalCountry"
         tools:targetApi="31">
         <activity
-            android:name=".Result"
+            android:name=".Tren_50"
+            android:exported="false" />
+        <activity
+            android:name=".Result_20"
             android:exported="false" />
         <activity
             android:name=".Tren_20"
