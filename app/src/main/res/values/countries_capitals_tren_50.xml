@@ -17,38 +17,37 @@
     <string name="country_50_Indonesia_14">Индонезия</string>    <string name="capital_50_Jakarta_14">Джакарта</string>
     <string name="country_50_Iraq_15">Ирак</string>    <string name="capital_50_Baghdad_15">Багдад</string>
     <string name="country_50_Iran_16">Иран</string>    <string name="capital_50_Tehran_16">Тегеран</string>
-    <string name="country_50_Ireland_31">Ирландия</string>    <string name="capital_50_Dublin_31">Дублин</string>
-    <string name="country_50_Spain_17">Испания</string>    <string name="capital_50_Madrid_17">Мадрид</string>
-    <string name="country_50_Italy_18">Италия</string>    <string name="capital_50_Rome_18">Рим</string>
-    <string name="country_50_Kazakhstan_19">Казахстан</string>    <string name="capital_50_NurSultanAstana_19">Нур-Султан (Астана)</string>
-    <string name="country_50_Canada_20">Канада</string>    <string name="capital_50_Ottawa_20">Оттава</string>
-    <string name="country_50_China_21">Китай</string>    <string name="capital_50_Beijing_21">Пекин</string>
-    <string name="country_50_Colombia_22">Колумбия</string>    <string name="capital_50_Bogota_22">Богота</string>
-    <string name="country_50_KoreaSouth_11">Корея Южная</string>    <string name="capital_50_CSeoul_11">Сеул</string>
-    <string name="country_50_Malaysia_34">Малайзия</string>    <string name="capital_50_KualaLumpur_34">Куала-Лумпур</string>
-    <string name="country_50_Mexico_12">Мексика</string>    <string name="capital_50_MexicoCity_12">Мехико</string>
-    <string name="country_50_Nigeria_35">Нигерия</string>    <string name="capital_50_Abuja_35">Абуджа</string>
-    <string name="country_50_Netherlands_36">Нидерланды</string>    <string name="capital_50_Amsterdam_36">Амстердам</string>
-    <string name="country_50_UnitedArabEmirates_37">Объединённые арабские эмираты (ОАЭ)</string>    <string name="capital_50_AbuDhabi_37">Абу-Даби</string>
-    <string name="country_50_Pakistan_38">Пакистан</string>    <string name="capital_50_Islamabad_38">Исламабад</string>
-    <string name="country_50_Peru_39">Перу</string>    <string name="capital_50_Lima_39">Лима</string>
-    <string name="country_50_Poland_13">Польша</string>    <string name="capital_50_Warsaw_13">Варшава</string>
-    <string name="country_50_Portugal_40">Португалия</string>    <string name="capital_50_Lisbon_40">Лиссабон</string>
-    <string name="country_50_RussianFederation_14">Российская Федерация</string>    <string name="capital_50_Moscow_14">Москва</string>
-    <string name="country_50_Romania_41">Румыния</string>    <string name="capital_50_Bucharest_41">Бухарест</string>
-    <string name="country_50_SaudiArabia_15">Саудовская Аравия</string>    <string name="capital_50_Riyadh_15">Эр-Рияд</string>
-    <string name="country_50_Singapore_42">Сингапур</string>    <string name="capital_50_Singapore_42">Сингапур</string>
-    <string name="country_50_UnitedStatesOfAmerica_16">Соединённые Штаты Америки</string>    <string name="capital_50_Washington_16">Вашингтон</string>
-    <string name="country_50_Thailand_20">Таиланд</string>    <string name="capital_50_Bangkok_20">Бангкок</string>
-    <string name="country_50_Turkey_17">Турция</string>    <string name="capital_50_Ankara_17">Анкаpа</string>
-    <string name="country_50_Ukraine_43">Украина</string>    <string name="capital_50_Kyiv_43">Киев</string>
-    <string name="country_50_Philippines_44">Филиппины</string>    <string name="capital_50_Manila_44">Манила</string>
-    <string name="country_50_France_18">Франция</string>    <string name="capital_50_Paris_18">Париж</string>
-    <string name="country_50_CzechRepublic_45">Чехия</string>    <string name="capital_50_Prague_45">Прага</string>
-    <string name="country_50_Chile_46">Чили</string>    <string name="capital_50_Santiago_46">Сантьяго</string>
-    <string name="country_50_Switzerland_47">Швейцария</string>    <string name="capital_50_Bern_47">Берн</string>
-    <string name="country_50_Sweden_48">Швеция</string>    <string name="capital_50_Stockholm_48">Стокгольм</string>
-    <string name="country_50_RepublicOfSouthAfricaSAR_49">Южно-Африканская Республика (ЮАР)</string>    <string name="capital_50_Pretoria_49">Претория</string>
-    <string name="country_50_Japan_0">Япония</string>    <string name="capital_50_Tokyo_0">Токио</string>
-
+    <string name="country_50_Ireland_17">Ирландия</string>    <string name="capital_50_Dublin_17">Дублин</string>
+    <string name="country_50_Spain_18">Испания</string>    <string name="capital_50_Madrid_18">Мадрид</string>
+    <string name="country_50_Italy_19">Италия</string>    <string name="capital_50_Rome_19">Рим</string>
+    <string name="country_50_Kazakhstan_20">Казахстан</string>    <string name="capital_50_NurSultanAstana_20">Нур-Султан (Астана)</string>
+    <string name="country_50_Canada_21">Канада</string>    <string name="capital_50_Ottawa_21">Оттава</string>
+    <string name="country_50_China_22">Китай</string>    <string name="capital_50_Beijing_22">Пекин</string>
+    <string name="country_50_Colombia_23">Колумбия</string>    <string name="capital_50_Bogota_23">Богота</string>
+    <string name="country_50_KoreaSouth_24">Корея Южная</string>    <string name="capital_50_CSeoul_24">Сеул</string>
+    <string name="country_50_Malaysia_25">Малайзия</string>    <string name="capital_50_KualaLumpur_25">Куала-Лумпур</string>
+    <string name="country_50_Mexico_26">Мексика</string>    <string name="capital_50_MexicoCity_26">Мехико</string>
+    <string name="country_50_Nigeria_27">Нигерия</string>    <string name="capital_50_Abuja_27">Абуджа</string>
+    <string name="country_50_Netherlands_28">Нидерланды</string>    <string name="capital_50_Amsterdam_28">Амстердам</string>
+    <string name="country_50_UnitedArabEmirates_29">Объединённые арабские эмираты (ОАЭ)</string>    <string name="capital_50_AbuDhabi_29">Абу-Даби</string>
+    <string name="country_50_Pakistan_30">Пакистан</string>    <string name="capital_50_Islamabad_30">Исламабад</string>
+    <string name="country_50_Peru_31">Перу</string>    <string name="capital_50_Lima_31">Лима</string>
+    <string name="country_50_Poland_32">Польша</string>    <string name="capital_50_Warsaw_32">Варшава</string>
+    <string name="country_50_Portugal_33">Португалия</string>    <string name="capital_50_Lisbon_33">Лиссабон</string>
+    <string name="country_50_RussianFederation_34">Российская Федерация</string>    <string name="capital_50_Moscow_34">Москва</string>
+    <string name="country_50_Romania_35">Румыния</string>    <string name="capital_50_Bucharest_35">Бухарест</string>
+    <string name="country_50_SaudiArabia_36">Саудовская Аравия</string>    <string name="capital_50_Riyadh_36">Эр-Рияд</string>
+    <string name="country_50_Singapore_37">Сингапур</string>    <string name="capital_50_Singapore_37">Сингапур</string>
+    <string name="country_50_UnitedStatesOfAmerica_38">Соединённые Штаты Америки</string>    <string name="capital_50_Washington_38">Вашингтон</string>
+    <string name="country_50_Thailand_39">Таиланд</string>    <string name="capital_50_Bangkok_39">Бангкок</string>
+    <string name="country_50_Turkey_40">Турция</string>    <string name="capital_50_Ankara_40">Анкаpа</string>
+    <string name="country_50_Ukraine_41">Украина</string>    <string name="capital_50_Kyiv_41">Киев</string>
+    <string name="country_50_Philippines_42">Филиппины</string>    <string name="capital_50_Manila_42">Манила</string>
+    <string name="country_50_France_43">Франция</string>    <string name="capital_50_Paris_43">Париж</string>
+    <string name="country_50_CzechRepublic_44">Чехия</string>    <string name="capital_50_Prague_44">Прага</string>
+    <string name="country_50_Chile_45">Чили</string>    <string name="capital_50_Santiago_45">Сантьяго</string>
+    <string name="country_50_Switzerland_46">Швейцария</string>    <string name="capital_50_Bern_46">Берн</string>
+    <string name="country_50_Sweden_47">Швеция</string>    <string name="capital_50_Stockholm_47">Стокгольм</string>
+    <string name="country_50_RepublicOfSouthAfricaSAR_48">Южно-Африканская Республика (ЮАР)</string>    <string name="capital_50_Pretoria_48">Претория</string>
+    <string name="country_50_Japan_49">Япония</string>    <string name="capital_50_Tokyo_49">Токио</string>
 </resources>
