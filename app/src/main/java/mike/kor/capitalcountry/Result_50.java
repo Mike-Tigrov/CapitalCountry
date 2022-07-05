@@ -32,7 +32,7 @@ public class Result_50 extends AppCompatActivity {
 //Превращаем строку в цифру и вычитаем из количества общих вопросов количество правильных
 // ответов, затем результат выводим на экран, как количество ошибок
         int corNum = Integer.parseInt(extras.getString(num_correct_result));
-        int incorrectNum = 20 - corNum;
+        int incorrectNum = 50 - corNum;
         result_4 = (TextView) findViewById(R.id.result_4);
         String s = Integer.toString(incorrectNum);
         result_4.setText(s);
@@ -46,8 +46,8 @@ public class Result_50 extends AppCompatActivity {
         Intent intent = new Intent(this, ListTren.class);
         startActivity(intent);
     }
-    public void goToTren20(View v){
-        Intent intent = new Intent(this, Tren_20.class);
+    public void goToTren50(View v){
+        Intent intent = new Intent(this, Tren_50.class);
         startActivity(intent);
     }
 }

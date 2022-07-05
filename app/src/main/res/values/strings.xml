@@ -56,18 +56,23 @@
 
     <string name="ButtonTren20">Школьник</string>
     <string name="ButtonTren20_text">(20 самых крупных стран, по объёму ВВП)</string>
+    <string name="ButtonTren20_text_1">Выберите правильную столицу для 20 самых крупных стран</string>
 
     <string name="ButtonTren50">Студент</string>
     <string name="ButtonTren50_text">(50 самых крупных стран, по объёму ВВП)</string>
+    <string name="ButtonTren50_text_1">Выберите правильную столицу для 50 самых крупных стран</string>
 
     <string name="ButtonTren100">Учитель географии</string>
     <string name="ButtonTren100_text">(100 самых крупных стран, по объёму ВВП)</string>
+    <string name="ButtonTren100_text_1">Выберите правильную столицу для 100 самых крупных стран</string>
 
     <string name="ButtonTrenOON">Посол при ООН</string>
     <string name="ButtonTrenOON_text">(все страны входящие в ООН, 190+ стран)</string>
+    <string name="ButtonTrenOON_text_1">Выберите правильную столицу для стран, входящих в стостав ООН</string>
 
     <string name="ButtonTrenAll">Вассерман</string>
-    <string name="ButtonTrenAll_text">(все страны и государственные образования нашей планеты)</string>
+    <string name="ButtonTrenAll_text">(все страны и государственные образования из нашей базы)</string>
+    <string name="ButtonTrenAll_text_1">Выберите правильную столицу для всех стран и государственных образований из нашей базы</string>
 
     <string name="Check">На проверку!</string>
     <string name="GoGoGo">Поехали!</string>
