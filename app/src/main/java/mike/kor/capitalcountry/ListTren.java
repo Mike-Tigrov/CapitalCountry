@@ -40,8 +40,8 @@ public class ListTren extends AppCompatActivity {
         Intent intent = new Intent(this, Tren_20.class);
         startActivity(intent);
     }
-    public void goResult (View v){
-        Intent intent = new Intent(this, Result_20.class);
+    public void goToTren100 (View v){
+        Intent intent = new Intent(this, Tren_100.class);
         startActivity(intent);
     }
 }
