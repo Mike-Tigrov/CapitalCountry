@@ -170,7 +170,7 @@
         android:gravity="center_horizontal|top"
         android:insetTop="0dp"
         android:insetBottom="0dp"
-        android:onClick="goToTren20"
+        android:onClick="goToTrenAll"
         android:text="@string/ButtonTrenAll"
         android:textColor="@color/white"
         android:textSize="20sp"

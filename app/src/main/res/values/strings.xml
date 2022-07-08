@@ -68,10 +68,10 @@
 
     <string name="ButtonTrenOON">Посол при ООН</string>
     <string name="ButtonTrenOON_text">(страны входящие в ООН, 190+ стран)</string>
-    <string name="ButtonTrenOON_text_1">Выберите правильную столицу для стран, входящих в стостав ООН (с правом голоса)</string>
+    <string name="ButtonTrenOON_text_1">Выберите правильную столицу для стран (с правом голоса), входящих в стостав ООН</string>
 
     <string name="ButtonTrenAll">СуперГеограф</string>
-    <string name="ButtonTrenAll_text">(все страны и государственные образования из нашей базы, 240+)</string>
+    <string name="ButtonTrenAll_text">(все страны и государственные образования, 240+)</string>
     <string name="ButtonTrenAll_text_1">Выберите правильную столицу для всех стран и государственных образований из нашей базы</string>
 
     <string name="Check">На проверку!</string>
@@ -92,7 +92,7 @@
     <string name="Prompt_text_3">В данном тренажёре мы собрали страны и государственные образования, существующие в наши исторические дни.</string>
     <string name="Prompt_text_4">Следует отметить, что мир вокруг нас не является статичной картинкой. Каждый день принимаются решения, меняющие историю. И каждый из нас своим поведением принимает в этом процессе участие.</string>
     <string name="Prompt_text_5">P.S.</string>
-    <string name="Prompt_text_6">База собрана в мае 2022, если Вы заметили несоответствие, пишите, исправим.></string>
+    <string name="Prompt_text_6">База собрана в мае 2022, если Вы заметили несоответствие, пишите, исправим.</string>
 
     <!--Page Promtp, end-->
 

@@ -15,10 +15,7 @@ public class ListTren extends AppCompatActivity {
         setContentView(R.layout.list_tren);
     }
 
-    public void goToBaseKnowledge(View v){
-        Intent intent = new Intent(this, BaseKnowledge.class);
-        startActivity(intent);
-    }
+
 
 
     public void goToPrompt (View v){
@@ -26,18 +23,12 @@ public class ListTren extends AppCompatActivity {
         startActivity(intent);
     }
 
-
-
-    public void goToMain (View v){
-        Intent intent = new Intent(this, MainActivity.class);
+    public void goToTren20 (View v){
+        Intent intent = new Intent(this, Tren_20.class);
         startActivity(intent);
     }
     public void goToTren50 (View v){
         Intent intent = new Intent(this, Tren_50.class);
-        startActivity(intent);
-    }
-    public void goToTren20 (View v){
-        Intent intent = new Intent(this, Tren_20.class);
         startActivity(intent);
     }
     public void goToTren100 (View v){
@@ -46,6 +37,18 @@ public class ListTren extends AppCompatActivity {
     }
     public void goToTrenOON (View v){
         Intent intent = new Intent(this, Tren_OON.class);
+        startActivity(intent);
+    }
+    public void goToTrenAll (View v){
+        Intent intent = new Intent(this, Tren_All.class);
+        startActivity(intent);
+    }
+    public void goToMain (View v){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+    public void goToBaseKnowledge(View v){
+        Intent intent = new Intent(this, BaseKnowledge.class);
         startActivity(intent);
     }
 }

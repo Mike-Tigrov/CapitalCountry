@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Result_OON extends AppCompatActivity {
+public class Result_All extends AppCompatActivity {
 
 //Это страница результата. Здесь будет: основой текст - поздравление с окончанием теста,
 // 4 пункта и 3 кнопки
@@ -32,7 +32,7 @@ public class Result_OON extends AppCompatActivity {
 //Превращаем строку в цифру и вычитаем из количества общих вопросов количество правильных
 // ответов, затем результат выводим на экран, как количество ошибок
         int corNum = Integer.parseInt(extras.getString(num_correct_result));
-        int incorrectNum = 193 - corNum;
+        int incorrectNum = 243 - corNum;
         result_4 = (TextView) findViewById(R.id.result_4);
         String s = Integer.toString(incorrectNum);
         result_4.setText(s);
@@ -46,8 +46,8 @@ public class Result_OON extends AppCompatActivity {
         Intent intent = new Intent(this, ListTren.class);
         startActivity(intent);
     }
-    public void goToTrenOON(View v){
-        Intent intent = new Intent(this, Tren_OON.class);
+    public void goToTrenAll(View v){
+        Intent intent = new Intent(this, Tren_All.class);
         startActivity(intent);
     }
 }

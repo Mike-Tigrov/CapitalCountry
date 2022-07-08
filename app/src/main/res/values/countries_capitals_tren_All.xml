@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="country_All_Abkhazia_0">Абхазия (частично признана)</string>    <string name="capital_All_Sukhumi_0">Сухуми</string>
+    <string name="country_All_Australia_1">Австралия</string>    <string name="capital_All_Canberra_1">Канберра</string>
+    <string name="country_All_Austria_2">Австрия</string>    <string name="capital_All_Vein_2">Вена</string>
+    <string name="country_All_Azerbaijan_3">Азербайджан</string>    <string name="capital_All_Baku_3">Баку</string>
+    <string name="country_All_Azores_4">Азорские острова (автономный регион Португалии)</string>    <string name="capital_All_PontaDelgada_4">Понта-Делгада</string>
+    <string name="country_All_AlandIslands_5">Аландские острова (автономная территория Финляндии)</string>    <string name="capital_All_Mariehamn_5">Мариехамн</string>
+    <string name="country_All_Albania_6">Албания</string>    <string name="capital_All_Tirana_6">Тирана</string>
+    <string name="country_All_Algeria_7">Алжир</string>    <string name="capital_All_Algeria_7">Алжир</string>
+    <string name="country_All_Anguilla_8">Ангилья (заморская территория Великобритании)</string>    <string name="capital_All_Valley_8">Валли</string>
+    <string name="country_All_Angola_9">Ангола</string>    <string name="capital_All_Luanda_9">Луанда</string>
+    <string name="country_All_Andorra_10">Андорра</string>    <string name="capital_All_AndorralaVella_10">Андорра-ла-Велья</string>
+    <string name="country_All_AntiguaAndBarbuda_11">Антигуа и Барбуда</string>    <string name="capital_All_StJohns_11">Сент-Джонс</string>
+    <string name="country_All_Argentina_12">Аргентина</string>    <string name="capital_All_BuenosAires_12">Буэнос-Айрес</string>
+    <string name="country_All_Armenia_13">Армения</string>    <string name="capital_All_Yerevan_13">Ереван</string>
+    <string name="country_All_Aruba_14">Аруба (автономия в составе Нидерландов)</string>    <string name="capital_All_Oranjestad_14">Ораньестад</string>
+    <string name="country_All_Afghanistan_15">Афганистан</string>    <string name="capital_All_Kabul_15">Кабул</string>
+    <string name="country_All_Bahamas_16">Багамские острова</string>    <string name="capital_All_Nassau_16">Нассау</string>
+    <string name="country_All_Bangladesh_17">Бангладеш</string>    <string name="capital_All_Dhaka_17">Дакка</string>
+    <string name="country_All_Barbados_18">Барбадос</string>    <string name="capital_All_Bridgetown_18">Бриджтаун</string>
+    <string name="country_All_Bahrain_19">Бахрейн</string>    <string name="capital_All_Manama_19">Манама</string>
+    <string name="country_All_Belize_20">Белиз</string>    <string name="capital_All_Belmopan_20">Бельмопан</string>
+    <string name="country_All_Belarus_21">Белоруссия</string>    <string name="capital_All_Minsk_21">Минск</string>
+    <string name="country_All_Belgium_22">Бельгия</string>    <string name="capital_All_Brussels_22">Брюссель</string>
+    <string name="country_All_Benin_23">Бенин</string>    <string name="capital_All_PortoNovo_23">Порто-Ново</string>
+    <string name="country_All_Bermuda_24">Бермудские острова (заморская территория Великобритании)</string>    <string name="capital_All_Hamilton_24">Гамильтон</string>
+    <string name="country_All_Bulgaria_25">Болгария</string>    <string name="capital_All_Sofia_25">София</string>
+    <string name="country_All_Bolivia_26">Боливия</string>    <string name="capital_All_LaPaz_26">Ла-Пас</string>
+    <string name="country_All_BonaireStEustatiusAndSaba_27">Бонайре,  Синт-Эстатиус и  Саба (особая община Нидерландов)</string>    <string name="capital_All_Kralendijk_27">Кралендейк</string>
+    <string name="country_All_BosniaAndHerzegovina_28">Босния и Герцеговина</string>    <string name="capital_All_Sarajevo_28">Сараево</string>
+    <string name="country_All_Botswana_29">Ботсвана</string>    <string name="capital_All_Gaborone_29">Габороне</string>
+    <string name="country_All_Brazil_30">Бразилия</string>    <string name="capital_All_Brasilia_30">Бразилиа</string>
+    <string name="country_All_Brunei_31">Бруней</string>    <string name="capital_All_BandarSeriBegawan_31">Бандар-Сери-Бегаван</string>
+    <string name="country_All_BurkinaFaso_32">Буркина-Фасо</string>    <string name="capital_All_Ouagadougou_32">Уагадугу</string>
+    <string name="country_All_Burundi_33">Бурунди</string>    <string name="capital_All_Bujumbura_33">Бужумбура</string>
+    <string name="country_All_Butane_34">Бутан</string>    <string name="capital_All_Thimphu_34">Тхимпху</string>
+    <string name="country_All_Vanuatu_35">Вануату</string>    <string name="capital_All_Vila_35">Вила</string>
+    <string name="country_All_Vatican_36">Ватикан</string>    <string name="capital_All_Vatican_36">Ватикан</string>
+    <string name="country_All_GreatBritain_37">Великобритания</string>    <string name="capital_All_London_37">Лондон</string>
+    <string name="country_All_Hungary_38">Венгрия</string>    <string name="capital_All_Budapest_38">Будапешт</string>
+    <string name="country_All_Venezuela_39">Венесуэла</string>    <string name="capital_All_Caracas_39">Каракас</string>
+    <string name="country_All_VirginIslandsNortheastBritishDependency_40">Виргинские острова (северо-восток, зависимая территория Британии)</string>    <string name="capital_All_RoadTown_40">Род-Таун</string>
+  	<string name="country_All_VirginIslandsSouthwestUSA_41">Виргинские острова (юго-запад, неинкорпорированная организованная территория США)</string>    <string name="capital_All_CharlotteAmalie_41">Шарлотта-Амалия</string>
+    <string name="country_All_EastTimor_42">Восточный Тимор</string>    <string name="capital_All_Dili_42">Дили</string>
+    <string name="country_All_Vietnam_43">Вьетнам</string>    <string name="capital_All_Hanoi_43">Ханой</string>
+    <string name="country_All_Gabon_44">Габон</string>    <string name="capital_All_Libreville_44">Либревиль</string>
+    <string name="country_All_Guyana_45">Гайана</string>    <string name="capital_All_PortAuPrince_45">Порт-о-Пренс</string>
+    <string name="country_All_Haiti_46">Гаити</string>    <string name="capital_All_Georgetown_46">Джорджтаун</string>
+    <string name="country_All_Gambia_47">Гамбия</string>    <string name="capital_All_Banjul_47">Банжул</string>
+    <string name="country_All_Ghana_48">Гана</string>    <string name="capital_All_Accra_48">Аккра</string>
+    <string name="country_All_Guadeloupe_49">Гваделупа (заморский департамент Франции)</string>    <string name="capital_All_BasTer_49">Бас-Тер</string>
+    <string name="country_All_Guatemala_50">Гватемала</string>    <string name="capital_All_Guatemala_50">Гватемала</string>
+    <string name="country_All_Guiana_51">Гвиана (заморский регион Франции)</string>    <string name="capital_All_Cayenne_51">Кайенна</string>
+    <string name="country_All_Guinea_52">Гвинея</string>    <string name="capital_All_Conakry_52">Конакри</string>
+    <string name="country_All_GuineaBissau_53">Гвинея-Бисау</string>    <string name="capital_All_Bissau_53">Бисау</string>
+    <string name="country_All_Germany_54">Германия</string>    <string name="capital_All_Berlin_54">Берлин</string>
+    <string name="country_All_Guernsey_55">Гернси (коронная земля Великобритании)</string>    <string name="capital_All_SaintPeterPort_55">Сент-Питер-Порт</string>
+    <string name="country_All_Gibraltar_56">Гибралтар (заморская территория Великобритании)</string>    <string name="capital_All_Gibraltar_56">Гибралтар</string>
+    <string name="country_All_Honduras_57">Гондурас</string>    <string name="capital_All_Tegucigalpa_57">Тегусигальпа</string>
+    <string name="country_All_HongKong_58">Гонконг (специальный административный район Китая)</string>    <string name="capital_All_HongKong_58">Гонконг</string>
+    <string name="country_All_Grenada_59">Гренада</string>    <string name="capital_All_StGeorges_59">Сент-Джорджес</string>
+    <string name="country_All_Greenland_60">Гренландия (автономный регион Дании)</string>    <string name="capital_All_NuukGothob_60">Нуук (Го́тхоб)</string>
+    <string name="country_All_Greece_61">Греция</string>    <string name="capital_All_Athens_61">Афины</string>
+    <string name="country_All_Georgia_62">Грузия</string>    <string name="capital_All_Tbilisi_62">Тбилиси</string>
+    <string name="country_All_Guam_63">Гуам (неприсоединённая территория США)</string>    <string name="capital_All_Hagatna_63">Хагатна</string>
+    <string name="country_All_EquatorialGuinea_64">Экваториальная Гвинея</string>    <string name="capital_All_Malabo_64">Малабо</string>
+    <string name="country_All_Denmark_65">Дания</string>    <string name="capital_All_Copenhagen_65">Копенгаген</string>
+    <string name="country_All_Jersey_66">Джерси (Коронная земля Великобритании)</string>    <string name="capital_All_SaintHelier_66">Сент-Хельер</string>
+    <string name="country_All_Djibouti_67">Джибути</string>    <string name="capital_All_Djibouti_67">Джибути</string>
+    <string name="country_All_Dominica_68">Доминика</string>    <string name="capital_All_Roseau_68">Розо</string>
+    <string name="country_All_DominicanRepublic_69">Доминиканская Республика</string>    <string name="capital_All_SantoDomingo_69">Санто-Доминго</string>
+    <string name="country_All_Egypt_70">Египет</string>    <string name="capital_All_Cairo_70">Каир</string>
+    <string name="country_All_Zambia_71">Замбия</string>    <string name="capital_All_Lusaka_71">Лусака</string>
+    <string name="country_All_Zimbabwe_72">Зимбабве</string>    <string name="capital_All_Harare_72">Хараре</string>
+    <string name="country_All_WesternSahara_73">Западная Сахара (частично признана)</string>    <string name="capital_All_ElAaiunClaimedTifaritiActual_73">Эль-Аюн (заявленная) / Тифарити (фактическая)</string>
+    <string name="country_All_Israel_74">Израиль</string>    <string name="capital_All_Jerusalem_74">Иерусалим</string>
+    <string name="country_All_India_75">Индия</string>    <string name="capital_All_NewDelhi_75">Нью-Дели</string>
+    <string name="country_All_Indonesia_76">Индонезия</string>    <string name="capital_All_Jakarta_76">Джакарта</string>
+    <string name="country_All_Jordan_77">Иордания</string>    <string name="capital_All_Amman_77">Амман</string>
+    <string name="country_All_Iraq_78">Ирак</string>    <string name="capital_All_Baghdad_78">Багдад</string>
+    <string name="country_All_Iran_79">Иран</string>    <string name="capital_All_Tehran_79">Тегеран</string>
+    <string name="country_All_Ireland_80">Ирландия</string>    <string name="capital_All_Dublin_80">Дублин</string>
+    <string name="country_All_Iceland_81">Исландия</string>    <string name="capital_All_Reykjavik_81">Рейкьявик</string>
+    <string name="country_All_Spain_82">Испания</string>    <string name="capital_All_Madrid_82">Мадрид</string>
+    <string name="country_All_Italy_83">Италия</string>    <string name="capital_All_Rome_83">Рим</string>
+    <string name="country_All_Yemen_84">Йемен</string>    <string name="capital_All_Sana_84">Сана</string>
+    <string name="country_All_CapeVerde_85">Кабо-Верде</string>    <string name="capital_All_Praia_85">Прая</string>
+    <string name="country_All_Kazakhstan_86">Казахстан</string>    <string name="capital_All_NurSultanAstana_86">Нур-Султан (Астана)</string>
+    <string name="country_All_Cambodia_87">Камбоджа</string>    <string name="capital_All_PhnomPenh_87">Пномпень</string>
+    <string name="country_All_Cameroon_88">Камерун</string>    <string name="capital_All_Yaounde_88">Яунде</string>
+    <string name="country_All_Canada_89">Канада</string>    <string name="capital_All_Ottawa_89">Оттава</string>
+    <string name="country_All_CanaryIslands_90">Канарские острова (автономия Испании)</string>    <string name="capital_All_SantaCruzDeTenerifeOrLasPalmasDeGranCanaria_90">Санта-Крус-де-Тенерифе или Лас-Пальмас-де-Гран-Канария</string>
+    <string name="country_All_Qatar_91">Катар</string>    <string name="capital_All_Doha_91">Доха</string>
+    <string name="country_All_Kenya_92">Кения</string>    <string name="capital_All_Nairobi_92">Найроби</string>
+    <string name="country_All_Cyprus_93">Кипр</string>    <string name="capital_All_Nicosia_93">Никосия</string>
+    <string name="country_All_NorthernCyprus_94">Северный Кипр (частично признан)</string>    <string name="capital_All_Lefkosia_94">Лефкосия</string>
+    <string name="country_All_Kyrgyzstan_95">Киргизия</string>    <string name="capital_All_Bishkek_95">Бишкек</string>
+    <string name="country_All_Kiribati_96">Кирибати</string>    <string name="capital_All_Tarawa_96">Тарава</string>
+    <string name="country_All_China_97">Китай</string>    <string name="capital_All_Beijing_97">Пекин</string>
+    <string name="country_All_Colombia_98">Колумбия</string>    <string name="capital_All_Bogota_98">Богота</string>
+    <string name="country_All_Comoros_99">Коморские острова</string>    <string name="capital_All_Moroni_99">Морони</string>
+    <string name="country_All_Congo_100">Конго</string>    <string name="capital_All_Brazzaville_100">Браззавиль</string>
+    <string name="country_All_DemocraticRepublicOfTheCongoFormerZaire_101">Демократическая Република Конго (бывший Заир)</string>    <string name="capital_All_Kinshasa_101">Киншаса</string>
+    <string name="country_All_KoreaNorth_102">Северная Корея</string>    <string name="capital_All_Pyongyang_102">Пхеньян</string>
+    <string name="country_All_KoreaSouth_103">Южная Корея</string>    <string name="capital_All_Seoul_103">Сеул</string>
+    <string name="country_All_KosovoRepublicOfKosovo_104">Косово Республика Косово (частично признана)</string>    <string name="capital_All_Pristina_104">Приштина</string>
+    <string name="country_All_CostaRica_105">Коста-Рика</string>    <string name="capital_All_SanJose_105">Сан-Хосе</string>
+    <string name="country_All_IvoryCoast_106">Кот-д\'Ивуар</string>    <string name="capital_All_Yamoussoukro_106">Ямусукро</string>
+    <string name="country_All_Cuba_107">Куба</string>    <string name="capital_All_Havana_107">Гавана</string>
+    <string name="country_All_Kuwait_108">Кувейт</string>    <string name="capital_All_ElKuwait_108">Эль-Кувейт</string>
+    <string name="country_All_Curacao_109">Кюрасао (часть Королевства Нидерландов)</string>    <string name="capital_All_Willemstad_109">Виллемстад</string>
+    <string name="country_All_Laos_110">Лаос</string>    <string name="capital_All_Vientiane_110">Вьентьян</string>
+    <string name="country_All_Latvia_111">Латвия</string>    <string name="capital_All_Riga_111">Рига</string>
+    <string name="country_All_Lesotho_112">Лесото</string>    <string name="capital_All_Maseru_112">Масеру</string>
+    <string name="country_All_Liberia_113">Либерия</string>    <string name="capital_All_Monrovia_113">Монровия</string>
+    <string name="country_All_Lebanon_114">Ливан</string>    <string name="capital_All_Beirut_114">Бейрут</string>
+    <string name="country_All_Libya_115">Ливия</string>    <string name="capital_All_Tripoli_115">Триполи</string>
+    <string name="country_All_Lithuania_116">Литва</string>    <string name="capital_All_Vilnius_116">Вильнюс</string>
+    <string name="country_All_Liechtenstein_117">Лихтенштейн</string>    <string name="capital_All_Vaduz_117">Вадуц</string>
+    <string name="country_All_Luxembourg_118">Люксембург</string>    <string name="capital_All_Luxembourg_118">Люксембург</string>
+    <string name="country_All_Mauritius_119">Маврикий</string>    <string name="capital_All_PortLouis_119">Порт-Луи</string>
+    <string name="country_All_Mauritania_120">Мавритания</string>    <string name="capital_All_Nouakchott_120">Нуакшот</string>
+    <string name="country_All_Madagascar_121">Мадагаскар</string>    <string name="capital_All_Antananarivo_121">Антананариву</string>
+    <string name="country_All_Madeira_122">Мадейра (автономный регион Португалии)</string>    <string name="capital_All_Funchal_122">Фуншал</string>
+    <string name="country_All_Mayotte_123">Майотта (заморский регион Франции, но признан ООН, как часть Коморских островов)</string>    <string name="capital_All_Mamuzu_123">Мамудзу</string>
+    <string name="country_All_NorthMacedonia_124">Северная Македония</string>    <string name="capital_All_Skopje_124">Скопье</string>
+    <string name="country_All_Malawi_125">Малави</string>    <string name="capital_All_Lilongwe_125">Лилонгве</string>
+    <string name="country_All_Malaysia_126">Малайзия</string>    <string name="capital_All_KualaLumpur_126">Куала-Лумпур</string>
+    <string name="country_All_Mali_127">Мали</string>    <string name="capital_All_Bamako_127">Бамако</string>
+    <string name="country_All_Maldives_128">Мальдивы</string>    <string name="capital_All_Male_128">Мале</string>
+    <string name="country_All_Malta_129">Мальта</string>    <string name="capital_All_Valletta_129">Валетта</string>
+    <string name="country_All_Morocco_130">Марокко</string>    <string name="capital_All_Rabat_130">Рабат</string>
+    <string name="country_All_Martinique_131">Мартиника (заморский департамент Франции)</string>    <string name="capital_All_FortDeFrance_131">Фор-де-Франс</string>
+    <string name="country_All_MarshallIslands_132">Маршалловы острова</string>    <string name="capital_All_Majuro_132">Маджуро</string>
+    <string name="country_All_Mexico_133">Мексика</string>    <string name="capital_All_MexicoCity_133">Мехико</string>
+    <string name="country_All_Mozambique_134">Мозамбик</string>    <string name="capital_All_Maputo_134">Мапуту</string>
+    <string name="country_All_Moldova_135">Молдавия</string>    <string name="capital_All_Kishinev_135">Кишинев</string>
+    <string name="country_All_Monaco_136">Монако</string>    <string name="capital_All_Monaco_136">Монако</string>
+    <string name="country_All_Mongolia_137">Монголия</string>    <string name="capital_All_Ulaanbaatar_137">Улан-Батор</string>
+    <string name="country_All_Montserrat_138">Монтсеррат (заморская территория Великобритании)</string>    <string name="capital_All_PlymouthAndBradesA_138">Плимут (заброшен) и Брейдс (фактическая столица)</string>
+    <string name="country_All_Myanmar_139">Мьянма</string>    <string name="capital_All_Naypyidaw_139">Нейпьидо</string>
+    <string name="country_All_Namibia_140">Намибия</string>    <string name="capital_All_Windhoek_140">Виндхук</string>
+    <string name="country_All_Nauru_141">Науру</string>    <string name="capital_All_Yaren_141">Ярен</string>
+    <string name="country_All_Nepal_142">Непал</string>    <string name="capital_All_Kathmandu_142">Катманду</string>
+    <string name="country_All_Niger_143">Нигер</string>    <string name="capital_All_Niamey_143">Ниамей</string>
+    <string name="country_All_Nigeria_144">Нигерия</string>    <string name="capital_All_Abuja_144">Абуджа</string>
+    <string name="country_All_Netherlands_145">Нидерланды</string>    <string name="capital_All_Amsterdam_145">Амстердам</string>
+    <string name="country_All_Nicaragua_146">Никарагуа</string>    <string name="capital_All_Managua_146">Манагуа</string>
+    <string name="country_All_Niue_147">Ниуэ (в составе Королевства Новая Зеландия)</string>    <string name="capital_All_Alofi_147">Алофи</string>
+    <string name="country_All_NewZealand_148">Новая Зеландия</string>    <string name="capital_All_Wellington_148">Веллингтон</string>
+    <string name="country_All_NewCaledonia_149">Новая Каледония (заморская территория Франции)</string>    <string name="capital_All_Noumea_149">Нумеа</string>
+    <string name="country_All_Norway_150">Норвегия</string>    <string name="capital_All_Oslo_150">Осло</string>
+    <string name="country_All_UnitedArabEmirates_151">Объединённые арабские эмираты (ОАЭ)</string>    <string name="capital_All_AbuDhabi_151">Абу-Даби</string>
+    <string name="country_All_Oman_152">Оман</string>    <string name="capital_All_Muscat_152">Маскат</string>
+    <string name="country_All_CaymanIslands_153">Острова Кайман (заморская территория Великобритании)</string>    <string name="capital_All_Georgetown_153">Джорджтаун</string>
+    <string name="country_All_CookIslands_154">Острова Кука (ассоциированы с Новой Зеландией)</string>    <string name="capital_All_Avarua_154">Аваруа</string>
+    <string name="country_All_PitcairnIslands_155">Острова Питкэрн (заморская территория Великобритании)</string>    <string name="capital_All_Adamstown_155">Адамстаун</string>
+    <string name="country_All_Pakistan_156">Пакистан</string>    <string name="capital_All_Islamabad_156">Исламабад</string>
+    <string name="country_All_Palau_157">Палау</string>    <string name="capital_All_Koror_157">Корор</string>
+    <string name="country_All_Palestine_158">Палестина</string>    <string name="capital_All_Ramallah_158">Рамалла</string>
+    <string name="country_All_Panama_159">Панама</string>    <string name="capital_All_Panama_159">Панама</string>
+    <string name="country_All_PapuaNewGuinea_160">Папуа - Новая Гвинея</string>    <string name="capital_All_PortMoresby_160">Порт-Морсби</string>
+    <string name="country_All_Paraguay_161">Парагвай</string>    <string name="capital_All_Asuncion_161">Асунсьон</string>
+    <string name="country_All_Peru_162">Перу</string>    <string name="capital_All_Lima_162">Лима</string>
+    <string name="country_All_Poland_163">Польша</string>    <string name="capital_All_Warsaw_163">Варшава</string>
+    <string name="country_All_Portugal_164">Португалия</string>    <string name="capital_All_Lisbon_164">Лиссабон</string>
+    <string name="country_All_Transnistria_165">Приднестровье (частично признана)</string>    <string name="capital_All_Tiraspol_165">Тирасполь</string>
+    <string name="country_All_PuertoRico_166">Пуэрто-Рико (зависимая от США территория)</string>    <string name="capital_All_SanJuan_166">Сан-Хуан</string>
+    <string name="country_All_Reunion_167">Реюньон (заморская территория Франции)></string>    <string name="capital_All_SaintDenis_167">Сен-Дени</string>
+    <string name="country_All_RussianFederation_168">Российская Федерация</string>    <string name="capital_All_Moscow_168">Москва</string>
+    <string name="country_All_Rwanda_169">Руанда</string>    <string name="capital_All_Kigali_169">Кигали</string>
+    <string name="country_All_Romania_170">Румыния</string>    <string name="capital_All_Bucharest_170">Бухарест</string>
+    <string name="country_All_Salvador_171">Сальвадор</string>    <string name="capital_All_SanSalvador_171">Сан-Сальвадор</string>
+    <string name="country_All_EasternSamoa_172">Восточное Самоа (невключённая неорганизованная территория США)</string>    <string name="capital_All_PagoPago_172">Паго-Паго</string>
+    <string name="country_All_WesternSamoa_173">Западное Самоа</string>    <string name="capital_All_Apia_173">Апиа</string>
+    <string name="country_All_SanMarino_174">Сан-Марино</string>    <string name="capital_All_SanMarino_174">Сан-Марино</string>
+    <string name="country_All_SaoTomeAndPrincipe_175">Сан-Томе и Принсипи</string>    <string name="capital_All_SaoTome_175">Сан-Томе</string>
+    <string name="country_All_SaudiArabia_176">Саудовская Аравия</string>    <string name="capital_All_Riyadh_176">Эр-Рияд</string>
+    <string name="country_All_NorthernMarianaIslands_177">Северные Марианские Острова (территория под управлением США)</string>    <string name="capital_All_Saipan_177">Сайпан</string>
+    <string name="country_All_Seychelles_178">Сейшельские острова</string>    <string name="capital_All_Victoria_178">Виктория</string>
+    <string name="country_All_Senegal_179">Сенегал</string>    <string name="capital_All_Dakar_179">Дакар</string>
+    <string name="country_All_SaintPierreMiquelon_180">Сен-Пьер и Микелон (зависимая территория Франции)</string>    <string name="capital_All_SaintPierre_180">Сен-Пьер</string>
+    <string name="country_All_SaintVincentАndTheGrenadines_181">Сент-Винсент и Гренадины</string>    <string name="capital_All_Kingstown_181">Кингстаун</string>
+    <string name="country_All_SaintChristopherSaintKittsAndNevis_182">Сент-Кристофер / Сент-Китс и Невис (Британское Содружество)</string>    <string name="capital_All_Buster_182">Бастер</string>
+    <string name="country_All_SaintLucia_183">Сент-Люсия</string>    <string name="capital_All_Castries_183">Кастри</string>
+    <string name="country_All_Serbia_184">Сербия</string>    <string name="capital_All_Belgrade_184">Белград</string>
+    <string name="country_All_Singapore_185">Сингапур</string>    <string name="capital_All_Singapore_185">Сингапур</string>
+    <string name="country_All_Syria_186">Сирия</string>    <string name="capital_All_Damascus_186">Дамаск</string>
+    <string name="country_All_Slovakia_187">Словакия</string>    <string name="capital_All_Bratislava_187">Братислава</string>
+    <string name="country_All_Slovenia_188">Словения</string>    <string name="capital_All_Ljubljana_188">Любляна</string>
+    <string name="country_All_USA_189">Соединённые Штаты Америки</string>    <string name="capital_All_Washington_189">Вашингтон</string>
+    <string name="country_All_SolomonIslands_190">Соломоновы острова</string>    <string name="capital_All_Honiara_190">Хониаpа</string>
+    <string name="country_All_Somalia_191">Сомали</string>    <string name="capital_All_Mogadishu_191">Могадишо</string>
+    <string name="country_All_Somaliland_192">Сомалиленд (частично признана)</string>    <string name="capital_All_Hargeisa_192">Харгейса</string>
+    <string name="country_All_Sudan_193">Судан</string>    <string name="capital_All_Khartoum_193">Хаpтум</string>
+    <string name="country_All_Suriname_194">Суринам</string>    <string name="capital_All_Paramaribo_194">Паpамаpибо</string>
+    <string name="country_All_SierraLeone_195">Сьерра-Леоне</string>    <string name="capital_All_Freetown_195">Фpитаун</string>
+    <string name="country_All_Tajikistan_196">Таджикистан</string>    <string name="capital_All_Dushanbe_196">Душанбе</string>
+    <string name="country_All_Taiwan_197">Тайвань (частично признана)</string>    <string name="capital_All_Taipei_197">Тайпей</string>
+    <string name="country_All_Thailand_198">Таиланд</string>    <string name="capital_All_Bangkok_198">Бангкок</string>
+    <string name="country_All_Tanzania_199">Танзания</string>    <string name="capital_All_Dodoma_199">Додома</string>
+    <string name="country_All_TurksAndCaicos_200">Теркс и Кайкос (заморская территория Великобритании)</string>    <string name="capital_All_CockburnTown_200">Коберн-Таун</string>
+    <string name="country_All_Togo_201">Того</string>    <string name="capital_All_Lome_201">Ломе</string>
+    <string name="country_All_Tokelau_202">Токелау (под управлением Новой Зеландии)</string>    <string name="capital_All_Nukunonu_202">Нукунону</string>
+    <string name="country_All_Tonga_203">Тонга</string>    <string name="capital_All_Nukualofa_203">Нукуалофа</string>
+    <string name="country_All_TrinidadAndTobago_204">Тринидад и Тобаго</string>    <string name="capital_All_PortOfSpain_204">Порт-оф-Спейн</string>
+    <string name="country_All_Tuvalu_205">Тувалу</string>    <string name="capital_All_Funafuti_205">Фунафути</string>
+    <string name="country_All_Tunisia_206">Тунис</string>    <string name="capital_All_Tunisia_206">Тунис</string>
+    <string name="country_All_Turkmenistan_207">Туркмения</string>    <string name="capital_All_Ashgabat_207">Ашхабад</string>
+    <string name="country_All_Turkey_208">Турция</string>    <string name="capital_All_Ankara_208">Анкаpа</string>
+    <string name="country_All_Uganda_209">Уганда</string>    <string name="capital_All_Kampala_209">Кампала</string>
+    <string name="country_All_Uzbekistan_210">Узбекистан</string>    <string name="capital_All_Tashkent_210">Ташкент</string>
+    <string name="country_All_Ukraine_211">Украина</string>    <string name="capital_All_Kyiv_211">Киев</string>
+    <string name="country_All_WallisAndFutuna_212">Уоллис и Футуна (заморское сообщество Франции)</string>    <string name="capital_All_MataUtu_212">Мата-Уту</string>
+    <string name="country_All_Uruguay_213">Уругвай</string>    <string name="capital_All_Montevideo_213">Монтевидео</string>
+    <string name="country_All_FaroeIslands_214">Фарерские острова (в составе Дании)</string>    <string name="capital_All_Torshavn_214">Торсхавн</string>
+    <string name="country_All_FederatedStatesOfMicronesia_215">Федеративные Штаты Микронезии (свободная ассоциация с США)</string>    <string name="capital_All_Palikir_215">Паликир</string>
+    <string name="country_All_Fiji_216">Фиджи</string>    <string name="capital_All_Suva_216">Сува</string>
+    <string name="country_All_Philippines_217">Филиппины</string>    <string name="capital_All_Manila_217">Манила</string>
+    <string name="country_All_Finland_218">Финляндия</string>    <string name="capital_All_Helsinki_218">Хельсинки</string>
+    <string name="country_All_FalklandIslands_219">Фолклендские острова (заморская территория Великобритании)</string>    <string name="capital_All_PortStanley_219">Порт-Стэнли</string>
+    <string name="country_All_France_220">Франция</string>    <string name="capital_All_Paris_220">Париж</string>
+    <string name="country_All_FrenchPolynesia_221">Французская Полинезия (заморское сообщество Франции)</string>    <string name="capital_All_Papeete_221">Папеэте</string>
+    <string name="country_All_Croatia_222">Хорватия</string>    <string name="capital_All_Zagreb_222">Загреб</string>
+    <string name="country_All_CentralAfricanRepublic_223">Центральноафриканская Республика</string>    <string name="capital_All_Bangui_223">Банги</string>
+    <string name="country_All_Chagos_224">Чагос (заморская территория Великобритании)</string>    <string name="capital_All_DiegoGarcia_224">Диего-Гарсия</string>
+    <string name="country_All_Chad_225">Чад</string>    <string name="capital_All_Ndjamena_225">Нджамена</string>
+    <string name="country_All_Montenegro_226">Черногория</string>    <string name="capital_All_Podgorica_226">Подгорица</string>
+    <string name="country_All_Czech_227">Чехия</string>    <string name="capital_All_Prague_227">Прага</string>
+    <string name="country_All_Chile_228">Чили</string>    <string name="capital_All_Santiago_228">Сантьяго</string>
+    <string name="country_All_Svalbard_229">Шпицберген (автономия Норвегии)</string>    <string name="capital_All_Longyearbyen_229">Лонгйир</string>
+    <string name="country_All_Switzerland_230">Швейцария</string>    <string name="capital_All_Berne_230">Берн</string>
+    <string name="country_All_Sweden_231">Швеция</string>    <string name="capital_All_Stockholm_231">Стокгольм</string>
+    <string name="country_All_SriLanka_232">Шри-Ланка</string>    <string name="capital_All_Colombo_232">Коломбо</string>
+    <string name="country_All_Ecuador_233">Эквадор</string>    <string name="capital_All_Quito_233">Кито</string>
+    <string name="country_All_Eritrea_234">Эритрея</string>    <string name="capital_All_Asmara_234">Асмэра</string>
+    <string name="country_All_Eswatini_235">Эсватини</string>    <string name="capital_All_Mbabane_235">Мбабане</string>
+    <string name="country_All_Estonia_236">Эстония</string>    <string name="capital_All_Tallinn_236">Таллинн</string>
+    <string name="country_All_Ethiopia_237">Эфиопия</string>    <string name="capital_All_AddisAbaba_237">Аддис-Абеба</string>
+    <string name="country_All_SouthOssetia_238">Южная Осетия (частично признана)</string>    <string name="capital_All_Tskhinvali_238">Цхинвали</string>
+    <string name="country_All_RepublicOfSouthAfrica_239">Южно-Африканская Республика (ЮАР)</string>    <string name="capital_All_Pretoria_239">Претория</string>
+    <string name="country_All_SouthSudan_240">Южный Судан</string>    <string name="capital_All_Juba_240">Джуба</string>
+    <string name="country_All_Jamaica_241">Ямайка</string>    <string name="capital_All_kingston_241">Кингстон</string>
+    <string name="country_All_Japan_242">Япония</string>    <string name="capital_All_Tokyo_242">Токио</string>
+</resources>
