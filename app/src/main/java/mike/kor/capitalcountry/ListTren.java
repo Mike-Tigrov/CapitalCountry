@@ -44,4 +44,8 @@ public class ListTren extends AppCompatActivity {
         Intent intent = new Intent(this, Tren_100.class);
         startActivity(intent);
     }
+    public void goToTrenOON (View v){
+        Intent intent = new Intent(this, Tren_OON.class);
+        startActivity(intent);
+    }
 }

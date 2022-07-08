@@ -84,7 +84,7 @@
             android:text="@string/button_knowlege" />
 
         <Button
-            android:id="@+id/tren20"
+            android:id="@+id/trenOON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="goToTren20"

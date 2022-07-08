@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/BgColor"
-    tools:context=".Result_50">
+    tools:context=".Result_OON">
 
 
     <LinearLayout
@@ -87,7 +87,7 @@
             android:id="@+id/trenOON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="goToTren50"
+            android:onClick="goToTrenOON"
             android:text="@string/button_repeat" />
 
     </LinearLayout>
