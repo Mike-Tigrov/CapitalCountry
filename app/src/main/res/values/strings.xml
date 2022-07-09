@@ -40,7 +40,7 @@
 
     <string name="correct_answer_1">Каждый правильный ответ</string>
     <string name="correct_answer_2">делает Вас</string>
-    <string name="correct_answer_3">умнее.</string>
+    <string name="correct_answer_3"><b>умнее</b>!</string>
     <string name="correct_answer_4">Продолжайте в том же духе!</string>
 
     <string name="correct_toast">Верный ответ!</string>

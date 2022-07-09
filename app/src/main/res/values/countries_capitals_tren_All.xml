@@ -41,7 +41,7 @@
     <string name="country_All_Hungary_38">Венгрия</string>    <string name="capital_All_Budapest_38">Будапешт</string>
     <string name="country_All_Venezuela_39">Венесуэла</string>    <string name="capital_All_Caracas_39">Каракас</string>
     <string name="country_All_VirginIslandsNortheastBritishDependency_40">Виргинские острова (северо-восток, зависимая территория Британии)</string>    <string name="capital_All_RoadTown_40">Род-Таун</string>
-  	<string name="country_All_VirginIslandsSouthwestUSA_41">Виргинские острова (юго-запад, неинкорпорированная организованная территория США)</string>    <string name="capital_All_CharlotteAmalie_41">Шарлотта-Амалия</string>
+  	<string name="country_All_VirginIslandsSouthwestUSA_41">Виргинские острова (юго-запад, не включённая организованная территория США)</string>    <string name="capital_All_CharlotteAmalie_41">Шарлотта-Амалия</string>
     <string name="country_All_EastTimor_42">Восточный Тимор</string>    <string name="capital_All_Dili_42">Дили</string>
     <string name="country_All_Vietnam_43">Вьетнам</string>    <string name="capital_All_Hanoi_43">Ханой</string>
     <string name="country_All_Gabon_44">Габон</string>    <string name="capital_All_Libreville_44">Либревиль</string>
@@ -73,7 +73,7 @@
     <string name="country_All_Egypt_70">Египет</string>    <string name="capital_All_Cairo_70">Каир</string>
     <string name="country_All_Zambia_71">Замбия</string>    <string name="capital_All_Lusaka_71">Лусака</string>
     <string name="country_All_Zimbabwe_72">Зимбабве</string>    <string name="capital_All_Harare_72">Хараре</string>
-    <string name="country_All_WesternSahara_73">Западная Сахара (частично признана)</string>    <string name="capital_All_ElAaiunClaimedTifaritiActual_73">Эль-Аюн (заявленная) / Тифарити (фактическая)</string>
+    <string name="country_All_WesternSahara_73">Западная Сахара (частично признана)</string>    <string name="capital_All_ElAaiunClaimedTifaritiActual_73">Эль-Аюн (заявленная) или Тифарити (фактическая)</string>
     <string name="country_All_Israel_74">Израиль</string>    <string name="capital_All_Jerusalem_74">Иерусалим</string>
     <string name="country_All_India_75">Индия</string>    <string name="capital_All_NewDelhi_75">Нью-Дели</string>
     <string name="country_All_Indonesia_76">Индонезия</string>    <string name="capital_All_Jakarta_76">Джакарта</string>
@@ -167,7 +167,7 @@
     <string name="country_All_Portugal_164">Португалия</string>    <string name="capital_All_Lisbon_164">Лиссабон</string>
     <string name="country_All_Transnistria_165">Приднестровье (частично признана)</string>    <string name="capital_All_Tiraspol_165">Тирасполь</string>
     <string name="country_All_PuertoRico_166">Пуэрто-Рико (зависимая от США территория)</string>    <string name="capital_All_SanJuan_166">Сан-Хуан</string>
-    <string name="country_All_Reunion_167">Реюньон (заморская территория Франции)></string>    <string name="capital_All_SaintDenis_167">Сен-Дени</string>
+    <string name="country_All_Reunion_167">Реюньон (заморская территория Франции)</string>    <string name="capital_All_SaintDenis_167">Сен-Дени</string>
     <string name="country_All_RussianFederation_168">Российская Федерация</string>    <string name="capital_All_Moscow_168">Москва</string>
     <string name="country_All_Rwanda_169">Руанда</string>    <string name="capital_All_Kigali_169">Кигали</string>
     <string name="country_All_Romania_170">Румыния</string>    <string name="capital_All_Bucharest_170">Бухарест</string>
@@ -182,7 +182,7 @@
     <string name="country_All_Senegal_179">Сенегал</string>    <string name="capital_All_Dakar_179">Дакар</string>
     <string name="country_All_SaintPierreMiquelon_180">Сен-Пьер и Микелон (зависимая территория Франции)</string>    <string name="capital_All_SaintPierre_180">Сен-Пьер</string>
     <string name="country_All_SaintVincentАndTheGrenadines_181">Сент-Винсент и Гренадины</string>    <string name="capital_All_Kingstown_181">Кингстаун</string>
-    <string name="country_All_SaintChristopherSaintKittsAndNevis_182">Сент-Кристофер / Сент-Китс и Невис (Британское Содружество)</string>    <string name="capital_All_Buster_182">Бастер</string>
+    <string name="country_All_SaintChristopherSaintKittsAndNevis_182">Сент-Кристофер (Сент-Китс) и Невис (Британское Содружество)</string>    <string name="capital_All_Buster_182">Бастер</string>
     <string name="country_All_SaintLucia_183">Сент-Люсия</string>    <string name="capital_All_Castries_183">Кастри</string>
     <string name="country_All_Serbia_184">Сербия</string>    <string name="capital_All_Belgrade_184">Белград</string>
     <string name="country_All_Singapore_185">Сингапур</string>    <string name="capital_All_Singapore_185">Сингапур</string>
