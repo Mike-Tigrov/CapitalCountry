@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/onc"
+    android:id="@+id/result_100"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/BgColor"
@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/result_main"
+            android:textColor="@color/textColor"
             android:textSize="30sp" />
 
         <TextView
@@ -38,6 +39,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/result_1"
+            android:textColor="@color/textColor"
             android:textSize="20sp" />
 
         <TextView
@@ -46,6 +48,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
 
+            android:textColor="@color/textColor"
             android:textSize="20sp" />
 
         <TextView
@@ -54,6 +57,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/result_3"
+            android:textColor="@color/textColor"
             android:textSize="20sp" />
 
         <TextView
@@ -62,6 +66,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
 
+            android:textColor="@color/textColor"
             android:textSize="20sp" />
 
         <TextView
@@ -73,22 +78,28 @@
             android:id="@+id/listTren"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/buttonColor"
             android:onClick="goToListTren"
-            android:text="@string/button_back" />
+            android:text="@string/button_back"
+            android:textColor="@color/textButtonColor" />
 
         <Button
             android:id="@+id/baseKnowledge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/buttonColor"
             android:onClick="goToBaseKnowledge"
-            android:text="@string/button_knowlege" />
+            android:text="@string/button_knowlege"
+            android:textColor="@color/textButtonColor" />
 
         <Button
-            android:id="@+id/trenOON"
+            android:id="@+id/tren100"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/buttonColor"
             android:onClick="goToTren100"
-            android:text="@string/button_repeat" />
+            android:text="@string/button_repeat"
+            android:textColor="@color/textButtonColor" />
 
     </LinearLayout>
 

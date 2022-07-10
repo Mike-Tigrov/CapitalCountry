@@ -23,7 +23,7 @@
     <string name="false_button2">Варшава</string>
     <string name="false_button3">Степанокерт</string>
 
-    <string name="wait_answer">Нажмите кнопку с правильным вариантом столицы</string>
+    <string name="wait_answer">Нажмите на правильную столицу</string>
     <string name="correct_answer">Верный ответ!</string>
     <string name="incorrect_answer">Нам жаль, но вы ошиблись...</string>
     <string name="prompt_country">Правильная столица страны:</string>

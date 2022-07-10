@@ -12,20 +12,21 @@
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2725" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/drawable/round_back.xml" value="0.25" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_result.xml" value="0.2727272668160684" />
-        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_result_100.xml" value="0.2727272668160684" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_result_100.xml" value="0.2421875" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_result_20.xml" value="0.24592391304347827" />
-        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_result_50.xml" value="0.24592391304347827" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_result_50.xml" value="0.2421875" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_result_all.xml" value="0.21965579710144928" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_result_oon.xml" value="0.24592391304347827" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_tren_100.xml" value="0.2463768115942029" />
-        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_tren_20.xml" value="0.5454545336321368" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_tren_20.xml" value="0.24031007751937986" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_tren_50.xml" value="0.24592391304347827" />
-        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_tren_all.xml" value="0.35999999219721035" />
-        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_tren_oon.xml" value="0.24592391304347827" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_tren_all.xml" value="0.40897435897435896" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/act_tren_oon.xml" value="0.1" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/acti_result_all.xml" value="0.2269021739130435" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_act_tren50.xml" value="0.19882246376811594" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_country_b.xml" value="0.16893115942028986" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_country_letter.xml" value="0.35999999219721035" />
-        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_country_letter_a.xml" value="0.33568406205923834" />
+        <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_country_letter_a.xml" value="0.35999999219721035" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_country_letter_b.xml" value="0.35106382978723405" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_country_letter_be.xml" value="0.16893115942028986" />
         <entry key="..\:/JavaMyApps/CapitalCountry/app/src/main/res/layout/activity_country_letter_c.xml" value="0.2677083333333333" />

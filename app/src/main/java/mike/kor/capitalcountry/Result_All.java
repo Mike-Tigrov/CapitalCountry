@@ -22,7 +22,7 @@ public class Result_All extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.act_result_oon);
+        setContentView(R.layout.act_result_all);
 
 //объявляем текствью в который выведем текст
         result_2 = (TextView) findViewById(R.id.result_2);

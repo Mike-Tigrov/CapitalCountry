@@ -8,7 +8,22 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="BgColor">#0C90AF</color>
+
+
+    <!--Палитра цветов:
+    Фон приложения,
+    Текст на фоне,
+    Цвет кнопки,
+    Текст на кнопке,
+    -->
+    <color name="BgColor">#99EE6B</color>
+    <color name="textColor">#FF000000</color>
+    <color name="buttonColor">#3CA600</color>
+    <color name="textButtonColor">#FFFFFFFF</color>
+
+
+
+
 
     <color name="text">#6CE48C</color>
     <color name="ButtonBg">#045D72</color>
