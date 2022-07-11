@@ -1,2 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <!---->
+
+    <!--Кнопка слева внизу - к Списку тренировок-->
+    <style name="buttonGoToListTren">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:backgroundTint">@color/buttonColor</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:text">@string/ButtonWorkout</item>
+        <item name="android:textColor">@color/textButtonColor</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:onClick">goToListTren</item>
+    </style>
+
+    <!--Кнопка справа внизу - к Базе Знаний-->
+    <style name="buttonGoToBaseKnowledge">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:backgroundTint">@color/buttonColor</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:text">@string/ButtonStudy</item>
+        <item name="android:textColor">@color/textButtonColor</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:onClick">goToBaseKnowledge</item>
+    </style>
+
+    <!--Кнопка справа вверху - От автора-->
+    <style name="buttonGoToPrompt">
+        <item name="android:layout_width">62dp</item>
+        <item name="android:layout_height">62dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:backgroundTint">@color/buttonColor</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:text">@string/ButtonPrompt</item>
+        <item name="android:textColor">@color/textButtonColor</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:onClick">goToPrompt</item>
+    </style>
+
+    <!--Кнопка с буквой на странице с алфавитом-->
+    <!--Кнопка с вариантом Столицы-->
+    <!--Кнопка навигации на странице с результатом тестирования-->
+
+</resources>
