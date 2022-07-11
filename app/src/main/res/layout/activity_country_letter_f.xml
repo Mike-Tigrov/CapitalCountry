@@ -17,7 +17,9 @@
         android:id="@+id/CountryLetterA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
         android:text="@string/CountryLetter_F"
         android:textAllCaps="false"
         android:textColor="@color/black"
@@ -52,7 +54,6 @@
     <Button
         android:id="@+id/button_study"
         style="@style/buttonGoToBaseKnowledge"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

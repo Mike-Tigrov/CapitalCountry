@@ -46,6 +46,11 @@
     </style>
 
     <!--Кнопка с буквой на странице с алфавитом-->
+    <style name="buttonGoToLetter">
+        <item name="android:backgroundTint">@color/buttonColor</item>
+        <item name="android:textColor">@color/textButtonColor</item>
+        <item name="android:textSize">34sp</item>
+    </style>
     <!--Кнопка с вариантом Столицы-->
     <!--Кнопка навигации на странице с результатом тестирования-->
 
