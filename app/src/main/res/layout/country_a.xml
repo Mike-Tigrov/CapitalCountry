@@ -11,6 +11,7 @@
         android:layout_height="115dp"
         android:gravity="center"
         android:text="@string/Country_State"
+        android:textColor="@color/textColor"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

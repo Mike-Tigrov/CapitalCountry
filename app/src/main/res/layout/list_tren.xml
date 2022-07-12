@@ -7,21 +7,11 @@
     android:layout_height="match_parent"
     android:background="@color/BgColor"
     tools:context=".ListTren">
-    <!-- Start Button Tren 1 -->
-
-    <!-- End Button Tren 1 -->
-
 
     <TextView
         android:id="@+id/textTren20"
-        android:layout_width="280dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
-        android:elevation="3dp"
+        style="@style/textButtonAnyTren"
         android:text="@string/ButtonTren20_text"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="@+id/expert"
         app:layout_constraintEnd_toEndOf="@+id/expert"
         app:layout_constraintStart_toStartOf="@+id/expert"
@@ -30,14 +20,8 @@
 
     <TextView
         android:id="@+id/textTren50"
-        android:layout_width="280dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:elevation="3dp"
+        style="@style/textButtonAnyTren"
         android:text="@string/ButtonTren50_text"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="@+id/expert2"
         app:layout_constraintEnd_toEndOf="@+id/expert2"
         app:layout_constraintStart_toStartOf="@+id/expert2"
@@ -45,15 +29,8 @@
 
     <TextView
         android:id="@+id/textTren100"
-        android:layout_width="280dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:layout_marginBottom="10dp"
-        android:elevation="3dp"
+        style="@style/textButtonAnyTren"
         android:text="@string/ButtonTren100_text"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="@+id/expert3"
         app:layout_constraintEnd_toEndOf="@+id/expert3"
         app:layout_constraintStart_toStartOf="@+id/expert3"
@@ -61,14 +38,8 @@
 
     <TextView
         android:id="@+id/textTrenOON"
-        android:layout_width="280dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:elevation="3dp"
+        style="@style/textButtonAnyTren"
         android:text="@string/ButtonTrenOON_text"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="@+id/expert4"
         app:layout_constraintEnd_toEndOf="@+id/expert4"
         app:layout_constraintStart_toStartOf="@+id/expert4"
@@ -76,14 +47,8 @@
 
     <TextView
         android:id="@+id/textTrenAll"
-        android:layout_width="280dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:elevation="3dp"
+        style="@style/textButtonAnyTren"
         android:text="@string/ButtonTrenAll_text"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="@+id/expert5"
         app:layout_constraintEnd_toEndOf="@+id/expert5"
         app:layout_constraintStart_toStartOf="@+id/expert5"
@@ -91,17 +56,12 @@
 
     <Button
         android:id="@+id/expert"
-        android:layout_width="300dp"
-        android:layout_height="90dp"
+        style="@style/buttonAnyTren"
         android:layout_marginTop="80dp"
-        android:backgroundTint="@color/ButtonBg"
-        android:gravity="center_horizontal|top"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         android:onClick="goToTren20"
         android:text="@string/ButtonTren20"
-        android:textColor="@color/white"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
@@ -109,17 +69,12 @@
 
     <Button
         android:id="@+id/expert2"
-        android:layout_width="300dp"
-        android:layout_height="90dp"
+        style="@style/buttonAnyTren"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/ButtonBg"
-        android:gravity="center_horizontal|top"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         android:onClick="goToTren50"
         android:text="@string/ButtonTren50"
-        android:textColor="@color/white"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,17 +82,12 @@
 
     <Button
         android:id="@+id/expert3"
-        android:layout_width="300dp"
-        android:layout_height="90dp"
+        style="@style/buttonAnyTren"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/ButtonBg"
-        android:gravity="center_horizontal|top"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         android:onClick="goToTren100"
         android:text="@string/ButtonTren100"
-        android:textColor="@color/white"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -145,17 +95,12 @@
 
     <Button
         android:id="@+id/expert4"
-        android:layout_width="300dp"
-        android:layout_height="90dp"
+        style="@style/buttonAnyTren"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/ButtonBg"
-        android:gravity="center_horizontal|top"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         android:onClick="goToTrenOON"
         android:text="@string/ButtonTrenOON"
-        android:textColor="@color/white"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -163,65 +108,41 @@
 
     <Button
         android:id="@+id/expert5"
-        android:layout_width="300dp"
-        android:layout_height="90dp"
+        style="@style/buttonAnyTren"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/ButtonBg"
-        android:gravity="center_horizontal|top"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         android:onClick="goToTrenAll"
         android:text="@string/ButtonTrenAll"
-        android:textColor="@color/white"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/expert4" />
 
     <Button
-        android:id="@+id/button_work"
-        android:layout_width="180dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginBottom="10dp"
-        android:backgroundTint="@color/ButtonBg"
-        android:onClick="goToMain"
-        android:text="@string/ToMain"
-        android:textColor="@color/BgColor"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button_prompt"
-        android:layout_width="62dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:backgroundTint="@color/ButtonBg"
-
-        android:insetTop="0dp"
-        android:insetBottom="0dp"
-        android:onClick="goToPrompt"
-        android:text="@string/ButtonPrompt"
-        android:textColor="@color/white"
-        android:textSize="20sp"
+        android:id="@+id/button_study3"
+        style="@style/buttonGoToPrompt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_List_Country"
+        android:id="@+id/button_work"
         android:layout_width="180dp"
-        android:layout_height="100dp"
-        android:layout_marginEnd="10dp"
-
+        android:layout_height="90dp"
+        android:layout_marginStart="10dp"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="@color/ButtonBg"
-        android:onClick="goToBaseKnowledge"
-        android:text="@string/ButtonStudy"
-        android:textColor="@color/BgColor"
-        android:textSize="20sp"
+        android:backgroundTint="@color/buttonColor"
+        android:insetBottom="0dp"
+        android:onClick="goToMain"
+        android:text="@string/ToMain"
+        android:textColor="@color/textButtonColor"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_study"
+        style="@style/buttonGoToBaseKnowledge"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

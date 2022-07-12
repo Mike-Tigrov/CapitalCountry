@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!---->
+    <style name="name">
+
+    </style>
 
     <!--Кнопка слева внизу - к Списку тренировок-->
     <style name="buttonGoToListTren">
@@ -51,7 +54,75 @@
         <item name="android:textColor">@color/textButtonColor</item>
         <item name="android:textSize">34sp</item>
     </style>
-    <!--Кнопка с вариантом Столицы-->
-    <!--Кнопка навигации на странице с результатом тестирования-->
 
+    <!--Кнопка с вариантом Столицы и навигационные кнопки на странице Результатов-->
+    <style name="buttonVariantCapital">
+        <item name="android:backgroundTint">@color/buttonColor</item>
+        <item name="android:textColor">@color/textButtonColor</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+    </style>
+
+    <!--Кнопка навигации на странице с результатом тестирования-->
+    <style name="buttonOnResult">
+        <item name="android:backgroundTint">@color/buttonColor</item>
+        <item name="android:textColor">@color/textButtonColor</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+    </style>
+
+    <!--Кнопка выбора тренировки-->
+    <style name="buttonAnyTren">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:gravity">center_horizontal|top</item>
+        <item name="android:backgroundTint">@color/buttonColor</item>
+        <item name="android:textColor">@color/textButtonColor</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <!--Первый текст вверху на странице со списком стан (страница любой буквы)-->
+    <style name="textPageLetter1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Второй текст вверху на странице со списком стан (страница любой буквы)-->
+    <style name="textPageLetter2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Текст на кнопке выбора любой тренировки-->
+    <style name="textButtonAnyTren">
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">35dp</item>
+        <item name="android:elevation">3dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/textButtonColor</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <!--Текст на странице От автора-->
+    <style name="textPrompt">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
 </resources>

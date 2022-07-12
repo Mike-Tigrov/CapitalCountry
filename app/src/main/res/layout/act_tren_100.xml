@@ -82,35 +82,27 @@
 
         <Button
             android:id="@+id/but_1"
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:backgroundTint="@color/buttonColor"
+            style="@style/buttonVariantCapital"
             android:text="Вариант столицы №1"
-            android:textColor="@color/textButtonColor" />
+             />
 
         <Button
             android:id="@+id/but_2"
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:backgroundTint="@color/buttonColor"
+            style="@style/buttonVariantCapital"
             android:text="Вариант столицы №2"
-            android:textColor="@color/textButtonColor" />
+             />
 
         <Button
             android:id="@+id/but_3"
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:backgroundTint="@color/buttonColor"
+            style="@style/buttonVariantCapital"
             android:text="Вариант столицы №3"
-            android:textColor="@color/textButtonColor" />
+             />
 
         <Button
             android:id="@+id/but_4"
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:backgroundTint="@color/buttonColor"
+            style="@style/buttonVariantCapital"
             android:text="Вариант столицы №4"
-            android:textColor="@color/textButtonColor" />
+             />
 
         <TextView
             android:id="@+id/answerCheck"
@@ -214,7 +206,7 @@
         android:layout_width="288dp"
         android:layout_height="54dp"
         android:layout_marginTop="20dp"
-        android:text="@string/ButtonTrenAll_text_1"
+        android:text="@string/ButtonTren100_text_1"
         android:textAlignment="center"
         android:textColor="@color/textColor"
         android:textSize="14sp"

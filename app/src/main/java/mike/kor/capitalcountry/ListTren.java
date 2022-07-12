@@ -22,7 +22,6 @@ public class ListTren extends AppCompatActivity {
         Intent intent = new Intent(this, Prompt.class);
         startActivity(intent);
     }
-
     public void goToTren20 (View v){
         Intent intent = new Intent(this, Tren_20.class);
         startActivity(intent);

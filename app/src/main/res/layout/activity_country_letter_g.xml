@@ -15,16 +15,8 @@
 
     <TextView
         android:id="@+id/CountryLetterA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="5dp"
+        style="@style/textPageLetter1"
         android:text="@string/CountryLetter_G"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_study3"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,14 +24,8 @@
 
     <TextView
         android:id="@+id/countryLetterA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        style="@style/textPageLetter2"
         android:text="@string/ListCanScroll"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_study3"
         app:layout_constraintStart_toStartOf="parent"

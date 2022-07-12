@@ -10,16 +10,17 @@
 
 
 
-    <!--Палитра цветов:
-    Фон приложения,
-    Текст на фоне,
-    Цвет кнопки,
-    Текст на кнопке,
-    -->
-    <color name="BgColor">#99EE6B</color>
-    <color name="textColor">#FF000000</color>
-    <color name="buttonColor">#3CA600</color>
-    <color name="textButtonColor">#FFFFFFFF</color>
+    <!--Фон приложения - Карамель-->
+    <color name="BgColor">#C9A66B</color>
+
+    <!--Цвет текста на фоне - Корица -->
+    <color name="textColor">#662E1C</color>
+
+    <!--Цвет кнопок - Кайенский перец-->
+    <color name="buttonColor">#AF4425</color>
+
+    <!--Цвет текста на кнопках - Сливки-->
+    <color name="textButtonColor">#EBDCB2</color>
 
 
 

@@ -76,30 +76,24 @@
 
         <Button
             android:id="@+id/listTren"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/buttonColor"
+            style="@style/buttonVariantCapital"
             android:onClick="goToListTren"
             android:text="@string/button_back"
-            android:textColor="@color/textButtonColor" />
+             />
 
         <Button
             android:id="@+id/baseKnowledge"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/buttonColor"
+            style="@style/buttonVariantCapital"
             android:onClick="goToBaseKnowledge"
             android:text="@string/button_knowlege"
-            android:textColor="@color/textButtonColor" />
+             />
 
         <Button
             android:id="@+id/tren100"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/buttonColor"
+            style="@style/buttonVariantCapital"
             android:onClick="goToTren100"
             android:text="@string/button_repeat"
-            android:textColor="@color/textButtonColor" />
+             />
 
     </LinearLayout>
 
