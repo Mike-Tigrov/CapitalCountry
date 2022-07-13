@@ -7,8 +7,8 @@
     <!--First start page, end-->
 
     <!--General text, start-->
-    <string name="ListCanScroll">(список можно листать)</string>
-    <string name="ListCanScroll_short">(список можно было бы листать)</string>
+    <string name="ListCanScroll">(иногда список можно листать)</string>
+    <string name="ListCanScroll_short">(!!!заменить!!!)</string>
     <string name="withALetter">на букву ..?</string>
     <string name="changeColor">Сменить цвет</string>
     <!--General text, end-->

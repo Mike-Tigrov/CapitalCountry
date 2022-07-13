@@ -25,7 +25,7 @@
     <TextView
         android:id="@+id/countryLetterA"
         style="@style/textPageLetter2"
-        android:text="@string/ListCanScroll_short"
+        android:text="@string/ListCanScroll"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_study3"
         app:layout_constraintStart_toStartOf="parent"
