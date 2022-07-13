@@ -70,7 +70,7 @@ public class Tren_All extends AppCompatActivity {
 
     //Создаём список listC на основе класса Country из каталога model, откуда мы
 // будем брать значения стран
-    private Country[] listC = new Country[]
+    private final Country[] listC = new Country[]
             {
                     new Country(R.string.country_All_Abkhazia_0),
                     new Country(R.string.country_All_Australia_1),
@@ -325,7 +325,7 @@ public class Tren_All extends AppCompatActivity {
 
     //Создаём список listA на основе класса Capital, из каталога model, из которого будем
 // брать значения столиц
-    private Capital[] listA = new Capital[]
+    private final Capital[] listA = new Capital[]
             {
                     new Capital(R.string.capital_All_Sukhumi_0),
                     new Capital(R.string.capital_All_Canberra_1),

@@ -12,10 +12,6 @@ public class Result_All extends AppCompatActivity {
 //Это страница результата. Здесь будет: основой текст - поздравление с окончанием теста,
 // 4 пункта и 3 кнопки
 
-    //Создаём 2 текстовых поля для вывода числовых значений правильных и неправильных ответов:
-    private TextView result_2;
-    private TextView result_4;
-
     //Создаём переменную для принятия значений количества правильных ответов из тренировки
     public static String num_correct_result;
 
@@ -25,7 +21,8 @@ public class Result_All extends AppCompatActivity {
         setContentView(R.layout.act_result_all);
 
 //объявляем текствью в который выведем текст
-        result_2 = (TextView) findViewById(R.id.result_2);
+        //Создаём 2 текстовых поля для вывода числовых значений правильных и неправильных ответов:
+        TextView result_2 = (TextView) findViewById(R.id.result_2);
         Bundle extras = getIntent().getExtras();
         result_2.setText(extras.getString(num_correct_result));
 
@@ -33,7 +30,7 @@ public class Result_All extends AppCompatActivity {
 // ответов, затем результат выводим на экран, как количество ошибок
         int corNum = Integer.parseInt(extras.getString(num_correct_result));
         int incorrectNum = 243 - corNum;
-        result_4 = (TextView) findViewById(R.id.result_4);
+        TextView result_4 = (TextView) findViewById(R.id.result_4);
         String s = Integer.toString(incorrectNum);
         result_4.setText(s);
     }
