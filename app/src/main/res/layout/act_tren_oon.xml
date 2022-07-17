@@ -57,10 +57,12 @@
 
     <TextView
         android:id="@+id/roll_text"
-        android:layout_width="356dp"
+        android:layout_width="0dp"
         android:layout_height="120dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginStart="10dp"
 
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
         android:gravity="center"
         android:textColor="@color/textColor"
         android:textSize="24sp"
@@ -70,12 +72,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="363dp"
-        android:layout_height="425dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button_work"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/roll_text">
@@ -83,26 +87,22 @@
         <Button
             android:id="@+id/but_1"
             style="@style/buttonVariantCapital"
-            android:text="Вариант столицы №1"
-            />
+            android:text="Вариант столицы №1" />
 
         <Button
             android:id="@+id/but_2"
             style="@style/buttonVariantCapital"
-            android:text="Вариант столицы №2"
-            />
+            android:text="Вариант столицы №2" />
 
         <Button
             android:id="@+id/but_3"
             style="@style/buttonVariantCapital"
-            android:text="Вариант столицы №3"
-            />
+            android:text="Вариант столицы №3" />
 
         <Button
             android:id="@+id/but_4"
             style="@style/buttonVariantCapital"
-            android:text="Вариант столицы №4"
-            />
+            android:text="Вариант столицы №4" />
 
         <TextView
             android:id="@+id/answerCheck"
@@ -124,7 +124,7 @@
         <TextView
             android:id="@+id/show_2"
             android:layout_width="match_parent"
-            android:layout_height="36dp"
+            android:layout_height="50dp"
 
             android:gravity="center"
             android:textAlignment="center"
@@ -163,7 +163,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Верные ответы:"
+                android:text="@string/tren_correct"
                 android:textColor="@color/textColor" />
 
             <TextView
@@ -172,7 +172,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Ошибки:"
+                android:text="@string/tren_incorrect"
                 android:textColor="@color/textColor" />
         </LinearLayout>
 

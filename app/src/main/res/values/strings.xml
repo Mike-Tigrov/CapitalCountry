@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Гео Зарядка</string>
+    <string name="app_name">Гео-Зарядка</string>
 
     <!--First start page, start-->
     <string name="Hello_1">Готовы к лёгкой зарядке?</string>
@@ -8,7 +8,6 @@
 
     <!--General text, start-->
     <string name="ListCanScroll">(иногда список можно листать)</string>
-    <string name="ListCanScroll_short">(!!!заменить!!!)</string>
     <string name="withALetter">на букву ..?</string>
     <string name="changeColor">Сменить цвет</string>
     <!--General text, end-->
@@ -17,11 +16,6 @@
     <string name="question_general_text">Выберите <b>правильную</b> столицу для данной страны:</string>
 
     <string name="ToListTren">Новая тренировка</string>
-
-    <string name="true_button">Дамаск</string>
-    <string name="false_button1">Братислава</string>
-    <string name="false_button2">Варшава</string>
-    <string name="false_button3">Степанокерт</string>
 
     <string name="wait_answer">Нажмите на правильную столицу</string>
     <string name="correct_answer">Верный ответ!</string>
@@ -42,9 +36,9 @@
     <string name="correct_answer_2">делает Вас</string>
     <string name="correct_answer_3"><b>умнее</b>!</string>
     <string name="correct_answer_4">Продолжайте в том же духе!</string>
+    <string name="tren_correct">Верные ответы:</string>
+    <string name="tren_incorrect">Неточности:</string>
 
-    <string name="correct_toast">Верный ответ!</string>
-    <string name="incorrect_toast">Подумайте ещё.</string>
     <!--Test tren1 end-->
 
     <!--Button text, start-->
@@ -74,8 +68,6 @@
     <string name="ButtonTrenAll_text">(все страны и государственные образования, 240+)</string>
     <string name="ButtonTrenAll_text_1">Выберите правильную столицу для всех стран и государственных образований из нашей базы</string>
 
-    <string name="Check">На проверку!</string>
-    <string name="GoGoGo">Поехали!</string>
     <!--Button text, end-->
 
     <!--Image text, start-->
@@ -231,13 +223,4 @@
     <string name="CountryLetter_Yа">Страны и их столицы на букву Я:</string>
     <!--Page for letter Yа, end-->
 
-
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

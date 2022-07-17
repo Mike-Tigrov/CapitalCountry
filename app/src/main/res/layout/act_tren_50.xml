@@ -163,7 +163,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Верные ответы:"
+                android:text="@string/tren_correct"
                 android:textColor="@color/textColor" />
 
             <TextView
@@ -172,7 +172,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Ошибки:"
+                android:text="@string/tren_incorrect"
                 android:textColor="@color/textColor" />
         </LinearLayout>
 
