@@ -122,6 +122,7 @@
     <!--Текст на странице От автора-->
     <style name="textPrompt">
         <item name="android:textColor">@color/textColor</item>
+        <item name="android:gravity">center</item>
         <item name="android:textSize">17sp</item>
         <item name="android:textAlignment">center</item>
     </style>

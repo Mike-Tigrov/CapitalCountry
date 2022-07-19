@@ -10,17 +10,17 @@
 
 
 
-    <!--Фон приложения - Карамель-->
-    <color name="BgColor">#C9A66B</color>
+    <!--Фон приложения - -->
+    <color name="BgColor">#D9B373</color>
 
-    <!--Цвет текста на фоне - Корица -->
-    <color name="textColor">#662E1C</color>
+    <!--Цвет текста на фоне -  -->
+    <color name="textColor">#592818</color>
 
-    <!--Цвет кнопок - Кайенский перец-->
-    <color name="buttonColor">#AF4425</color>
+    <!--Цвет кнопок - -->
+    <color name="buttonColor">#A33E22</color>
 
-    <!--Цвет текста на кнопках - Сливки-->
-    <color name="textButtonColor">#EBDCB2</color>
+    <!--Цвет текста на кнопках - -->
+    <color name="textButtonColor">#FCECC0</color>
 
 
 

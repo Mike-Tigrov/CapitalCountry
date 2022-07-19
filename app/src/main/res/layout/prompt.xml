@@ -37,7 +37,9 @@
         style="@style/textPrompt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
         android:paddingLeft="6dp"
         android:paddingRight="6dp"
         android:text="@string/Prompt_text_1"
@@ -95,19 +97,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-    <TextView
-        android:id="@+id/promtp_6"
-        style="@style/textPrompt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:paddingLeft="6dp"
-        android:paddingRight="6dp"
-        android:text="@string/Prompt_text_6"
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/button_work"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/prompt_5"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/prompt_5">
+
+        <TextView
+            android:id="@+id/telegramText1"
+            style="@style/textPrompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Prompt_text_6"
+             />
+
+        <TextView
+            android:id="@+id/telegramText2"
+            style="@style/textPrompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorLink="@color/textColor" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
