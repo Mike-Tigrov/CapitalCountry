@@ -126,4 +126,18 @@
         <item name="android:textSize">17sp</item>
         <item name="android:textAlignment">center</item>
     </style>
+
+    <!--Text title Privacy Policy-->
+    <style name="textTitlePrivacyPolicy">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!--Текст на странице PrivacyPolicy-->
+    <style name="textPrivacyPolicy">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">14dp</item>
+    </style>
 </resources>

@@ -17,12 +17,16 @@ public class PrivacyPolicy1 extends AppCompatActivity {
         Intent intent = new Intent(this, BaseKnowledge.class);
         startActivity(intent);
     }
-    public void goToPrompt (View v){
-        Intent intent = new Intent(this, Prompt.class);
-        startActivity(intent);
-    }
     public void goToListTren (View v){
         Intent intent = new Intent(this, ListTren.class);
+        startActivity(intent);
+    }
+    public void goToPrivacyPolicy (View v){
+        Intent intent = new Intent(this, PrivacyPolicy.class);
+        startActivity(intent);
+    }
+    public void goToPrivacyPolicy2 (View v){
+        Intent intent = new Intent(this, PrivacyPolicy2.class);
         startActivity(intent);
     }
 }

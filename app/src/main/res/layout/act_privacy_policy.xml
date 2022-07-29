@@ -9,9 +9,9 @@
 
     <TextView
         android:id="@+id/PP_title"
-        style="@style/textPageLetter1"
+        style="@style/textTitlePrivacyPolicy"
         android:layout_width="0dp"
-        android:layout_height="61dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
@@ -42,7 +42,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="5dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/button_work"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,51 +51,75 @@
 
         <TextView
             android:id="@+id/textView15"
+            style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/PrivacyPolicy_text_2" />
 
         <TextView
             android:id="@+id/textView16"
+            style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/PrivacyPolicy_text_3" />
 
         <TextView
             android:id="@+id/textView17"
+            style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/PrivacyPolicy_text_4" />
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_5" />
-
-        <TextView
-            android:id="@+id/textView19"
+            style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/PrivacyPolicy_text_5" />
 
         <TextView
             android:id="@+id/textView20"
+            style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/PrivacyPolicy_text_6" />
 
         <TextView
             android:id="@+id/textView21"
+            style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/PrivacyPolicy_text_7" />
 
         <TextView
             android:id="@+id/textView22"
+            style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/PrivacyPolicy_text_8" />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/textPrivacyPolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PrivacyPolicy_text_9" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/privacyPolicyButtonNext"
+                style="@style/buttonVariantCapital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="goToPrivacyPolicy1"
+                android:text="@string/PrivacyPolicy_button_next" />
+        </LinearLayout>
+
     </LinearLayout>
 
 
