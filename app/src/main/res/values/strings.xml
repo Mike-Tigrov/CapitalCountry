@@ -84,9 +84,22 @@
     <string name="Prompt_text_3">В данном тренажёре мы собрали страны и государственные образования, существующие в наши исторические дни.</string>
     <string name="Prompt_text_4">Следует отметить, что мир вокруг нас не является статичной картинкой. Каждый день принимаются решения, меняющие историю. И каждый из нас своим поведением принимает в этом процессе активное участие.</string>
     <string name="Prompt_text_5">P.S.</string>
-    <string name="Prompt_text_6">Ваши идеи, мысли и советы Вы можете оставить в нашей телеграм-группе.</string>
+    <string name="Prompt_text_6">Ваши идеи, мысли и советы Вы можете оставить в нашей телеграм-группе:</string>
+    <string name="Prompt_PrivacyPolicyButtonText">Политика конфиденциальности</string>
+    <!--Page Prompt, end-->
 
-    <!--Page Promtp, end-->
+    <!--Page PrivacyPolicy, start-->
+    <string name="PrivacyPolicy_text_1">Политика конфиденциальности мобильного приложения Гео-Зарядка</string>
+    <string name="PrivacyPolicy_text_2">1.Общие термины и понятия</string>
+    <string name="PrivacyPolicy_text_3">1.1.Автором мобильного приложения является Михаил Корнев, далее «Разработчик».</string>
+    <string name="PrivacyPolicy_text_4">1.2.«Приложение» - совокупность интегрированной в программную оболочку информации (программа), предназначенной для установки (загрузки) на мобильное устройство пользователя (в том числе планшеты и любые другие устройства, позволяющие осуществлять взаимодействие с Приложением).</string>
+    <string name="PrivacyPolicy_text_5">1.3.«Пользователь» - физическое лицо, осуществляющее непосредственное взаимодействие с элементами приложения (просмотр видимой части, взаимодействие с навигацией и т.д.).</string>
+    <string name="PrivacyPolicy_text_6">1.4.Политика конфиденциальности в отношении передачи данных между Разработчиком и Пользователем регулируется настоящим соглашением, далее «Политика». </string>
+    <string name="PrivacyPolicy_text_7"></string>
+    <string name="PrivacyPolicy_text_8"></string>
+    <string name="PrivacyPolicy_text_9"></string>
+    <string name="PrivacyPolicy_text_10"></string>
+    <!--Page PrivacyPolicy, end-->
 
     <!--Page for letter A, start-->
     <string name="CountryList_A">А</string>

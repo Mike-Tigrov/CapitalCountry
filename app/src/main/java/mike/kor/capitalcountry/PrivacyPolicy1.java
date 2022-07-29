@@ -6,18 +6,21 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class PrivacyPolicy extends AppCompatActivity {
+public class PrivacyPolicy1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.act_privacy_policy);
+        setContentView(R.layout.act_privacy_policy1);
     }
     public void goToBaseKnowledge(View v){
         Intent intent = new Intent(this, BaseKnowledge.class);
         startActivity(intent);
     }
-
+    public void goToPrompt (View v){
+        Intent intent = new Intent(this, Prompt.class);
+        startActivity(intent);
+    }
     public void goToListTren (View v){
         Intent intent = new Intent(this, ListTren.class);
         startActivity(intent);

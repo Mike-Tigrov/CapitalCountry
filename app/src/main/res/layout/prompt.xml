@@ -124,6 +124,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColorLink="@color/textColor" />
+
+        <Button
+            android:id="@+id/buttonGoToPrivacyPolicy"
+            style="@style/buttonVariantCapital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToPrivacyPolicy"
+            android:text="@string/Prompt_PrivacyPolicyButtonText" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

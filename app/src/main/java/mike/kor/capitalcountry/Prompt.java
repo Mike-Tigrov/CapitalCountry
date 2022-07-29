@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.util.Linkify;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,6 +27,10 @@ public class Prompt extends AppCompatActivity {
 
     public void goToListTren (View v){
         Intent intent = new Intent(this, ListTren.class);
+        startActivity(intent);
+    }
+    public void goToPrivacyPolicy (View v){
+        Intent intent = new Intent(this, PrivacyPolicy.class);
         startActivity(intent);
     }
 
