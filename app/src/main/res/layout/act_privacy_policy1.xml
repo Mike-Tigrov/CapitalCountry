@@ -75,35 +75,28 @@
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_5" />
+            android:text="@string/PrivacyPolicy_text_13" />
 
         <TextView
             android:id="@+id/textView20"
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_6" />
+            android:text="@string/PrivacyPolicy_text_14" />
 
         <TextView
             android:id="@+id/textView21"
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_7" />
+            android:text="@string/PrivacyPolicy_text_15" />
 
         <TextView
-            android:id="@+id/textView22"
+            android:id="@+id/textView10"
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_8" />
-
-        <TextView
-            android:id="@+id/textView9"
-            style="@style/textPrivacyPolicy"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_9" />
+            android:text="@string/PrivacyPolicy_text_16" />
 
         <Button
             android:id="@+id/privacyPolicyButtonNext"

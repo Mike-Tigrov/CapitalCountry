@@ -89,6 +89,7 @@
     <!--Page Prompt, end-->
 
     <!--Page PrivacyPolicy, start-->
+    <!--Page 1 PrivacyPolicy-->
     <string name="PrivacyPolicy_text_1">Политика конфиденциальности мобильного приложения Гео-Зарядка</string>
     <string name="PrivacyPolicy_text_2">1.Общие термины и понятия</string>
     <string name="PrivacyPolicy_text_3">1.1.Автором мобильного приложения является Корнев Михаил Юрьевич, далее «Разработчик».</string>
@@ -99,25 +100,41 @@
     <string name="PrivacyPolicy_text_8">Если возраст Пользователя составляет менее 18 (восемнадцати) лет, Пользователь для понимания условий настоящей Политики обязан ознакомиться с настоящей Политикой вместе со своим родителем (опекуном) или законным представителем.</string>
     <string name="PrivacyPolicy_text_9">Вы также соглашаетесь с тем, что любые пункты и формулировки настоящей Политики могут быть в любой момент изменены без каких-либо уведомлений, новая редакция Политики вступает в силу с момента её опубликования.</string>
 
+    <!--Page 2 PrivacyPolicy-->
     <string name="PrivacyPolicy_text_10">Пользователь обязуется самостоятельно и регулярно проверять положения данной Политики на предмет внесения каких-либо изменений. Кроме того, Пользователь обязуется после каждого обновления проверять данную Политику на предмет внесения изменений, вне зависимости, указаны такие изменения Политики в обновлении или нет.</string>
     <string name="PrivacyPolicy_text_11">В случае если Пользователь не согласен с каким-либо пунктом данной Политики, он обязан немедленно удалить Приложение со своего устройства. Факт использования Приложения подразумевает согласие Пользователя с Политикой.</string>
     <string name="PrivacyPolicy_text_12">2.Передача данных</string>
-
     <string name="PrivacyPolicy_text_13">Пользователь дает Разработчику согласие на обработку и передачу персональных данных Пользователя, исключительно в целях обеспечения работоспособности приложения и его последующей настройки и модернизации (отчёты об ошибках, сбоях, аналитика, статистика и т.д.).</string>
     <string name="PrivacyPolicy_text_14">Кроме того, пользователь даёт согласие на передачу персональных данных в Google Play и Google Analytics для Firebase.</string>
-    <string name="PrivacyPolicy_text_15">(Сервисы Google Play](https://www.google.com/policies/privacy/)</string>
-    <string name="PrivacyPolicy_text_16">(Google Analytics для Firebase](https://firebase.google.com/policies/analytics)</string>
+    <string name="PrivacyPolicy_text_15">(Сервисы Google Play (https://www.google.com/policies/privacy/)</string>
+    <string name="PrivacyPolicy_text_16">(Google Analytics для Firebase (https://firebase.google.com/policies/analytics)</string>
+
+    <!--Page 3 PrivacyPolicy-->
     <string name="PrivacyPolicy_text_17">Не взирая на все возможные способы защиты конфиденциальной информации, предпринимаемые Разработчиком, Пользователь, передавая свои личные данные, ознакомлен с тем, что любая передача персональных данных не может быть абсолютно и полностью безопасной. Поэтому Пользователь осуществляет такую передачу на свой собственный риск. Любую ответственность за любой ущерб, понесённый в результате передачи данных, Пользователь несёт самостоятельно.</string>
     <string name="PrivacyPolicy_text_18">3.	Данные журнала</string>
-    <string name="PrivacyPolicy_text_19"></string>
-    <string name="PrivacyPolicy_text_20"></string>
-    <string name="PrivacyPolicy_text_21"></string>
-    <string name="PrivacyPolicy_text_22"></string>
-    <string name="PrivacyPolicy_text_23"></string>
-    <string name="PrivacyPolicy_text_24"></string>
-    <string name="PrivacyPolicy_text_25"></string>
-    <string name="PrivacyPolicy_text_26"></string>
-    <string name="PrivacyPolicy_text_27"></string>
+    <string name="PrivacyPolicy_text_19">Всякий раз, когда Пользователь использует Приложение, а также в случае ошибки в Приложении, собираются данные и информация на вашем устройстве (лог-файлы / файлы журнала / данные журнала).</string>
+    <string name="PrivacyPolicy_text_20">Данные журнала могут включать в себя такую информацию, как адрес интернет-протокола («IP») вашего устройства, имя устройства, версия операционной системы, конфигурация устройства при использовании Приложения, время и дата использования Приложения и другие данные.</string>
+    <string name="PrivacyPolicy_text_21">4.Файлы cookie</string>
+    <string name="PrivacyPolicy_text_22">Файлы cookie – это файлы с небольшим объемом данных, которые обычно используются в качестве анонимных уникальных идентификаторов. Они отправляются в ваш браузер с веб-сайтов, которые вы посещаете, и сохраняются во внутренней памяти вашего устройства.</string>
+    <string name="PrivacyPolicy_text_23">Приложение не использует эти «куки» в явном виде. Однако Приложение может использовать сторонний код и библиотеки, которые используют файлы cookie для сбора информации и улучшения качества предоставления своих услуг.</string>
+    <string name="PrivacyPolicy_text_24">5.Поставщики услуг</string>
+    <string name="PrivacyPolicy_text_25">Разработчик может нанимать сторонние компании и частных лиц для следующих целей:</string>
+    <string name="PrivacyPolicy_text_26">5.1.Улучшения работы Приложения;</string>
+    <string name="PrivacyPolicy_text_27">5.2.Предоставления Приложения от имени Разработчика;</string>
+    <string name="PrivacyPolicy_text_28">5.3.Выполнения различных работ, связанных с оптимизацией, модернизацией или развитием Приложения;</string>
+    <string name="PrivacyPolicy_text_29">5.4.Чтобы помочь Разработчику проанализировать, как используется Приложение.</string>
+    <string name="PrivacyPolicy_text_30">Мы сообщаем Пользователям нашего Приложения, что эти третьи лица имеют доступ к их Личной информации. Причина в том, чтобы выполнять возложенные на них задачи от имени Разработчика. Однако они обязаны не разглашать и не использовать информацию для каких-либо других целей.</string>
+    <string name="PrivacyPolicy_text_31">6.Конфиденциальность в отношении детей</string>
+    <string name="PrivacyPolicy_text_32">Так как наше Приложение не имеет возрастных ограничений, с ним могут взаимодействовать Пользователи любого возраста (3+). Однако, непосредственное использование Приложения Пользователями, не достигшими совершеннолетия (18 лет), должно контролироваться их родителями, опекунами или другими законными представителями.</string>
+    <string name="PrivacyPolicy_text_33">7.Изменения в настоящей Политике конфиденциальности</string>
+    <string name="PrivacyPolicy_text_34">Время от времени мы будем обновлять нашу Политику конфиденциальности. Таким образом, Пользователю рекомендуется периодически просматривать эту страницу на предмет любых изменений.</string>
+    <string name="PrivacyPolicy_text_35">Последнее обновление Политики конфиденциальности:</string>
+    <string name="PrivacyPolicy_text_36">28 июля 2022 г.</string>
+    <string name="PrivacyPolicy_text_37">8.Контакты</string>
+    <string name="PrivacyPolicy_text_38">Пожалуйста, используйте для связи с Разработчиком следующий почтовый адрес или телеграм-канал Приложения:</string>
+    <string name="PrivacyPolicy_text_39">xiwnikofnet@gmail.com</string>
+    <string name="PrivacyPolicy_text_40">https://t.me/CountryCapital_app</string>
+
     <string name="PrivacyPolicy_button_next">Далее &gt;&gt;&gt;</string>
     <string formatted="false" name="PrivacyPolicy_button_back">&lt;&lt;&lt; Назад</string>
     <!--Page PrivacyPolicy, end-->
