@@ -138,7 +138,7 @@
     <string name="PrivacyPolicy_text_40">https://t.me/CountryCapital_app</string>
 
     <string name="PrivacyPolicy_button_next">Далее &gt;&gt;&gt;</string>
-    <string formatted="false" name="PrivacyPolicy_button_back">&lt;&lt;&lt; Назад</string>
+    <string name="PrivacyPolicy_button_back" formatted="false">&lt;&lt;&lt; Назад</string>
     <!--Page PrivacyPolicy, end-->
 
     <!--Page for letter A, start-->
