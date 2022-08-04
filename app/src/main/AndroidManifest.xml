@@ -18,6 +18,9 @@
             android:name=".PrivacyPolicy4"
             android:exported="false" />
         <activity
+            android:name=".PrivacyPolicy3"
+            android:exported="false" />
+        <activity
             android:name=".PrivacyPolicy2"
             android:exported="false" />
         <activity
