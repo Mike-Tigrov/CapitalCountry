@@ -25,8 +25,8 @@ public class PrivacyPolicy2 extends AppCompatActivity {
         Intent intent = new Intent(this, PrivacyPolicy1.class);
         startActivity(intent);
     }
-    public void goToPrivacyPolicy (View v){
-        Intent intent = new Intent(this, PrivacyPolicy.class);
+    public void goToPrivacyPolicy3 (View v){
+        Intent intent = new Intent(this, PrivacyPolicy3.class);
         startActivity(intent);
     }
 }

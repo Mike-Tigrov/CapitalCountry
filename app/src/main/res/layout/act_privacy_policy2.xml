@@ -77,39 +77,31 @@
         android:layout_height="wrap_content"
         android:text="@string/PrivacyPolicy_text_20" />
 
-    <TextView
-        android:id="@+id/textView20"
-        style="@style/textPrivacyPolicy"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/PrivacyPolicy_text_21" />
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView21"
-        style="@style/textPrivacyPolicy"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/PrivacyPolicy_text_22" />
+      <Button
+          android:id="@+id/privacyPolicyButtonBack"
+          style="@style/buttonVariantCapital"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="left|center_vertical"
+          android:onClick="goToPrivacyPolicy1"
+          android:text="@string/PrivacyPolicy_button_back" />
 
-    <Button
-        android:id="@+id/privacyPolicyButtonNext"
-        style="@style/buttonVariantCapital"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:gravity="left|center_vertical"
-        android:onClick="goToPrivacyPolicy1"
-        android:text="@string/PrivacyPolicy_button_back" />
+      <Button
+          android:id="@+id/privacyPolicyButtonNext"
+          style="@style/buttonVariantCapital"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="right|center_vertical"
+          android:onClick="goToPrivacyPolicy3"
+          android:text="@string/PrivacyPolicy_button_next" />
 
-    <Button
-        android:id="@+id/privacyPolicyButtonBack"
-        style="@style/buttonVariantCapital"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:gravity="right|center_vertical"
-        android:onClick="goToPrivacyPolicy"
-        android:text="@string/PrivacyPolicy_button_next" />
+    </LinearLayout>
 
   </LinearLayout>
 

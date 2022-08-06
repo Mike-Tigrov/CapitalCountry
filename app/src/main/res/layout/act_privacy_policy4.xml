@@ -54,71 +54,75 @@
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_31" />
+            android:text="@string/PrivacyPolicy_text_30" />
 
         <TextView
             android:id="@+id/textView16"
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_32" />
+            android:text="@string/PrivacyPolicy_text_31" />
 
         <TextView
             android:id="@+id/textView17"
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_33" />
+            android:text="@string/PrivacyPolicy_text_32" />
 
         <TextView
             android:id="@+id/textView18"
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_34" />
+            android:text="@string/PrivacyPolicy_text_33" />
 
         <TextView
             android:id="@+id/textView20"
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_35" />
+            android:text="@string/PrivacyPolicy_text_34" />
 
         <TextView
             android:id="@+id/textView21"
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_36" />
+            android:text="@string/PrivacyPolicy_text_35" />
+
         <TextView
             android:id="@+id/textViewPP37"
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_37" />
+            android:text="@string/PrivacyPolicy_text_36" />
+
         <TextView
             android:id="@+id/textViewPP31"
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_38" />
+            android:text="@string/PrivacyPolicy_text_37" />
+
         <TextView
             android:id="@+id/textViewPP32"
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_39" />
+            android:text="@string/PrivacyPolicy_text_38" />
+
         <TextView
             android:id="@+id/textViewPP33"
             style="@style/textPrivacyPolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/PrivacyPolicy_text_40" />
+            android:text="@string/PrivacyPolicy_text_39" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="vertical">
         <Button
             android:id="@+id/privacyPolicyButtonNext"
             style="@style/buttonVariantCapital"

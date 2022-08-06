@@ -98,25 +98,33 @@
             android:layout_height="wrap_content"
             android:text="@string/PrivacyPolicy_text_16" />
 
-        <Button
-            android:id="@+id/privacyPolicyButtonNext"
-            style="@style/buttonVariantCapital"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:gravity="left|center_vertical"
-            android:onClick="goToPrivacyPolicy"
-            android:text="@string/PrivacyPolicy_button_back" />
 
-        <Button
-            android:id="@+id/privacyPolicyButtonBack"
-            style="@style/buttonVariantCapital"
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:gravity="right|center_vertical"
-            android:onClick="goToPrivacyPolicy2"
-            android:text="@string/PrivacyPolicy_button_next" />
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/privacyPolicyButtonBack"
+                style="@style/buttonVariantCapital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:onClick="goToPrivacyPolicy"
+                android:text="@string/PrivacyPolicy_button_back" />
+
+            <Button
+                android:id="@+id/privacyPolicyButtonNext"
+                style="@style/buttonVariantCapital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:onClick="goToPrivacyPolicy2"
+                android:text="@string/PrivacyPolicy_button_next" />
+
+        </LinearLayout>
 
     </LinearLayout>
 

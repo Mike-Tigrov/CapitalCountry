@@ -22,11 +22,11 @@ public class PrivacyPolicy3 extends AppCompatActivity {
         startActivity(intent);
     }
     public void goToPrivacyPolicy2 (View v){
-        Intent intent = new Intent(this, PrivacyPolicy1.class);
+        Intent intent = new Intent(this, PrivacyPolicy2.class);
         startActivity(intent);
     }
-    public void goToPrivacyPolicy1 (View v){
-        Intent intent = new Intent(this, PrivacyPolicy.class);
+    public void goToPrivacyPolicy4 (View v){
+        Intent intent = new Intent(this, PrivacyPolicy4.class);
         startActivity(intent);
     }
 }
