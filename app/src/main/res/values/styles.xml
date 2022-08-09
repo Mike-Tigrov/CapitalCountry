@@ -138,6 +138,6 @@
     <!--Текст на странице PrivacyPolicy-->
     <style name="textPrivacyPolicy">
         <item name="android:textColor">@color/textColor</item>
-        <item name="android:textSize">14dp</item>
+        <item name="android:textSize">14sp</item>
     </style>
 </resources>
